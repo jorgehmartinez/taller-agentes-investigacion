@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Dónde vive cada información</title><desc>Los documentos científicos conservan las decisiones; AGENTS.md señala reglas y rutas; skills contienen procedimientos.</desc>
+<rect x="18" y="18" width="335" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="18" y="18" width="7" height="102" rx="0" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="40" y="54" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="40" dy="0">protocolo.md</tspan>
+</text>
+<text x="40" y="90" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="40" dy="0">Qué se investiga</tspan>
+</text>
+<rect x="392" y="18" width="335" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="392" y="18" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="414" y="54" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="414" dy="0">diccionario.csv</tspan>
+</text>
+<text x="414" y="90" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="414" dy="0">Qué significa cada variable</tspan>
+</text>
+<rect x="765" y="18" width="335" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="765" y="18" width="7" height="102" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="787" y="54" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="787" dy="0">README.md</tspan>
+</text>
+<text x="787" y="90" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="787" dy="0">Cómo recorrer el proyecto</tspan>
+</text>
+<rect x="200" y="240" width="710" height="125" rx="14" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="555" y="283" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="555" dy="0">AGENTS.md</tspan>
+</text>
+<text x="555" y="326" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#CEE3E5" text-anchor="middle">
+<tspan x="555" dy="0">Reglas estables + rutas a las fuentes</tspan>
+</text>
+<line x1="555" y1="230" x2="183" y2="135" stroke="#087F8C" stroke-width="2.5"/>
+<polygon points="183.0,135.0 192.7,132.5 190.3,141.8" fill="#087F8C"/>
+<line x1="555" y1="230" x2="559" y2="135" stroke="#087F8C" stroke-width="2.5"/>
+<polygon points="559.0,135.0 563.4,144.0 553.8,143.6" fill="#087F8C"/>
+<line x1="555" y1="230" x2="932" y2="135" stroke="#087F8C" stroke-width="2.5"/>
+<polygon points="932.0,135.0 924.7,141.8 922.3,132.5" fill="#087F8C"/>
+</svg>

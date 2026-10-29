@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Qué revisar después de la convergencia</title><desc>La finalización de un algoritmo no sustituye las comprobaciones de solución, ajuste y sentido sustantivo.</desc>
+<rect x="5" y="139" width="250" height="120" rx="12" fill="#E9F4F3" stroke="#087F8C" stroke-width="2"/>
+<text x="130" y="184" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="130" dy="0">CONVERGIÓ</tspan>
+</text>
+<text x="130" y="224" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="130" dy="0">El algoritmo terminó</tspan>
+</text>
+<line x1="270" y1="199" x2="520" y2="60" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="520.0,60.0 514.7,68.5 510.0,60.1" fill="#C6D5D7"/>
+<rect x="540" y="10" width="565" height="108" rx="10" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<text x="564" y="52" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="564" dy="0">Solución</tspan>
+</text>
+<text x="564" y="91" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="564" dy="0">¿Parámetros admisibles?</tspan>
+</text>
+<line x1="270" y1="199" x2="520" y2="197" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="520.0,197.0 511.3,201.9 511.2,192.3" fill="#C6D5D7"/>
+<rect x="540" y="147" width="565" height="108" rx="10" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<text x="564" y="189" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="564" dy="0">Ajuste</tspan>
+</text>
+<text x="564" y="228" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="564" dy="0">¿Problemas globales o locales?</tspan>
+</text>
+<line x1="270" y1="199" x2="520" y2="334" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="520.0,334.0 510.0,334.0 514.6,325.6" fill="#C6D5D7"/>
+<rect x="540" y="284" width="565" height="108" rx="10" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<text x="564" y="326" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="564" dy="0">Sentido</tspan>
+</text>
+<text x="564" y="365" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="564" dy="0">¿Modelo e inferencia defendibles?</tspan>
+</text>
+</svg>

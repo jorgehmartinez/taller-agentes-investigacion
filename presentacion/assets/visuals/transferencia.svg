@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Transferencia a otros análisis</title><desc>El método de colaboración se mantiene y la especificación estadística cambia.</desc>
+<rect x="280" y="116" width="560" height="162" rx="16" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="560" y="166" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">PREGUNTAR · CONTEXTUALIZAR</tspan>
+</text>
+<text x="560" y="217" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#9DDADE" text-anchor="middle">
+<tspan x="560" dy="0">EJECUTAR · VERIFICAR</tspan>
+</text>
+<text x="560" y="254" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">con decisiones humanas</tspan>
+</text>
+<rect x="35" y="30" width="235" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="152" y="74" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="152" dy="0">Regresión</tspan>
+</text>
+<rect x="850" y="30" width="235" height="70" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="967" y="74" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="967" dy="0">Psicometría</tspan>
+</text>
+<rect x="35" y="322" width="235" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="152" y="366" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="152" dy="0">Encuestas</tspan>
+</text>
+<rect x="850" y="322" width="235" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="967" y="366" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="967" dy="0">Longitudinal</tspan>
+</text>
+<line x1="280" y1="148" x2="200" y2="109" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="200.0,109.0 210.0,108.5 205.8,117.2" fill="#C6D5D7"/>
+<line x1="840" y1="148" x2="930" y2="109" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="930.0,109.0 923.9,116.9 920.0,108.1" fill="#C6D5D7"/>
+<line x1="280" y1="251" x2="200" y2="311" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="200.0,311.0 204.1,301.9 209.9,309.6" fill="#C6D5D7"/>
+<line x1="840" y1="251" x2="930" y2="311" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="930.0,311.0 920.0,310.1 925.4,302.1" fill="#C6D5D7"/>
+</svg>

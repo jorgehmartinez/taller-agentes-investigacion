@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Skills disponibles y trabajo en curso</title><desc>Instantánea del monorepo del autor. El núcleo de estilo R existe; los módulos especializados no se presentan como finalizados.</desc>
+<rect x="20" y="30" width="450" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="20" y="30" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="42" y="66" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="42" dy="0">r-analytic-core</tspan>
+</text>
+<text x="42" y="102" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="42" dy="0">Estilo de código de investigación</tspan>
+</text>
+<rect x="45" y="169" width="245" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="167.5" y="203" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="167.5" dy="0">Disponible para revisar</tspan>
+</text>
+<rect x="650" y="30" width="450" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="650" y="30" width="7" height="102" rx="0" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="672" y="66" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="672" dy="0">EPIC en desarrollo</tspan>
+</text>
+<text x="672" y="102" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="672" dy="0">Datos + análisis + psicometría</tspan>
+</text>
+<rect x="675" y="169" width="290" height="52" rx="9" fill="#F9EAF0" stroke="#BF2568" stroke-width="1.5"/>
+<text x="820.0" y="203" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="820.0" dy="0">Integrar cuando se valide</tspan>
+</text>
+<line x1="485" y1="85" x2="630" y2="85" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="630.0,85.0 621.2,89.8 621.2,80.2" fill="#C6D5D7"/>
+<text x="560" y="310" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">Misma fuente de skills; versión fijada para la demostración.</tspan>
+</text>
+<text x="560" y="361" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">No mantener una copia paralela e inconsistente dentro del taller.</tspan>
+</text>
+</svg>

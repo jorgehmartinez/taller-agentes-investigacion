@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Límites de AGENTS.md</title><desc>Reglas operativas y rutas son útiles; secretos, resultados y recetas universales no pertenecen a esas instrucciones.</desc>
+<text x="20" y="42" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="20" dy="0">SÍ: CÓMO TRABAJAR</tspan>
+</text>
+<text x="605" y="42" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="605" dy="0">NO: ALMACENAR TODO</tspan>
+</text>
+<line x1="555" y1="50" x2="555" y2="390" stroke="#C6D5D7" stroke-width="2"/>
+<circle cx="37" cy="107" r="13" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="75" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="75" dy="0">Conservar datos originales</tspan>
+</text>
+<text x="608" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="36" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="608" dy="0">×</tspan>
+</text>
+<text x="653" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="653" dy="0">Claves o contraseñas</tspan>
+</text>
+<circle cx="37" cy="212" r="13" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="75" y="220" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="75" dy="0">Leer protocolo y diccionario</tspan>
+</text>
+<text x="608" y="220" font-family="Fira Sans, Arial, sans-serif" font-size="36" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="608" dy="0">×</tspan>
+</text>
+<text x="653" y="220" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="653" dy="0">Todo el protocolo duplicado</tspan>
+</text>
+<circle cx="37" cy="317" r="13" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="75" y="325" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="75" dy="0">Justificar cambios de modelo</tspan>
+</text>
+<text x="608" y="325" font-family="Fira Sans, Arial, sans-serif" font-size="36" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="608" dy="0">×</tspan>
+</text>
+<text x="653" y="325" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="653" dy="0">«Usa siempre el mismo estimador»</tspan>
+</text>
+</svg>

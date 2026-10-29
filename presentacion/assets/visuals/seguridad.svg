@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Cuatro controles</title><desc>Datos, código, método e instrucciones externas requieren controles diferentes.</desc>
+<circle cx="76" cy="85" r="42" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="76" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="76" dy="0">1</tspan>
+</text>
+<text x="139" y="76" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="139" dy="0">DATOS</tspan>
+</text>
+<text x="139" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="139" dy="0">Minimizar y proteger</tspan>
+</text>
+<circle cx="638" cy="85" r="42" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="638" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="638" dy="0">2</tspan>
+</text>
+<text x="701" y="76" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="701" dy="0">CÓDIGO</tspan>
+</text>
+<text x="701" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="701" dy="0">Leer y reproducir</tspan>
+</text>
+<circle cx="76" cy="290" r="42" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="76" y="302" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="76" dy="0">3</tspan>
+</text>
+<text x="139" y="281" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="139" dy="0">MÉTODO</tspan>
+</text>
+<text x="139" y="328" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="139" dy="0">Justificar y revisar</tspan>
+</text>
+<circle cx="638" cy="290" r="42" fill="#BC741B" stroke="none" stroke-width="2"/>
+<text x="638" y="302" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="638" dy="0">4</tspan>
+</text>
+<text x="701" y="281" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#BC741B" text-anchor="start">
+<tspan x="701" dy="0">SKILLS</tspan>
+</text>
+<text x="701" y="328" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="701" dy="0">Verificar procedencia</tspan>
+</text>
+</svg>

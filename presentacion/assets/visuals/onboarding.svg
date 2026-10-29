@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Onboarding de un analista</title><desc>Un estudio exige ciencia, semántica de datos y reglas de colaboración antes de modelar.</desc>
+<circle cx="140" cy="190" r="65" fill="#15333D" stroke="none" stroke-width="2"/>
+<circle cx="140" cy="165" r="20" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<path d="M 102 229 Q 140 178 178 229" stroke="#FFFFFF" stroke-width="9" fill="none"/>
+<text x="140" y="302" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="140" dy="0">Nuevo analista</tspan>
+</text>
+<rect x="465" y="12" width="600" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="465" y="12" width="7" height="102" rx="0" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="487" y="48" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="487" dy="0">Estudio</tspan>
+</text>
+<text x="487" y="84" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="487" dy="0">Pregunta, diseño e hipótesis</tspan>
+</text>
+<line x1="220" y1="190" x2="450" y2="63" stroke="#BF2568" stroke-width="2.5"/>
+<polygon points="450.0,63.0 444.6,71.4 440.0,63.0" fill="#BF2568"/>
+<rect x="465" y="144" width="600" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="465" y="144" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="487" y="180" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="487" dy="0">Datos</tspan>
+</text>
+<text x="487" y="216" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="487" dy="0">Variables, categorías y códigos</tspan>
+</text>
+<line x1="220" y1="190" x2="450" y2="195" stroke="#087F8C" stroke-width="2.5"/>
+<polygon points="450.0,195.0 441.1,199.6 441.3,190.0" fill="#087F8C"/>
+<rect x="465" y="276" width="600" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="465" y="276" width="7" height="102" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="487" y="312" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="487" dy="0">Equipo</tspan>
+</text>
+<text x="487" y="348" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="487" dy="0">Permisos, estilo y entregables</tspan>
+</text>
+<line x1="220" y1="190" x2="450" y2="327" stroke="#15333D" stroke-width="2.5"/>
+<polygon points="450.0,327.0 440.0,326.6 444.9,318.4" fill="#15333D"/>
+</svg>

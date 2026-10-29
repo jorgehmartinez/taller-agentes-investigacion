@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>MCP y una sesión persistente</title><desc>Ruta de llamadas desde un agente hasta la sesión R de Positron y retorno de resultados.</desc>
+<rect x="15" y="115" width="250" height="155" rx="12" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="140" y="160" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="140" dy="0">AGENTE</tspan>
+</text>
+<text x="140" y="205" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#C5DDE0" text-anchor="middle">
+<tspan x="140" dy="0">lee / propone</tspan>
+</text>
+<text x="140" y="241" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#C5DDE0" text-anchor="middle">
+<tspan x="140" dy="0">elige herramientas</tspan>
+</text>
+<rect x="400" y="115" width="260" height="155" rx="12" fill="#E9F4F3" stroke="#087F8C" stroke-width="2"/>
+<text x="530" y="162" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="530" dy="0">SERVIDOR MCP</tspan>
+</text>
+<text x="530" y="204" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="530" dy="0">de Positron</tspan>
+</text>
+<text x="530" y="242" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="530" dy="0">conecta herramientas</tspan>
+</text>
+<rect x="805" y="115" width="300" height="155" rx="12" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<text x="955" y="160" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="955" dy="0">SESIÓN R</tspan>
+</text>
+<text x="955" y="204" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="955" dy="0">objetos + cálculos</tspan>
+</text>
+<text x="955" y="242" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="955" dy="0">consola + gráficos</tspan>
+</text>
+<line x1="275" y1="148" x2="390" y2="148" stroke="#BF2568" stroke-width="3"/>
+<polygon points="390.0,148.0 381.2,152.8 381.2,143.2" fill="#BF2568"/>
+<text x="332" y="103" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#BF2568" text-anchor="middle">
+<tspan x="332" dy="0">llamada</tspan>
+</text>
+<line x1="670" y1="148" x2="795" y2="148" stroke="#BF2568" stroke-width="3"/>
+<polygon points="795.0,148.0 786.2,152.8 786.2,143.2" fill="#BF2568"/>
+<line x1="795" y1="240" x2="670" y2="240" stroke="#087F8C" stroke-width="3"/>
+<polygon points="670.0,240.0 678.8,235.2 678.8,244.8" fill="#087F8C"/>
+<line x1="390" y1="240" x2="275" y2="240" stroke="#087F8C" stroke-width="3"/>
+<polygon points="275.0,240.0 283.8,235.2 283.8,244.8" fill="#087F8C"/>
+<text x="530" y="340" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="530" dy="0">El estado compartido facilita explorar; los scripts permiten reproducir.</tspan>
+</text>
+</svg>

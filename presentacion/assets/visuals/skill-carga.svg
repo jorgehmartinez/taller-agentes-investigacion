@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Cómo entra una skill en el trabajo</title><desc>Metadatos orientan la selección; instrucciones y referencias se incorporan cuando la tarea lo necesita.</desc>
+<rect x="20" y="85" width="325" height="185" rx="12" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<circle cx="55" cy="118" r="20" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="55" y="125" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="55" dy="0">1</tspan>
+</text>
+<text x="45" y="174" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="45" dy="0">DESCUBRIR</tspan>
+</text>
+<text x="45" y="223" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="45" dy="0">Nombre + descripción</tspan>
+</text>
+<line x1="350" y1="180" x2="380" y2="180" stroke="#087F8C" stroke-width="3"/>
+<polygon points="380.0,180.0 371.2,184.8 371.2,175.2" fill="#087F8C"/>
+<rect x="390" y="85" width="325" height="185" rx="12" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<circle cx="425" cy="118" r="20" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="425" y="125" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="425" dy="0">2</tspan>
+</text>
+<text x="415" y="174" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="415" dy="0">APLICAR</tspan>
+</text>
+<text x="415" y="223" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="415" dy="0">Instrucciones pertinentes</tspan>
+</text>
+<line x1="720" y1="180" x2="750" y2="180" stroke="#087F8C" stroke-width="3"/>
+<polygon points="750.0,180.0 741.2,184.8 741.2,175.2" fill="#087F8C"/>
+<rect x="760" y="85" width="325" height="185" rx="12" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<circle cx="795" cy="118" r="20" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="795" y="125" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="795" dy="0">3</tspan>
+</text>
+<text x="785" y="174" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="785" dy="0">CONSULTAR</tspan>
+</text>
+<text x="785" y="223" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="785" dy="0">Referencias / scripts</tspan>
+</text>
+<text x="560" y="344" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">La skill orienta el trabajo; no reentrena el modelo ni certifica el resultado.</tspan>
+</text>
+</svg>

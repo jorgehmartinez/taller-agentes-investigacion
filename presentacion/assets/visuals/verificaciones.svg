@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Tres controles, no una garantía automática</title><desc>Comprobar ejecución, pertinencia del método y alcance científico son tareas diferentes.</desc>
+<circle cx="73" cy="97" r="37" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="73" y="108" font-family="Fira Sans, Arial, sans-serif" font-size="33" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="73" dy="0">1</tspan>
+</text>
+<text x="35" y="183" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#087F8C" text-anchor="start">
+<tspan x="35" dy="0">CÓMPUTO</tspan>
+</text>
+<text x="35" y="231" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="35" dy="0">¿Produce esta salida?</tspan>
+</text>
+<line x1="155" y1="97" x2="353" y2="97" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="353.0,97.0 344.2,101.8 344.2,92.2" fill="#C6D5D7"/>
+<line x1="35" y1="300" x2="340" y2="300" stroke="#C6D5D7" stroke-width="2"/>
+<text x="35" y="342" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="35" dy="0">Reejecutar</tspan>
+</text>
+<circle cx="438" cy="97" r="37" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="438" y="108" font-family="Fira Sans, Arial, sans-serif" font-size="33" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="438" dy="0">2</tspan>
+</text>
+<text x="400" y="183" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#BF2568" text-anchor="start">
+<tspan x="400" dy="0">MÉTODO</tspan>
+</text>
+<text x="400" y="231" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="400" dy="0">¿Es el análisis pertinente?</tspan>
+</text>
+<line x1="520" y1="97" x2="718" y2="97" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="718.0,97.0 709.2,101.8 709.2,92.2" fill="#C6D5D7"/>
+<line x1="400" y1="300" x2="705" y2="300" stroke="#C6D5D7" stroke-width="2"/>
+<text x="400" y="342" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="400" dy="0">Revisar decisiones</tspan>
+</text>
+<circle cx="803" cy="97" r="37" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="803" y="108" font-family="Fira Sans, Arial, sans-serif" font-size="33" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="803" dy="0">3</tspan>
+</text>
+<text x="765" y="183" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#15333D" text-anchor="start">
+<tspan x="765" dy="0">INFERENCIA</tspan>
+</text>
+<text x="765" y="231" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="765" dy="0">¿Qué podemos concluir?</tspan>
+</text>
+<line x1="765" y1="300" x2="1070" y2="300" stroke="#C6D5D7" stroke-width="2"/>
+<text x="765" y="342" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="765" dy="0">Acotar afirmaciones</tspan>
+</text>
+</svg>

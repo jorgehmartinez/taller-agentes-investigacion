@@ -1,0 +1,31 @@
+# Salidas Quarto-Bento regenerables
+*.bento.html
+.quarto/
+_quarto/
+*_cache/
+*_files/
+# Estado nativo .qbento/ se conserva deliberadamente en Git
+# Archivos locales R
+.Rhistory
+.RData
+.Rproj.user/
+# Temporales
+.DS_Store
+*.swp
+*.tmp
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Evidence/caches and full historical backups are local, not learner source
+output/
+backups/
+
+# Regenerable Bento caches; current design, binding and state stay tracked
+**/.qbento/build/
+**/.qbento/history/
+**/.qbento/state.previous.json
+__pycache__/
+*.pyc
+.env
+.env.*

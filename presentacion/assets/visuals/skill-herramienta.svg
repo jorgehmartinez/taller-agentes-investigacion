@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Procedimiento frente a capacidad</title><desc>La skill define cómo abordar una tarea; MCP conecta capacidades de ejecución; ninguno decide la pertinencia científica.</desc>
+<rect x="15" y="70" width="510" height="235" rx="15" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="45" y="119" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="45" dy="0">SKILL</tspan>
+</text>
+<text x="45" y="170" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="45" dy="0">«Inspecciona códigos antes de</tspan>
+</text>
+<text x="45" y="208" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="45" dy="0">ajustar el modelo»</tspan>
+</text>
+<text x="45" y="264" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="45" dy="0">Procedimiento reutilizable</tspan>
+</text>
+<rect x="595" y="70" width="510" height="235" rx="15" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="625" y="119" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="625" dy="0">HERRAMIENTA / MCP</tspan>
+</text>
+<text x="625" y="170" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="625" dy="0">Leer un archivo, ejecutar R,</tspan>
+</text>
+<text x="625" y="208" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="625" dy="0">consultar un gráfico.</tspan>
+</text>
+<text x="625" y="264" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="625" dy="0">Capacidad operativa</tspan>
+</text>
+<text x="560" y="383" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">El investigador evalúa cuándo corresponde utilizar ambas.</tspan>
+</text>
+</svg>

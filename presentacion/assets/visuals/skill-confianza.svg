@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Inspeccionar antes de adoptar</title><desc>Cadena de revisión desde la procedencia de una skill hasta una prueba reproducible.</desc>
+<circle cx="135" cy="110" r="43" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="135" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="135" dy="0">1</tspan>
+</text>
+<text x="135" y="209" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="135" dy="0">ORIGEN</tspan>
+</text>
+<text x="135" y="252" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="135" dy="0">Autor y versión</tspan>
+</text>
+<line x1="189" y1="110" x2="285" y2="110" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="285.0,110.0 276.2,114.8 276.2,105.2" fill="#C6D5D7"/>
+<circle cx="415" cy="110" r="43" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="415" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="415" dy="0">2</tspan>
+</text>
+<text x="415" y="209" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="415" dy="0">CONTENIDO</tspan>
+</text>
+<text x="415" y="252" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="415" dy="0">Método y límites</tspan>
+</text>
+<line x1="469" y1="110" x2="565" y2="110" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="565.0,110.0 556.2,114.8 556.2,105.2" fill="#C6D5D7"/>
+<circle cx="695" cy="110" r="43" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="695" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="695" dy="0">3</tspan>
+</text>
+<text x="695" y="209" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="695" dy="0">PERMISOS</tspan>
+</text>
+<text x="695" y="252" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="695" dy="0">Scripts y accesos</tspan>
+</text>
+<line x1="749" y1="110" x2="845" y2="110" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="845.0,110.0 836.2,114.8 836.2,105.2" fill="#C6D5D7"/>
+<circle cx="975" cy="110" r="43" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="975" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="975" dy="0">4</tspan>
+</text>
+<text x="975" y="209" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="975" dy="0">PRUEBA</tspan>
+</text>
+<text x="975" y="252" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="975" dy="0">Caso + error conocido</tspan>
+</text>
+<rect x="40" y="325" width="1040" height="65" rx="10" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="560" y="367" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="500" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">Una instrucción externa también puede inducir acciones incorrectas.</tspan>
+</text>
+</svg>

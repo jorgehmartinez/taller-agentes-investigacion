@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Un encargo con información accionable</title><desc>La tarea se descompone en propósito, contexto, límites y evidencia de entrega.</desc>
+<text x="10" y="45" font-family="Fira Sans, Arial, sans-serif" font-size="36" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="10" dy="0">«Haz el análisis factorial»</tspan>
+</text>
+<line x1="430" y1="35" x2="520" y2="35" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="520.0,35.0 511.2,39.8 511.2,30.2" fill="#C6D5D7"/>
+<text x="550" y="46" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="550" dy="0">¿Qué falta para empezar?</tspan>
+</text>
+<text x="15" y="124" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="15" dy="0">PREGUNTA</tspan>
+</text>
+<line x1="15" y1="144" x2="535" y2="144" stroke="#C6D5D7" stroke-width="2"/>
+<text x="15" y="189" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="15" dy="0">Estructura interna propuesta</tspan>
+</text>
+<text x="578" y="124" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="578" dy="0">CONTEXTO</tspan>
+</text>
+<line x1="578" y1="144" x2="1098" y2="144" stroke="#C6D5D7" stroke-width="2"/>
+<text x="578" y="189" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="578" dy="0">Protocolo y diccionario</tspan>
+</text>
+<text x="15" y="279" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="15" dy="0">LÍMITES</tspan>
+</text>
+<line x1="15" y1="299" x2="535" y2="299" stroke="#C6D5D7" stroke-width="2"/>
+<text x="15" y="344" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="15" dy="0">No recodificar ambigüedades</tspan>
+</text>
+<text x="578" y="279" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="578" dy="0">ENTREGA</tspan>
+</text>
+<line x1="578" y1="299" x2="1098" y2="299" stroke="#C6D5D7" stroke-width="2"/>
+<text x="578" y="344" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="578" dy="0">Código, salidas y diagnósticos</tspan>
+</text>
+</svg>

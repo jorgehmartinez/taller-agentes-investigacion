@@ -1,0 +1,474 @@
+[
+  {
+    "id": "inicio",
+    "title": "Uso de Agentes IA para análisis de datos e investigación",
+    "section": "SOCIEDAD PERUANA DE PSICOMETRÍA · TALLER VIRTUAL",
+    "notes": "Conservar el título anunciado. Presentar carácter introductorio, independencia del agente y foco psicométrico. No prometer investigación autónoma ni una validación completa de instrumentos.",
+    "variant": "hero",
+    "kind": "portada"
+  },
+  {
+    "id": "promesa",
+    "title": "Cinco respuestas, una decisión",
+    "section": "APERTURA · ANTICIPAR",
+    "notes": "Pedir al grupo que anticipe qué información revisaría antes de aceptar la media. No revelar todavía que 99 representa un perdido. Mantener fijo el vector durante los estados siguientes.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "micro-ejecucion",
+    "title": "Una ejecución sin errores",
+    "section": "APERTURA · OBSERVAR",
+    "notes": "Mostrar que R efectivamente ejecutó el código y devolvió 21.8. Es una interpretación errónea preparada, no un fallo atribuido a un agente. Si las respuestas válidas van de 1 a 4, el resultado exige revisar el diccionario.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "tres-preguntas",
+    "title": "La ruta del taller",
+    "section": "APERTURA · ORIENTARSE",
+    "notes": "Enlazar el error con tres preguntas: comprender, dirigir y verificar. Presentar el mismo microejemplo como hilo que regresará en contexto, auditoría y reproducción. El caso factorial amplía esas decisiones sin inventar resultados.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "sondeo-inicial",
+    "title": "Punto de partida",
+    "section": "APERTURA · PARTICIPAR",
+    "notes": "Sondeo de 90 segundos. No confundir experiencia con IA con formación estadística. Usar las respuestas para graduar la explicación, no como evaluación.",
+    "variant": "question",
+    "kind": "actividad"
+  },
+  {
+    "id": "modelo-probabilistico",
+    "title": "Generación condicionada por el contexto",
+    "section": "01 / COMPRENDER",
+    "notes": "Explicar primero con un encargo familiar: describir respuestas. Las continuaciones son ilustrativas y no probabilidades medidas. Un LLM modela distribuciones; la decodificación puede reducir variabilidad. Probabilístico no significa que todo resultado cambie siempre. Una propuesta plausible no es una decisión estadística validada.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "generar-ejecutar",
+    "title": "Proponer, ejecutar y verificar",
+    "section": "01 / COMPRENDER",
+    "notes": "Separar tres operaciones que suelen mezclarse. El modelo propone código, R produce salidas y la persona revisa pertinencia y conclusiones. El retorno representa la corrección iterativa, no autonomía irrestricta.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "chatbot-agente",
+    "title": "Dos recorridos para una misma tarea",
+    "section": "01 / COMPRENDER",
+    "notes": "Contraste controlado: misma pregunta y mismo R. A la izquierda la persona hace el intercambio manual; a la derecha el agente opera herramientas. Preguntar qué cambia y qué permanece. La responsabilidad científica permanece.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "anatomia-agente",
+    "title": "La anatomía de un agente",
+    "section": "01 / COMPRENDER",
+    "notes": "Definir herramienta por su función: leer archivos, ejecutar R o inspeccionar una figura. Contexto, permisos y objetivo limitan el proceso. No presentar un agente como un modelo más inteligente por definición.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "r-reproducible",
+    "title": "Aleatoriedad bajo control",
+    "section": "01 / COMPRENDER",
+    "notes": "Ejecutar opcionalmente dos veces la misma llamada tras reiniciar la semilla. No mostrar una lista de números que no haya sido calculada. La lección es que R puede contener aleatoriedad controlada y que reproducibilidad no equivale a determinismo absoluto.",
+    "variant": "comparison",
+    "kind": "ejemplo de código"
+  },
+  {
+    "id": "niveles-de-verificacion",
+    "title": "Tres preguntas de verificación",
+    "section": "01 / COMPRENDER",
+    "notes": "Volver al 21.8: pasó la ejecución, no la lectura metodológica de los datos. Que un script reproduzca un error no lo hace correcto. Hacer explícito qué evidencia responde cada pregunta.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "ecosistema-capas",
+    "title": "Cuatro capas diferentes",
+    "section": "02 / HERRAMIENTAS",
+    "notes": "Nombrar modelo, agente, entorno y motor. La selección no es una competición de marcas. Aclarar que las herramientas evolucionan y que no todos los agentes cargan las mismas instrucciones o conectores.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "opciones-agentes",
+    "title": "Agentes: elegir una vía de trabajo",
+    "section": "02 / HERRAMIENTAS",
+    "notes": "Explicar las tres familias externas y la opción integrada. Mencionar otras alternativas solo si surge en preguntas. No prometer equivalencia de permisos, skills, plataformas o MCP. No convertir esta diapositiva en tabla de precios.",
+    "variant": "summary",
+    "kind": "mapa de opciones"
+  },
+  {
+    "id": "positron-entorno",
+    "title": "Positron por dentro",
+    "section": "02 / HERRAMIENTAS · CAPTURA PROPIA",
+    "notes": "Mostrar la ventana real en perfil aislado, sin cuentas ni credenciales. No se utilizó un agente para producir esta captura: se ejecutó el script docente en R. El fin es localizar las superficies, no leer todo el código a esta escala.",
+    "variant": "screenshot",
+    "kind": "concepto"
+  },
+  {
+    "id": "positron-mcp",
+    "title": "MCP: el puente hacia R",
+    "section": "02 / HERRAMIENTAS",
+    "notes": "Definir Model Context Protocol una sola vez. Es un mecanismo para conectar herramientas. Positron 2026.10 incorporó un servidor MCP experimental; verificar agente y versión. El puente puede acceder a la sesión persistente, no sustituye los scripts.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "mcp-captura",
+    "title": "Una llamada visible a una herramienta",
+    "section": "02 / HERRAMIENTAS · CAPTURA OFICIAL",
+    "notes": "Se trata de una captura publicada por Posit, con otro conjunto de datos. No presentarla como una ejecución del taller. Señalar las tres regiones; la siguiente lámina amplía dos detalles para que se puedan leer.",
+    "variant": "screenshot",
+    "kind": "concepto"
+  },
+  {
+    "id": "mcp-detalle",
+    "title": "Del pedido a la consola",
+    "section": "02 / HERRAMIENTAS · AMPLIACIÓN",
+    "notes": "Mantener los píxeles de la captura original y ampliar dos regiones. Preguntar dónde buscaríamos un error de ejecución. No leer nombres de modelos de la interfaz como requisito para el curso.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "posit-assistant",
+    "title": "Posit Assistant: otra forma de entrar",
+    "section": "02 / HERRAMIENTAS · CAPTURA OFICIAL",
+    "notes": "Captura oficial con un archivo de ejemplo ajeno al taller. Mostrar la secuencia skill, referencia, comando y resultado. Indicar disponibilidad en Positron y RStudio; el acceso requiere un proveedor configurado. No suponer que una suscripción de chat equivale a cualquier acceso API.",
+    "variant": "screenshot",
+    "kind": "concepto"
+  },
+  {
+    "id": "analista-equipo",
+    "title": "Un nuevo analista en el equipo",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "Usar la analogía propuesta por Brian. Preguntar qué información necesitaría una persona competente recién incorporada. No empezar por ingeniería de prompts.",
+    "variant": "section",
+    "kind": "transición"
+  },
+  {
+    "id": "onboarding",
+    "title": "El contexto que falta",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "Diferenciar conocimiento general de investigación de contexto específico del estudio. Un analista experimentado tampoco sabe por defecto qué significa 99 o cuál es la hipótesis factorial.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "documentos",
+    "title": "Un mapa, no un documento gigante",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "Recorrer las tres fuentes: protocolo, diccionario y README. AGENTS.md contiene reglas persistentes y rutas; no absorbe todos los documentos. La metodología pertenece al estudio y debe ser legible también sin un agente.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "clasificar-actividad",
+    "title": "¿Dónde guardarías cada información?",
+    "section": "03 / CONTEXTUALIZAR · ANTICIPAR",
+    "notes": "Pausa de dos minutos. Buscar la diferencia entre significado de los datos y regla de trabajo. No convertir la organización documental en ritual.",
+    "variant": "question",
+    "kind": "actividad"
+  },
+  {
+    "id": "clasificar-respuesta",
+    "title": "Información y lugar apropiado",
+    "section": "03 / CONTEXTUALIZAR · RESOLVER",
+    "notes": "Resolver la actividad y añadir hipótesis del estudio y procedimiento reutilizable. No presentar estas ubicaciones como un estándar único; son una organización proporcionada para el proyecto del taller.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "agents-md",
+    "title": "AGENTS.md en una tarea real",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "Mostrar el ejemplo mínimo y después abrir la plantilla entregada si el tiempo lo permite. La carga de AGENTS.md depende del producto; explicar que la convención no equivale a un permiso efectivo de seguridad.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "no-agents",
+    "title": "Qué dejar fuera de AGENTS.md",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "Contrastar pares con el mismo propósito: ayudar a trabajar. Mostrar por qué secretos, protocolos duplicados y recetas universales empeoran el diseño. No incluir un token real ni siquiera como captura.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "plan-proporcional",
+    "title": "La planificación proporcional",
+    "section": "03 / CONTEXTUALIZAR",
+    "notes": "No exigir un plan.md para cada operación. La explicación de objetivos, método y entregables sí es necesaria. Un plan escrito adquiere valor con dependencias, riesgo, coste o decisiones que requieren revisión.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "actividad-pedido",
+    "title": "De un pedido vago a un encargo",
+    "section": "03 / CONTEXTUALIZAR · PRACTICAR",
+    "notes": "Dar tres minutos para reformular el pedido. Valorar información relevante y control de decisiones, no longitud del prompt. Usar el caso del instrumento, no introducir otro estudio.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "skills-intro",
+    "title": "De conocimiento general a procedimiento",
+    "section": "04 / SKILLS",
+    "notes": "Introducir el papel de instrucciones reutilizables. Las skills no reentrenan el modelo ni eliminan la evaluación metodológica. El taller consumirá el monorepo en desarrollo.",
+    "variant": "section",
+    "kind": "transición"
+  },
+  {
+    "id": "skills-carga",
+    "title": "Cómo se utiliza una skill",
+    "section": "04 / SKILLS",
+    "notes": "Explicar la selección por nombre/descripción y la carga del procedimiento, con referencias cuando corresponde. La activación exacta depende del agente. No afirmar que un modelo sigue perfectamente las instrucciones.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "skill-real",
+    "title": "Una skill real de nuestro repositorio",
+    "section": "04 / SKILLS · CAPTURA PROPIA",
+    "notes": "Mostrar el archivo existente sin modificar el monorepo. El encabezado identifica cuándo se usa; la introducción explica la prioridad de editabilidad y transparencia. La captura es del archivo real, no de una skill psicométrica imaginada. No se afirma que un agente la haya cargado.",
+    "variant": "wide",
+    "kind": "concepto"
+  },
+  {
+    "id": "skill-anatomia",
+    "title": "Qué mirar dentro de SKILL.md",
+    "section": "04 / SKILLS",
+    "notes": "Usar la captura anterior como objeto de referencia. Descripción no es publicidad: debe orientar la selección de tareas. Una buena skill distingue reglas de código de decisiones científicas del proyecto.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "codigo-legible",
+    "title": "Mismo cálculo, distinta legibilidad",
+    "section": "04 / SKILLS · CONTRASTE CONTROLADO",
+    "notes": "Comparación elaborada por el docente, no un ensayo de rendimiento de agentes ni una prueba causal del efecto de la skill. Ambas expresiones calculan 2.5 con la misma entrada. Señalar los nombres, la transformación y la decisión sobre perdidos. La versión derecha presupone respuestas definido en el script canónico.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "dos-skills",
+    "title": "Una instrucción no es una herramienta",
+    "section": "04 / SKILLS",
+    "notes": "Distinguir qué procedimiento utilizar de qué operación está disponible. Una skill puede orientar auditoría y legibilidad; MCP puede facilitar acceso a R. El criterio metodológico sigue fuera de esa automatización.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "skills-confianza",
+    "title": "Antes de adoptar una skill",
+    "section": "04 / SKILLS",
+    "notes": "Dar un ejemplo de recomendación metodológica rígida y otro de script externo no revisado. Inspeccionar procedencia, contenido, permisos y pruebas. No ejecutar recursos de terceros durante la explicación.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "skills-proyecto",
+    "title": "Nuestro repositorio como fuente",
+    "section": "04 / SKILLS",
+    "notes": "Distinguir la skill ya presente r-analytic-coding-principles del EPIC de datos y psicometría. El taller no crea otra implementación paralela. Fijar versión y probarla antes de la demostración final.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "descanso",
+    "title": "Pausa",
+    "section": "DESCANSO · MINUTOS",
+    "notes": "Descanso de diez minutos incluido en las tres horas. Mantener la sesión y los materiales de demostración preparados; no usar este tiempo para instalaciones improvisadas.",
+    "variant": "section",
+    "kind": "transición"
+  },
+  {
+    "id": "caso-portada",
+    "title": "Del diccionario al modelo",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Iniciar la demostración integrada. La preparación de 500 casos, 12 ítems y dos dimensiones continúa pendiente; no mostrar índices inventados. El microejemplo de cinco respuestas ya tiene código y salidas de referencia.",
+    "variant": "section",
+    "kind": "transición"
+  },
+  {
+    "id": "caso-diseno",
+    "title": "Respuestas ordinales",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Matriz ilustrativa ficticia, no resultados de la escala final. Pedir que identifiquen qué cosas inspeccionarían antes de un análisis. El código 99 obliga a consultar el diccionario; ninguna recodificación se decide solo por su magnitud.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "caso-pregunta",
+    "title": "La pregunta de investigación",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Separar objetivos. Las preguntas proceden del diseño del caso ya acordado. Ni el agente ni el ajuste de un modelo deben redefinirlas silenciosamente.",
+    "variant": "question",
+    "kind": "actividad"
+  },
+  {
+    "id": "caso-auditoria",
+    "title": "El diccionario antes de recodificar",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Usar diccionario.csv del microejemplo. Los resultados del código están verificados. El texto de la derecha es la fuente que autoriza recodificar, no una conjetura de la IA.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "caso-correccion",
+    "title": "La corrección documentada",
+    "section": "05 / CASO PSICOMÉTRICO · RESOLVER",
+    "notes": "Regresar al mismo vector del inicio y cambiar solo el tratamiento documentado de 99. R devuelve 2.5 y cuatro respuestas válidas. Esta media ilustra una decisión de limpieza; no es un análisis de fiabilidad ni una validación de la escala.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "r-salida-real",
+    "title": "La salida real de R",
+    "section": "05 / CASO PSICOMÉTRICO · CAPTURA PROPIA",
+    "notes": "Mostrar la ampliación para poder leer el resultado. Esta consola procede de una sesión R real en un perfil aislado de Positron; no es una captura simulada ni una conversación inventada con un agente. Contrastar con el archivo salida_referencia.txt.",
+    "variant": "wide",
+    "kind": "concepto"
+  },
+  {
+    "id": "item-inverso",
+    "title": "Ítems invertidos: la clave importa",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Esquema de recodificación de una escala de 1 a 4. La fórmula 5 menos respuesta es correcta solo si las categorías y la clave lo justifican. No invertir un ítem por una correlación negativa sin revisar contenido y documentación.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "modelo-propuesto",
+    "title": "La estructura que vamos a contrastar",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Dos factores correlacionados y doce indicadores; los nombres de dimensiones son didácticos y corresponden a autorregulación académica. No hay cargas ni índices ajustados en el dibujo. Antes de ejecutar, revisar teoría, identificación y tratamiento de respuestas ordinales.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "caso-decision",
+    "title": "Decisiones antes del AFC",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Esta es una ilustración docente, no código para ejecutar con el microejemplo de un ítem. WLSMV es candidato para el caso ordinal, no regla universal. Un argumento bien escrito no demuestra la pertinencia estadística.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "caso-ejecucion",
+    "title": "Autonomía con puntos de revisión",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Recorrer los carriles. Aprobar decisiones sustantivas no significa autorizar cada comando. Las operaciones rutinarias de lectura pueden estar preautorizadas, mientras que cambiar el modelo o la codificación requiere revisión.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "caso-prompt",
+    "title": "El encargo para la demostración",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "No es un prompt mágico. Acompañarlo del contexto real y las skills probadas. Durante el bloque principal se trabaja en el IDE, no se leen todas las instrucciones desde la diapositiva.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "caso-error",
+    "title": "Tu turno: localizar el fallo",
+    "section": "05 / CASO PSICOMÉTRICO · AUDITAR",
+    "notes": "Error deliberado. No atribuirlo a un agente concreto. Pedir que conecten decisiones de preparación con resultados posteriores y documenten la corrección antes de recalcular.",
+    "variant": "question",
+    "kind": "actividad"
+  },
+  {
+    "id": "caso-diagnostico",
+    "title": "Después de la convergencia",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Introducir el significado de converger: el procedimiento alcanzó un criterio de parada. Luego inspeccionar solución, ajuste y sentido sustantivo. El diagrama es guía de revisión, no el reporte de un modelo corrido ni un criterio universal de aprobación.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "caso-repro",
+    "title": "Volver a empezar desde los archivos",
+    "section": "05 / CASO PSICOMÉTRICO",
+    "notes": "Mostrar sesión persistente frente a ejecución limpia. Usar el microejemplo para comprobarlo ahora y repetir en el caso completo cuando esté preparado. La reproducción exige código, entradas y condiciones; no la memoria del agente.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "actividad-auditoria",
+    "title": "Del resultado a la conclusión",
+    "section": "06 / AUDITORÍA Y TRANSFERENCIA",
+    "notes": "Actividad final. La frase es deliberadamente excesiva, no resultado del caso. Pedir fuentes de evidencia y límites. Un ajuste favorable de estructura interna no establece por sí solo todos los usos de las puntuaciones.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "riesgos",
+    "title": "Cuatro controles del trabajo",
+    "section": "06 / AUDITORÍA Y TRANSFERENCIA",
+    "notes": "Sintetizar datos, código, método y skills. Reforzar que ninguna regla textual reemplaza permisos reales o políticas de privacidad. Mantener la distinción entre control computacional y evaluación metodológica.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "transferencia",
+    "title": "El mismo método, otros análisis",
+    "section": "06 / AUDITORÍA Y TRANSFERENCIA",
+    "notes": "Mostrar que se conserva el método, pero cambian el diseño, las variables, los supuestos, el modelo y las skills pertinentes. Ejemplificar regresión sin iniciar otro análisis completo.",
+    "variant": "visual",
+    "kind": "explicación visual"
+  },
+  {
+    "id": "cuatro-ideas",
+    "title": "Cuatro distinciones esenciales",
+    "section": "CIERRE",
+    "notes": "Recuperar el 99 inicial y pedir que asocien cada contraste con una evidencia vista durante la sesión. Cierre sin nuevos conceptos técnicos.",
+    "variant": "summary",
+    "kind": "síntesis"
+  },
+  {
+    "id": "ticket-salida",
+    "title": "Antes de tu próximo análisis",
+    "section": "CIERRE · TRANSFERIR",
+    "notes": "Ticket de salida de dos minutos. Buscar respuestas sobre contexto, permisos y evidencia, no nombres de modelos.",
+    "variant": "question",
+    "kind": "actividad"
+  },
+  {
+    "id": "recursos",
+    "title": "Un proyecto para seguir practicando",
+    "section": "CIERRE · MATERIALES",
+    "notes": "Separar material ya ejecutable de la integración futura del caso factorial y skills. No vender una validación completada. El microejemplo puede reproducirse sin cuenta de IA. Los handouts conservan detalle que no cabe en la proyección.",
+    "variant": "comparison",
+    "kind": "concepto"
+  },
+  {
+    "id": "apendice-proveedor",
+    "title": "Configurar un proveedor",
+    "section": "APOYO · FUERA DEL RECORRIDO PRINCIPAL",
+    "notes": "Apoyo para preguntas, no instalación durante la sesión. La captura oficial muestra un proveedor específico; no obliga a elegirlo. Consultar documentación vigente, términos y acceso antes de usar credenciales. No mostrar claves reales.",
+    "variant": "wide",
+    "kind": "concepto"
+  },
+  {
+    "id": "referencias-herramientas",
+    "title": "Fuentes de herramientas y formatos",
+    "section": "APOYO · REFERENCIAS",
+    "notes": "Referencias completas con enlaces y fechas en docs/fuentes.md. No mostrar enlaces extensos en la proyección. Las capturas originales y sus derivados tienen registro de procedencia.",
+    "variant": "references",
+    "kind": "referencias"
+  },
+  {
+    "id": "referencias-materiales",
+    "title": "Fuentes y límites del material",
+    "section": "APOYO · REFERENCIAS",
+    "notes": "Distinguir fuente, ejemplo conceptual y evidencia computacional. La referencia metodológica definitiva del caso se completará con la integración y evaluación de las skills. Esta distinción no resta valor al microejemplo ya comprobado.",
+    "variant": "references",
+    "kind": "referencias"
+  }
+]

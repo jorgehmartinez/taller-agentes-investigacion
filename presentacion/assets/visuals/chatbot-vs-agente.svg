@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Dos formas de llegar a R</title><desc>Contraste controlado: misma tarea y mismo R; cambia quién opera las herramientas.</desc>
+<text x="12" y="34" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="12" dy="0">CHATBOT</tspan>
+</text>
+<text x="605" y="34" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="605" dy="0">AGENTE CON HERRAMIENTAS</tspan>
+</text>
+<line x1="550" y1="30" x2="550" y2="390" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="10" y="90" width="225" height="76" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="122" y="136" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="122" dy="0">Solicitud</tspan>
+</text>
+<rect x="270" y="90" width="225" height="76" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="382" y="136" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="382" dy="0">Código sugerido</tspan>
+</text>
+<rect x="10" y="258" width="225" height="76" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="122" y="304" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="122" dy="0">Pegar resultado</tspan>
+</text>
+<rect x="270" y="258" width="225" height="76" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="382" y="304" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="382" dy="0">Copiar / ejecutar</tspan>
+</text>
+<line x1="235" y1="128" x2="270" y2="128" stroke="#087F8C" stroke-width="3"/>
+<polygon points="270.0,128.0 261.2,132.8 261.2,123.2" fill="#087F8C"/>
+<line x1="383" y1="166" x2="383" y2="258" stroke="#087F8C" stroke-width="3"/>
+<polygon points="383.0,258.0 378.2,249.2 387.8,249.2" fill="#087F8C"/>
+<line x1="270" y1="296" x2="235" y2="296" stroke="#087F8C" stroke-width="3"/>
+<polygon points="235.0,296.0 243.8,291.2 243.8,300.8" fill="#087F8C"/>
+<path d="M 122 258 L 122 208 L 122 166" stroke="#BF2568" stroke-width="3" fill="none"/>
+<rect x="603" y="90" width="225" height="76" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="715" y="136" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="715" dy="0">Objetivo</tspan>
+</text>
+<rect x="863" y="90" width="225" height="76" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="975" y="136" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="975" dy="0">Propuesta</tspan>
+</text>
+<rect x="603" y="258" width="225" height="76" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="715" y="304" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="715" dy="0">Inspección</tspan>
+</text>
+<rect x="863" y="258" width="225" height="76" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="975" y="304" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="975" dy="0">Ejecución en R</tspan>
+</text>
+<line x1="828" y1="128" x2="863" y2="128" stroke="#087F8C" stroke-width="3"/>
+<polygon points="863.0,128.0 854.2,132.8 854.2,123.2" fill="#087F8C"/>
+<line x1="976" y1="166" x2="976" y2="258" stroke="#087F8C" stroke-width="3"/>
+<polygon points="976.0,258.0 971.2,249.2 980.8,249.2" fill="#087F8C"/>
+<line x1="863" y1="296" x2="828" y2="296" stroke="#087F8C" stroke-width="3"/>
+<polygon points="828.0,296.0 836.8,291.2 836.8,300.8" fill="#087F8C"/>
+<path d="M 715 258 L 715 208 L 715 166" stroke="#087F8C" stroke-width="3" fill="none"/>
+<text x="10" y="410" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#BF2568" text-anchor="start">
+<tspan x="10" dy="0">La persona opera cada intercambio.</tspan>
+</text>
+<text x="603" y="410" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#087F8C" text-anchor="start">
+<tspan x="603" dy="0">La persona fija y revisa las decisiones.</tspan>
+</text>
+</svg>

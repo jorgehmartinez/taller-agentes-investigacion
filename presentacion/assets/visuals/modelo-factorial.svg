@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Dos dimensiones hipotéticas</title><desc>Esquema de dos factores correlacionados y doce indicadores. Se omiten residuos para simplificar; no hay coeficientes estimados.</desc>
+<circle cx="270" cy="90" r="71" fill="#E9F4F3" stroke="#087F8C" stroke-width="2"/>
+<text x="270" y="98" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="270" dy="0">Planificación</tspan>
+</text>
+<line x1="270" y1="164" x2="54" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="54.0,279.0 59.5,270.6 64.0,279.1" fill="#087F8C"/>
+<rect x="20" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="54" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="54" dy="0">i01</tspan>
+</text>
+<line x1="270" y1="164" x2="139" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="139.0,279.0 142.4,269.6 148.8,276.8" fill="#087F8C"/>
+<rect x="105" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="139" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="139" dy="0">i02</tspan>
+</text>
+<line x1="270" y1="164" x2="224" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="224.0,279.0 222.8,269.1 231.7,272.6" fill="#087F8C"/>
+<rect x="190" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="224" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="224" dy="0">i03</tspan>
+</text>
+<line x1="270" y1="164" x2="309" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="309.0,279.0 301.6,272.2 310.7,269.1" fill="#087F8C"/>
+<rect x="275" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="309" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="309" dy="0">i04</tspan>
+</text>
+<line x1="270" y1="164" x2="394" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="394.0,279.0 384.3,276.5 390.8,269.5" fill="#087F8C"/>
+<rect x="360" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="394" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="394" dy="0">i05</tspan>
+</text>
+<line x1="270" y1="164" x2="479" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="479.0,279.0 469.0,279.0 473.6,270.6" fill="#087F8C"/>
+<rect x="445" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.5"/>
+<text x="479" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="479" dy="0">i06</tspan>
+</text>
+<circle cx="850" cy="90" r="71" fill="#F9EAF0" stroke="#BF2568" stroke-width="2"/>
+<text x="850" y="98" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="850" dy="0">Persistencia</tspan>
+</text>
+<line x1="850" y1="164" x2="634" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="634.0,279.0 639.5,270.6 644.0,279.1" fill="#BF2568"/>
+<rect x="600" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="634" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="634" dy="0">i07</tspan>
+</text>
+<line x1="850" y1="164" x2="719" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="719.0,279.0 722.4,269.6 728.8,276.8" fill="#BF2568"/>
+<rect x="685" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="719" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="719" dy="0">i08</tspan>
+</text>
+<line x1="850" y1="164" x2="804" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="804.0,279.0 802.8,269.1 811.7,272.6" fill="#BF2568"/>
+<rect x="770" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="804" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="804" dy="0">i09</tspan>
+</text>
+<line x1="850" y1="164" x2="889" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="889.0,279.0 881.6,272.2 890.7,269.1" fill="#BF2568"/>
+<rect x="855" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="889" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="889" dy="0">i10</tspan>
+</text>
+<line x1="850" y1="164" x2="974" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="974.0,279.0 964.3,276.5 970.8,269.5" fill="#BF2568"/>
+<rect x="940" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="974" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="974" dy="0">i11</tspan>
+</text>
+<line x1="850" y1="164" x2="1059" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="1059.0,279.0 1049.0,279.0 1053.6,270.6" fill="#BF2568"/>
+<rect x="1025" y="290" width="69" height="61" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="1.5"/>
+<text x="1059" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="1059" dy="0">i12</tspan>
+</text>
+<line x1="356" y1="90" x2="764" y2="90" stroke="#52666E" stroke-width="3"/>
+<line x1="400" y1="90" x2="356" y2="90" stroke="#52666E" stroke-width="3"/>
+<polygon points="356.0,90.0 364.8,85.2 364.8,94.8" fill="#52666E"/>
+<line x1="720" y1="90" x2="764" y2="90" stroke="#52666E" stroke-width="3"/>
+<polygon points="764.0,90.0 755.2,94.8 755.2,85.2" fill="#52666E"/>
+<text x="560" y="62" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">correlación propuesta</tspan>
+</text>
+<text x="560" y="408" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">Sin parámetros estimados. Residuos omitidos en este esquema didáctico.</tspan>
+</text>
+</svg>

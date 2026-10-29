@@ -1,0 +1,115 @@
+[
+  {
+    "file": "presentacion/assets/screenshots/originales/positron-mcp.png",
+    "origin": "Captura oficial de Posit, no ejecución propia del taller",
+    "source_url": "https://opensource.posit.co/blog/2026-10-13_positron-2026-10-release/claude-code-in-positron.png",
+    "page_url": "https://opensource.posit.co/blog/2026-10-13_positron-2026-10-release/",
+    "accessed": "2026-10-29",
+    "sha256": "9736900cae702d0b9ab91a2e9d21ea3abbb043479e44797b711a43fe4445dd35",
+    "dimensions": [
+      1451,
+      979
+    ],
+    "modifications": "ninguna; recortes y anotaciones derivados se guardan por separado"
+  },
+  {
+    "file": "presentacion/assets/screenshots/originales/positron-assistant.png",
+    "origin": "Captura oficial de Posit, no ejecución propia del taller",
+    "source_url": "https://opensource.posit.co/blog/2026-10-13_positron-2026-10-release/assistant-data-explorer.png",
+    "page_url": "https://opensource.posit.co/blog/2026-10-13_positron-2026-10-release/",
+    "accessed": "2026-10-29",
+    "sha256": "9a9e5331a6f93fde9470696e7835c4e06cedcffb64205338795b48cd562bf1df",
+    "dimensions": [
+      1480,
+      933
+    ],
+    "modifications": "ninguna; recortes y anotaciones derivados se guardan por separado"
+  },
+  {
+    "file": "presentacion/assets/screenshots/originales/positron-layout.jpeg",
+    "origin": "Captura oficial de Posit, no ejecución propia del taller",
+    "source_url": "https://positron.posit.co/images/user-interface-for-rstudio-migration.jpeg",
+    "page_url": "https://positron.posit.co/layout.html",
+    "accessed": "2026-10-29",
+    "sha256": "22f6bddcabfadf354fa7c67e7fe4de833efca8981e1610d718a587b22f3b7626",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "modifications": "ninguna; recortes y anotaciones derivados se guardan por separado"
+  },
+  {
+    "file": "presentacion/assets/screenshots/originales/positron-proveedor.png",
+    "origin": "Captura oficial de Posit, no ejecución propia del taller",
+    "source_url": "https://docs.posit.co/posit-ai/images/onboarding/positron/3-provider.png",
+    "page_url": "https://docs.posit.co/posit-ai/user/getting-started/",
+    "accessed": "2026-10-29",
+    "sha256": "cb5dcdf0ce757f8cace1787dbfc00f3fc55fa761f76fc379b60f52413d50f6b4",
+    "dimensions": [
+      1184,
+      392
+    ],
+    "modifications": "ninguna; recortes y anotaciones derivados se guardan por separado"
+  },
+  {
+    "file": "presentacion/assets/screenshots/originales/rstudio-assistant.webp",
+    "origin": "Captura oficial de Posit, no ejecución propia del taller",
+    "source_url": "https://docs.posit.co/posit-ai/images/onboarding/2-assistant.webp",
+    "page_url": "https://docs.posit.co/posit-ai/user/getting-started/",
+    "accessed": "2026-10-29",
+    "sha256": "539ece2766c25f0af25905d50f95a63280b04c6f20b2886f92cf8e83a3a70cff",
+    "dimensions": [
+      636,
+      1244
+    ],
+    "modifications": "ninguna; recortes y anotaciones derivados se guardan por separado"
+  },
+  {
+    "file": "presentacion/assets/screenshots/propias/positron-inicio.png",
+    "origin": "Captura propia de Positron en perfil y display aislados; no es una ejecución de un agente IA",
+    "captured": "2026-10-29",
+    "software": {
+      "Positron": "2026.10.2 build 3",
+      "R": "4.6.1"
+    },
+    "content": "Microejemplo R sintético o archivo real de skill abierto; sin credenciales",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "sha256": "790bd3b88e1dea87f25fb8a7c715520f303f9fe76d10e90e1a5c9501060052e0",
+    "producer": "scripts/capture_positron.py"
+  },
+  {
+    "file": "presentacion/assets/screenshots/propias/positron-microcaso.png",
+    "origin": "Captura propia de Positron en perfil y display aislados; no es una ejecución de un agente IA",
+    "captured": "2026-10-29",
+    "software": {
+      "Positron": "2026.10.2 build 3",
+      "R": "4.6.1"
+    },
+    "content": "Microejemplo R sintético o archivo real de skill abierto; sin credenciales",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "sha256": "1f6f1a050b0e0d8d35103f23e1266dfa5ff3e1bccd74cb0499cd22e5568e7f8b",
+    "producer": "scripts/capture_positron.py"
+  },
+  {
+    "file": "presentacion/assets/screenshots/propias/positron-skill.png",
+    "origin": "Captura propia de Positron en perfil y display aislados; no es una ejecución de un agente IA",
+    "captured": "2026-10-29",
+    "software": {
+      "Positron": "2026.10.2 build 3",
+      "R": "4.6.1"
+    },
+    "content": "Microejemplo R sintético o archivo real de skill abierto; sin credenciales",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "sha256": "714c4fe0233e47bbe0e56ec301894233f76210c4d2044721952f00192ad37e07",
+    "producer": "scripts/capture_positron.py"
+  }
+]

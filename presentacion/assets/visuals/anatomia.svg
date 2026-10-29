@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Componentes de un agente</title><desc>Modelo en el centro, herramientas conectadas y un perímetro de contexto y permisos.</desc>
+<rect x="20" y="25" width="1080" height="370" rx="20" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="2"/>
+<text x="52" y="70" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="52" dy="0">CONTEXTO + PERMISOS + OBJETIVO</tspan>
+</text>
+<circle cx="550" cy="220" r="87" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="550" y="214" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="550" dy="0">MODELO</tspan>
+</text>
+<text x="550" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#BCD9DC" text-anchor="middle">
+<tspan x="550" dy="0">genera acciones</tspan>
+</text>
+<rect x="35" y="120" width="230" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="150" y="164" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="150" dy="0">Archivos</tspan>
+</text>
+<line x1="265" y1="155" x2="460" y2="205" stroke="#087F8C" stroke-width="3"/>
+<polygon points="460.0,205.0 450.3,207.5 452.7,198.2" fill="#087F8C"/>
+<rect x="35" y="255" width="230" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="150" y="299" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="150" dy="0">Documentación</tspan>
+</text>
+<line x1="265" y1="290" x2="460" y2="245" stroke="#087F8C" stroke-width="3"/>
+<polygon points="460.0,245.0 452.5,251.6 450.4,242.3" fill="#087F8C"/>
+<rect x="805" y="120" width="230" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="920" y="164" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="920" dy="0">R / terminal</tspan>
+</text>
+<line x1="640" y1="205" x2="805" y2="155" stroke="#087F8C" stroke-width="3"/>
+<polygon points="805.0,155.0 798.0,162.1 795.2,153.0" fill="#087F8C"/>
+<rect x="805" y="255" width="230" height="70" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="920" y="299" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="920" dy="0">Gráficos</tspan>
+</text>
+<line x1="640" y1="245" x2="805" y2="290" stroke="#087F8C" stroke-width="3"/>
+<polygon points="805.0,290.0 795.3,292.3 797.8,283.1" fill="#087F8C"/>
+</svg>

@@ -1,0 +1,379 @@
+[
+  {
+    "file": "presentacion/assets/visuals/micro-pregunta.svg",
+    "kind": "microejemplo ficticio; medias ejecutadas en R",
+    "title": "Cinco respuestas y una decisión",
+    "description": "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.",
+    "sha256": "aad51950b786769eb95c4950a5c368ee8bbedc7cc2638b4b9e992a6c85bf9d9b"
+  },
+  {
+    "file": "presentacion/assets/visuals/micro-ejecucion.svg",
+    "kind": "microejemplo ficticio; medias ejecutadas en R",
+    "title": "Cinco respuestas y una decisión",
+    "description": "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.",
+    "sha256": "b9cfd744214b91f7f77c0b5e3739fadac086d5c271cb3bcf8d8ec060e97fdf90"
+  },
+  {
+    "file": "presentacion/assets/visuals/micro-correccion.svg",
+    "kind": "microejemplo ficticio; medias ejecutadas en R",
+    "title": "Cinco respuestas y una decisión",
+    "description": "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.",
+    "sha256": "3177f1d079f4821d8af9273e614ed458335bec4c91d22698be6a75fdee507885"
+  },
+  {
+    "file": "presentacion/assets/visuals/ruta.svg",
+    "kind": "esquema didáctico",
+    "title": "Mapa de aprendizaje",
+    "description": "Tres etapas del taller con un caso conductor y controles humanos.",
+    "sha256": "85083c82e15d0837bf28d148c9063216ef0f9bbace63a3b5d7be5e621c4a3797"
+  },
+  {
+    "file": "presentacion/assets/visuals/generacion.svg",
+    "kind": "esquema didáctico",
+    "title": "Generación condicionada por el contexto",
+    "description": "Esquema de continuaciones posibles del modelo. No representa probabilidades medidas.",
+    "sha256": "1cac4a70a9f8a21bcbe3e637d990285892d2bd179f908f901473ea4cb14366ad"
+  },
+  {
+    "file": "presentacion/assets/visuals/chatbot-vs-agente.svg",
+    "kind": "esquema didáctico",
+    "title": "Dos formas de llegar a R",
+    "description": "Contraste controlado: misma tarea y mismo R; cambia quién opera las herramientas.",
+    "sha256": "0b1d5fc5e182a5dd7b95bd3e3ce1aa6602a9ab667c75483bde101bc9f4732976"
+  },
+  {
+    "file": "presentacion/assets/visuals/modelo-r-investigador.svg",
+    "kind": "esquema didáctico",
+    "title": "Separación de responsabilidades",
+    "description": "El modelo propone, R ejecuta y el investigador evalúa; las revisiones retornan al procedimiento.",
+    "sha256": "9dc516c5c802f776ae9afb52b3abb9c6dad5443e3e83870fcb732d6678fa4ca6"
+  },
+  {
+    "file": "presentacion/assets/visuals/anatomia.svg",
+    "kind": "esquema didáctico",
+    "title": "Componentes de un agente",
+    "description": "Modelo en el centro, herramientas conectadas y un perímetro de contexto y permisos.",
+    "sha256": "0c2bfd5682fb2b2c6f5300b127e2d9005353d377f321be0457679c38c9259d38"
+  },
+  {
+    "file": "presentacion/assets/visuals/verificaciones.svg",
+    "kind": "esquema didáctico",
+    "title": "Tres controles, no una garantía automática",
+    "description": "Comprobar ejecución, pertinencia del método y alcance científico son tareas diferentes.",
+    "sha256": "2e53f81133437ad5687c70243468c8625a889ceec5de4104763d4753047b2190"
+  },
+  {
+    "file": "presentacion/assets/visuals/capas.svg",
+    "kind": "esquema didáctico",
+    "title": "Modelo, agente, editor y motor",
+    "description": "Cuatro capas distintas; un protocolo conecta herramientas, no sustituye a R.",
+    "sha256": "bdd91fc0240db99812d96201f9d764494cdf0158f452427cb76d3f4acd682c5b"
+  },
+  {
+    "file": "presentacion/assets/visuals/mcp.svg",
+    "kind": "esquema didáctico",
+    "title": "MCP y una sesión persistente",
+    "description": "Ruta de llamadas desde un agente hasta la sesión R de Positron y retorno de resultados.",
+    "sha256": "fadfca16078759e7e2b1e10fc42ff3143204d6e3e29b73ffcb95c35470748ebb"
+  },
+  {
+    "file": "presentacion/assets/visuals/onboarding.svg",
+    "kind": "esquema didáctico",
+    "title": "Onboarding de un analista",
+    "description": "Un estudio exige ciencia, semántica de datos y reglas de colaboración antes de modelar.",
+    "sha256": "7373fd76f53fdec7d9bf533f1478761a06b8745c0a464271de0a8700b1f4c602"
+  },
+  {
+    "file": "presentacion/assets/visuals/documentos.svg",
+    "kind": "esquema didáctico",
+    "title": "Dónde vive cada información",
+    "description": "Los documentos científicos conservan las decisiones; AGENTS.md señala reglas y rutas; skills contienen procedimientos.",
+    "sha256": "4dfb885e4bfad68625176ee003203a07f2b8076257916197ecf02341eb9029a2"
+  },
+  {
+    "file": "presentacion/assets/visuals/clasificar.svg",
+    "kind": "esquema didáctico",
+    "title": "Separar tipo de información",
+    "description": "Actividad: asignar cada afirmación a un documento apropiado; solución se explica en la siguiente etapa.",
+    "sha256": "5f5ade89ed6d689645b1eb9dd01fce51f18d1fefbe91251516ca7103d43dac5b"
+  },
+  {
+    "file": "presentacion/assets/visuals/agents-limites.svg",
+    "kind": "esquema didáctico",
+    "title": "Límites de AGENTS.md",
+    "description": "Reglas operativas y rutas son útiles; secretos, resultados y recetas universales no pertenecen a esas instrucciones.",
+    "sha256": "7c5ac7be3d71d0394db509c380c50aa2c49f595e52b6eb18f541dd48ea5ec3b5"
+  },
+  {
+    "file": "presentacion/assets/visuals/plan.svg",
+    "kind": "esquema didáctico",
+    "title": "Planificación proporcional",
+    "description": "Dos tareas de distinto riesgo: una inspección breve no exige un archivo de plan; decisiones encadenadas requieren mayor explicitud.",
+    "sha256": "a69948362a6647fed7d86b9e72d4152e03828525e2ead8f4101629015ccc977a"
+  },
+  {
+    "file": "presentacion/assets/visuals/pedido.svg",
+    "kind": "esquema didáctico",
+    "title": "Un encargo con información accionable",
+    "description": "La tarea se descompone en propósito, contexto, límites y evidencia de entrega.",
+    "sha256": "9168b07f9920322a89d307111e18e08e9306b22e1ff2547a33a158e42afc773f"
+  },
+  {
+    "file": "presentacion/assets/visuals/skill-carga.svg",
+    "kind": "esquema didáctico",
+    "title": "Cómo entra una skill en el trabajo",
+    "description": "Metadatos orientan la selección; instrucciones y referencias se incorporan cuando la tarea lo necesita.",
+    "sha256": "32d8f0185922c4e2d6e7e51d013d11d6e1d64ad756186d41ece8c93c5b68223a"
+  },
+  {
+    "file": "presentacion/assets/visuals/skill-herramienta.svg",
+    "kind": "esquema didáctico",
+    "title": "Procedimiento frente a capacidad",
+    "description": "La skill define cómo abordar una tarea; MCP conecta capacidades de ejecución; ninguno decide la pertinencia científica.",
+    "sha256": "aa8839acccaaaac99a44c3c7f8c96d34222d376ee2bf48a5ba23a9fcc4a93237"
+  },
+  {
+    "file": "presentacion/assets/visuals/skill-confianza.svg",
+    "kind": "esquema didáctico",
+    "title": "Inspeccionar antes de adoptar",
+    "description": "Cadena de revisión desde la procedencia de una skill hasta una prueba reproducible.",
+    "sha256": "22c0f962c90c8e6538ee50becff3f7f25c1978cc82ca4e8d01d59e32fa172d22"
+  },
+  {
+    "file": "presentacion/assets/visuals/repo.svg",
+    "kind": "esquema didáctico",
+    "title": "Skills disponibles y trabajo en curso",
+    "description": "Instantánea del monorepo del autor. El núcleo de estilo R existe; los módulos especializados no se presentan como finalizados.",
+    "sha256": "6b55a431a7b9e2698ea7449c1a37b86a94a5fe92f3646326b29bb59c3ca289e8"
+  },
+  {
+    "file": "presentacion/assets/visuals/datos-ordinales.svg",
+    "kind": "matriz ilustrativa ficticia",
+    "title": "Matriz de respuestas",
+    "description": "Extracto inventado para aprender a inspeccionar categorías; no es una muestra estimada.",
+    "sha256": "8cb8a19a19e03bf6b4f707eecf0820fd255d779e2f78e2a683e6fdc13ab474e8"
+  },
+  {
+    "file": "presentacion/assets/visuals/invertir.svg",
+    "kind": "esquema didáctico",
+    "title": "Recodificación inversa documentada",
+    "description": "Escala de 1 a 4: la transformación 5 menos respuesta invierte la puntuación solo cuando lo indica la clave.",
+    "sha256": "dbe69a9fb4af53abdd60e5a9385967b224edece16c11986022e7b3d0bc141ed9"
+  },
+  {
+    "file": "presentacion/assets/visuals/modelo-factorial.svg",
+    "kind": "esquema didáctico",
+    "title": "Dos dimensiones hipotéticas",
+    "description": "Esquema de dos factores correlacionados y doce indicadores. Se omiten residuos para simplificar; no hay coeficientes estimados.",
+    "sha256": "88363e31ea5111f6fded489377072c094eb67fb49beff5738d2d9d9c3e8c1cca"
+  },
+  {
+    "file": "presentacion/assets/visuals/controles-humanos.svg",
+    "kind": "esquema didáctico",
+    "title": "Puntos de revisión",
+    "description": "Tres carriles separan decisiones humanas, trabajo del agente y operaciones en R.",
+    "sha256": "2c53d5c09198ef1262590ff3744d15f2018280f6d6f9a601b866b758b32291a1"
+  },
+  {
+    "file": "presentacion/assets/visuals/diagnostico.svg",
+    "kind": "esquema didáctico",
+    "title": "Qué revisar después de la convergencia",
+    "description": "La finalización de un algoritmo no sustituye las comprobaciones de solución, ajuste y sentido sustantivo.",
+    "sha256": "80150bdf322eb686ea96c94fd987b8c5b165babdac9a767d7e9e9ca0a828a743"
+  },
+  {
+    "file": "presentacion/assets/visuals/sesion-limpia.svg",
+    "kind": "esquema didáctico",
+    "title": "Sesión persistente frente a reproducción",
+    "description": "La memoria interactiva agiliza el trabajo. La reproducción exige reconstruir el análisis desde los archivos.",
+    "sha256": "f274ddf5144ef29a84b228a0a3c5b34c9f43f4decd11de74b8b351af069aeae3"
+  },
+  {
+    "file": "presentacion/assets/visuals/validez.svg",
+    "kind": "esquema didáctico",
+    "title": "Del resultado a la afirmación",
+    "description": "Cada conclusión necesita evidencia pertinente. Un ajuste favorable no prueba todos los usos de una escala.",
+    "sha256": "2dbbccb69c50b81d2a344a6b84b07cc0fb7d22ba0fb373da1a848082de9ed539"
+  },
+  {
+    "file": "presentacion/assets/visuals/seguridad.svg",
+    "kind": "esquema didáctico",
+    "title": "Cuatro controles",
+    "description": "Datos, código, método e instrucciones externas requieren controles diferentes.",
+    "sha256": "3b19e43437b46ec8401bb0a063c296dd8e5397e7b040855eba70ff5b5ca7d744"
+  },
+  {
+    "file": "presentacion/assets/visuals/transferencia.svg",
+    "kind": "esquema didáctico",
+    "title": "Transferencia a otros análisis",
+    "description": "El método de colaboración se mantiene y la especificación estadística cambia.",
+    "sha256": "82fbcbbf345f5dc7b67906ce89267356607b41976bcdb3b67bc736ff9c3fc7d7"
+  },
+  {
+    "file": "presentacion/assets/visuals/hero.svg",
+    "kind": "esquema didáctico",
+    "title": "Pregunta, código y evidencia",
+    "description": "Motivo visual del taller: instrucciones y decisiones humanas conectadas con R y resultados.",
+    "sha256": "85a9210165f6fda192ba75d0366a5a5ef5e99a3cf175f7a8cb99a4fb8f05c635"
+  },
+  {
+    "file": "presentacion/assets/screenshots/mcp-vista.png",
+    "kind": "captura real recortada/anotada",
+    "source": "originales/positron-mcp.png",
+    "crop": [
+      56,
+      103,
+      1394,
+      883
+    ],
+    "marks": [
+      [
+        90,
+        165,
+        "1"
+      ],
+      [
+        813,
+        185,
+        "2"
+      ],
+      [
+        802,
+        388,
+        "3"
+      ]
+    ],
+    "sha256": "66a7840254deea77f69d95e4faadbcccffd3ce7dd3c44336fe454bb9dd8a4702"
+  },
+  {
+    "file": "presentacion/assets/screenshots/mcp-ejecutar.png",
+    "kind": "captura real recortada/anotada",
+    "source": "originales/positron-mcp.png",
+    "crop": [
+      120,
+      252,
+      420,
+      286
+    ],
+    "marks": [],
+    "sha256": "e5b626292ff1ecaf0811ebb8e9906725390e616c20c3e1f61abc3b6a750fa21b"
+  },
+  {
+    "file": "presentacion/assets/screenshots/mcp-consola.png",
+    "kind": "captura real recortada/anotada",
+    "source": "originales/positron-mcp.png",
+    "crop": [
+      842,
+      270,
+      1150,
+      306
+    ],
+    "marks": [],
+    "sha256": "858695b7ac9c4ceaf1856187f95730a541666d7b525251907bebdb535aa6a9ba"
+  },
+  {
+    "file": "presentacion/assets/screenshots/assistant-flujo.png",
+    "kind": "captura real recortada/anotada",
+    "source": "originales/positron-assistant.png",
+    "crop": [
+      104,
+      388,
+      1417,
+      757
+    ],
+    "marks": [
+      [
+        24,
+        102,
+        "1"
+      ],
+      [
+        530,
+        55,
+        "2"
+      ]
+    ],
+    "sha256": "411eafe82cc9b7afbd8b69728b76c2717d47cfa8fc39a71a27213a963e6fdaba"
+  },
+  {
+    "file": "presentacion/assets/screenshots/proveedor.png",
+    "kind": "captura real recortada/anotada",
+    "source": "originales/positron-proveedor.png",
+    "crop": [
+      0,
+      0,
+      1184,
+      392
+    ],
+    "marks": [],
+    "sha256": "0a7b3b6daa2d396434c462c6000731be800387bdffa6a3879ec1a9c2af9af4cc"
+  },
+  {
+    "file": "presentacion/assets/screenshots/r-editor.png",
+    "kind": "captura real recortada/anotada",
+    "source": "propias/positron-microcaso.png",
+    "crop": [
+      312,
+      145,
+      1550,
+      600
+    ],
+    "marks": [],
+    "sha256": "f6712577b99198d6484a0c1d171268c94eebcb65276775eb87854e44a0f80bbb"
+  },
+  {
+    "file": "presentacion/assets/screenshots/r-consola.png",
+    "kind": "captura real recortada/anotada",
+    "source": "propias/positron-microcaso.png",
+    "crop": [
+      320,
+      787,
+      1090,
+      966
+    ],
+    "marks": [],
+    "sha256": "2888520346412d78d2a3dba5a439cc698924865fdae855ca26f71fa3b91ff3c9"
+  },
+  {
+    "file": "presentacion/assets/screenshots/r-entorno.png",
+    "kind": "captura real recortada/anotada",
+    "source": "propias/positron-microcaso.png",
+    "crop": [
+      312,
+      63,
+      1548,
+      967
+    ],
+    "marks": [
+      [
+        24,
+        110,
+        "1"
+      ],
+      [
+        24,
+        580,
+        "2"
+      ],
+      [
+        24,
+        770,
+        "3"
+      ]
+    ],
+    "sha256": "02b677a09249bf958227b909bf6cac9b2c8492fe26be4ea3a387d445d0455fca"
+  },
+  {
+    "file": "presentacion/assets/screenshots/skill-real.png",
+    "kind": "captura real recortada/anotada",
+    "source": "propias/positron-skill.png",
+    "crop": [
+      315,
+      145,
+      1550,
+      585
+    ],
+    "marks": [],
+    "sha256": "2e284ed20a46dc6f9a9a6f075e932a0dfa55588e70b29293d28bcde8053a55ef"
+  }
+]

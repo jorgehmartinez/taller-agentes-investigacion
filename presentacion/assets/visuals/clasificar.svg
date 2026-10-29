@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Separar tipo de información</title><desc>Actividad: asignar cada afirmación a un documento apropiado; solución se explica en la siguiente etapa.</desc>
+<circle cx="35" cy="46" r="20" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="35" y="53" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="35" dy="0">1</tspan>
+</text>
+<text x="80" y="56" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="80" dy="0">«99 = perdido»</tspan>
+</text>
+<line x1="600" y1="48" x2="710" y2="48" stroke="#C6D5D7" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="755" y="12" width="330" height="72" rx="9" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="920" y="57" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="920" dy="0">diccionario.csv</tspan>
+</text>
+<circle cx="35" cy="146" r="20" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="35" y="153" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="35" dy="0">2</tspan>
+</text>
+<text x="80" y="156" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="80" dy="0">«Dos dimensiones hipotéticas»</tspan>
+</text>
+<line x1="600" y1="148" x2="710" y2="148" stroke="#C6D5D7" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="755" y="112" width="330" height="72" rx="9" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="920" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#BF2568" text-anchor="middle">
+<tspan x="920" dy="0">protocolo.md</tspan>
+</text>
+<circle cx="35" cy="246" r="20" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="35" y="253" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="35" dy="0">3</tspan>
+</text>
+<text x="80" y="256" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="80" dy="0">«No sobrescribir originales»</tspan>
+</text>
+<line x1="600" y1="248" x2="710" y2="248" stroke="#C6D5D7" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="755" y="212" width="330" height="72" rx="9" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="920" y="257" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="920" dy="0">AGENTS.md</tspan>
+</text>
+<circle cx="35" cy="346" r="20" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="35" y="353" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="35" dy="0">4</tspan>
+</text>
+<text x="80" y="356" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="80" dy="0">«Cómo auditar ítems»</tspan>
+</text>
+<line x1="600" y1="348" x2="710" y2="348" stroke="#C6D5D7" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="755" y="312" width="330" height="72" rx="9" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="920" y="357" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="920" dy="0">SKILL.md</tspan>
+</text>
+</svg>

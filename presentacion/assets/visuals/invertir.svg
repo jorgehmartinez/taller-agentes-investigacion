@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Recodificación inversa documentada</title><desc>Escala de 1 a 4: la transformación 5 menos respuesta invierte la puntuación solo cuando lo indica la clave.</desc>
+<text x="20" y="44" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="20" dy="0">RESPUESTA ORIGINAL</tspan>
+</text>
+<text x="20" y="278" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="20" dy="0">PUNTUACIÓN INVERTIDA</tspan>
+</text>
+<rect x="285" y="63" width="110" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="340.0" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="340.0" dy="0">1</tspan>
+</text>
+<rect x="285" y="298" width="110" height="52" rx="9" fill="#F9EAF0" stroke="#BF2568" stroke-width="1.5"/>
+<text x="340.0" y="332" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="340.0" dy="0">4</tspan>
+</text>
+<line x1="340" y1="129" x2="340" y2="281" stroke="#BF2568" stroke-width="3"/>
+<polygon points="340.0,281.0 335.2,272.2 344.8,272.2" fill="#BF2568"/>
+<rect x="465" y="63" width="110" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="520.0" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="520.0" dy="0">2</tspan>
+</text>
+<rect x="465" y="298" width="110" height="52" rx="9" fill="#F9EAF0" stroke="#BF2568" stroke-width="1.5"/>
+<text x="520.0" y="332" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="520.0" dy="0">3</tspan>
+</text>
+<line x1="520" y1="129" x2="520" y2="281" stroke="#BF2568" stroke-width="3"/>
+<polygon points="520.0,281.0 515.2,272.2 524.8,272.2" fill="#BF2568"/>
+<rect x="645" y="63" width="110" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="700.0" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="700.0" dy="0">3</tspan>
+</text>
+<rect x="645" y="298" width="110" height="52" rx="9" fill="#F9EAF0" stroke="#BF2568" stroke-width="1.5"/>
+<text x="700.0" y="332" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="700.0" dy="0">2</tspan>
+</text>
+<line x1="700" y1="129" x2="700" y2="281" stroke="#BF2568" stroke-width="3"/>
+<polygon points="700.0,281.0 695.2,272.2 704.8,272.2" fill="#BF2568"/>
+<rect x="825" y="63" width="110" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="880.0" y="97" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="880.0" dy="0">4</tspan>
+</text>
+<rect x="825" y="298" width="110" height="52" rx="9" fill="#F9EAF0" stroke="#BF2568" stroke-width="1.5"/>
+<text x="880.0" y="332" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="880.0" dy="0">1</tspan>
+</text>
+<line x1="880" y1="129" x2="880" y2="281" stroke="#BF2568" stroke-width="3"/>
+<polygon points="880.0,281.0 875.2,272.2 884.8,272.2" fill="#BF2568"/>
+<rect x="420" y="161" width="420" height="65" rx="9" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="630" y="204" font-family="monospace" font-size="31" font-weight="500" fill="#FFFFFF" text-anchor="middle">
+<tspan x="630" dy="0">5 - respuesta</tspan>
+</text>
+<text x="560" y="404" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">La clave del instrumento autoriza la inversión, no el signo de una correlación.</tspan>
+</text>
+</svg>

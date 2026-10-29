@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Separación de responsabilidades</title><desc>El modelo propone, R ejecuta y el investigador evalúa; las revisiones retornan al procedimiento.</desc>
+<circle cx="162" cy="136" r="70" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="162" y="147" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="162" dy="0">MODELO</tspan>
+</text>
+<text x="162" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="162" dy="0">Propuesta y código</tspan>
+</text>
+<circle cx="550" cy="136" r="70" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="550" y="147" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="550" dy="0">R</tspan>
+</text>
+<text x="550" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="550" dy="0">Ejecución y salidas</tspan>
+</text>
+<circle cx="937" cy="136" r="70" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="937" y="147" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="937" dy="0">INVESTIGADOR</tspan>
+</text>
+<text x="937" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="937" dy="0">Criterio y decisión</tspan>
+</text>
+<line x1="247" y1="136" x2="394" y2="136" stroke="#BF2568" stroke-width="3"/>
+<polygon points="394.0,136.0 385.2,140.8 385.2,131.2" fill="#BF2568"/>
+<line x1="635" y1="136" x2="782" y2="136" stroke="#087F8C" stroke-width="3"/>
+<polygon points="782.0,136.0 773.2,140.8 773.2,131.2" fill="#087F8C"/>
+<path d="M 937 283 L 937 345 L 163 345 L 163 285" stroke="#52666E" stroke-width="3" fill="none"/>
+<text x="550" y="387" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="550" dy="0">La revisión puede cambiar el procedimiento, no solo la redacción.</tspan>
+</text>
+</svg>

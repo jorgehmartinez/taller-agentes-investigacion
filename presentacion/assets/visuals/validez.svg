@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Del resultado a la afirmación</title><desc>Cada conclusión necesita evidencia pertinente. Un ajuste favorable no prueba todos los usos de una escala.</desc>
+<rect x="25" y="40" width="1050" height="110" rx="10" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="550" y="86" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="500" fill="#FFFFFF" text-anchor="middle">
+<tspan x="550" dy="0">«El modelo ajustó bien; por tanto, la escala es válida»</tspan>
+</text>
+<text x="550" y="128" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#B9D5D9" text-anchor="middle">
+<tspan x="550" dy="0">AFIRMACIÓN PARA AUDITAR, NO RESULTADO DEL TALLER</tspan>
+</text>
+<line x1="550" y1="165" x2="550" y2="230" stroke="#BF2568" stroke-width="3"/>
+<polygon points="550.0,230.0 545.2,221.2 554.8,221.2" fill="#BF2568"/>
+<text x="550" y="284" font-family="Fira Sans, Arial, sans-serif" font-size="34" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="550" dy="0">¿Qué parte está respaldada?</tspan>
+</text>
+<text x="550" y="346" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="550" dy="0">Datos → especificación → diagnósticos → alcance del uso</tspan>
+</text>
+</svg>

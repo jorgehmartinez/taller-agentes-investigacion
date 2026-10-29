@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Puntos de revisión</title><desc>Tres carriles separan decisiones humanas, trabajo del agente y operaciones en R.</desc>
+<rect x="0" y="36" width="210" height="72" rx="8" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="105" y="82" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="105" dy="0">INVESTIGADOR</tspan>
+</text>
+<line x1="225" y1="74" x2="1110" y2="74" stroke="#C6D5D7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="0" y="166" width="210" height="72" rx="8" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="105" y="212" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="105" dy="0">AGENTE</tspan>
+</text>
+<line x1="225" y1="204" x2="1110" y2="204" stroke="#C6D5D7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="0" y="296" width="210" height="72" rx="8" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="105" y="342" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="105" dy="0">R</tspan>
+</text>
+<line x1="225" y1="334" x2="1110" y2="334" stroke="#C6D5D7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="203" y="41" width="187" height="66" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="2"/>
+<text x="296" y="83" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="296" dy="0">Define objetivo</tspan>
+</text>
+<rect x="405" y="171" width="187" height="66" rx="8" fill="#FFFFFF" stroke="#15333D" stroke-width="2"/>
+<text x="498" y="213" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="498" dy="0">Audita / propone</tspan>
+</text>
+<rect x="615" y="41" width="187" height="66" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="2"/>
+<text x="708" y="83" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="708" dy="0">Aprueba método</tspan>
+</text>
+<rect x="810" y="301" width="187" height="66" rx="8" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<text x="903" y="343" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="903" dy="0">Ejecuta</tspan>
+</text>
+<rect x="810" y="41" width="187" height="66" rx="8" fill="#FFFFFF" stroke="#BF2568" stroke-width="2"/>
+<text x="903" y="83" font-family="Fira Sans, Arial, sans-serif" font-size="20" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="903" dy="0">Revisa evidencia</tspan>
+</text>
+<line x1="390" y1="87" x2="480" y2="167" stroke="#087F8C" stroke-width="3"/>
+<polygon points="480.0,167.0 470.3,164.8 476.6,157.6" fill="#087F8C"/>
+<line x1="575" y1="178" x2="680" y2="109" stroke="#087F8C" stroke-width="3"/>
+<polygon points="680.0,109.0 675.3,117.8 670.0,109.8" fill="#087F8C"/>
+<line x1="800" y1="109" x2="902" y2="296" stroke="#087F8C" stroke-width="3"/>
+<polygon points="902.0,296.0 893.6,290.6 902.0,286.0" fill="#087F8C"/>
+<line x1="1000" y1="302" x2="1000" y2="110" stroke="#BF2568" stroke-width="3"/>
+<polygon points="1000.0,110.0 1004.8,118.8 995.2,118.8" fill="#BF2568"/>
+</svg>

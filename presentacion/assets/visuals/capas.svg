@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Modelo, agente, editor y motor</title><desc>Cuatro capas distintas; un protocolo conecta herramientas, no sustituye a R.</desc>
+<rect x="10" y="8" width="210" height="76" rx="8" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="32" y="56" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#FFFFFF" text-anchor="start">
+<tspan x="32" dy="0">MODELO</tspan>
+</text>
+<rect x="240" y="8" width="585" height="76" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="266" y="55" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="266" dy="0">GPT · Claude · Gemini</tspan>
+</text>
+<text x="850" y="55" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="850" dy="0">Generación</tspan>
+</text>
+<line x1="112" y1="86" x2="112" y2="106" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="112.0,106.0 107.2,97.2 116.8,97.2" fill="#C6D5D7"/>
+<rect x="10" y="108" width="210" height="76" rx="8" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="32" y="156" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#FFFFFF" text-anchor="start">
+<tspan x="32" dy="0">AGENTE</tspan>
+</text>
+<rect x="240" y="108" width="585" height="76" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="266" y="155" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="266" dy="0">Codex · Claude Code · Gemini CLI</tspan>
+</text>
+<text x="850" y="155" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="850" dy="0">Operación</tspan>
+</text>
+<line x1="112" y1="186" x2="112" y2="206" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="112.0,206.0 107.2,197.2 116.8,197.2" fill="#C6D5D7"/>
+<rect x="10" y="208" width="210" height="76" rx="8" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="32" y="256" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#FFFFFF" text-anchor="start">
+<tspan x="32" dy="0">ENTORNO</tspan>
+</text>
+<rect x="240" y="208" width="585" height="76" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="266" y="255" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="266" dy="0">Positron · RStudio</tspan>
+</text>
+<text x="850" y="255" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="850" dy="0">Proyecto y sesión</tspan>
+</text>
+<line x1="112" y1="286" x2="112" y2="306" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="112.0,306.0 107.2,297.2 116.8,297.2" fill="#C6D5D7"/>
+<rect x="10" y="308" width="210" height="76" rx="8" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="32" y="356" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#FFFFFF" text-anchor="start">
+<tspan x="32" dy="0">MOTOR</tspan>
+</text>
+<rect x="240" y="308" width="585" height="76" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<text x="266" y="355" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="266" dy="0">R + paquetes</tspan>
+</text>
+<text x="850" y="355" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="850" dy="0">Cálculos</tspan>
+</text>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Matriz de respuestas</title><desc>Extracto inventado para aprender a inspeccionar categorías; no es una muestra estimada.</desc>
+<rect x="20" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="91.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="91.0" dy="0">Caso</tspan>
+</text>
+<rect x="165" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="236.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="236.0" dy="0">ítem 1</tspan>
+</text>
+<rect x="310" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="381.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="381.0" dy="0">ítem 2</tspan>
+</text>
+<rect x="455" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="526.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="526.0" dy="0">ítem 3</tspan>
+</text>
+<rect x="600" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="671.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="671.0" dy="0">ítem 4</tspan>
+</text>
+<rect x="745" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="816.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="816.0" dy="0">ítem 5</tspan>
+</text>
+<rect x="890" y="52" width="142" height="64" rx="0" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="961.0" y="94" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="961.0" dy="0">ítem 6</tspan>
+</text>
+<rect x="20" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="91.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="91.0" dy="0">A</tspan>
+</text>
+<rect x="165" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="236.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="236.0" dy="0">1</tspan>
+</text>
+<rect x="310" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="381.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="381.0" dy="0">2</tspan>
+</text>
+<rect x="455" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="526.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="526.0" dy="0">3</tspan>
+</text>
+<rect x="600" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="671.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="671.0" dy="0">4</tspan>
+</text>
+<rect x="745" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="816.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="816.0" dy="0">2</tspan>
+</text>
+<rect x="890" y="116" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="961.0" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="961.0" dy="0">1</tspan>
+</text>
+<rect x="20" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="91.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="91.0" dy="0">B</tspan>
+</text>
+<rect x="165" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="236.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="236.0" dy="0">3</tspan>
+</text>
+<rect x="310" y="180" width="142" height="61" rx="0" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="381.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="700" fill="#BF2568" text-anchor="middle">
+<tspan x="381.0" dy="0">99</tspan>
+</text>
+<rect x="455" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="526.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="526.0" dy="0">2</tspan>
+</text>
+<rect x="600" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="671.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="671.0" dy="0">1</tspan>
+</text>
+<rect x="745" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="816.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="816.0" dy="0">4</tspan>
+</text>
+<rect x="890" y="180" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="961.0" y="221" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="961.0" dy="0">2</tspan>
+</text>
+<rect x="20" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="91.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="91.0" dy="0">C</tspan>
+</text>
+<rect x="165" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="236.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="236.0" dy="0">2</tspan>
+</text>
+<rect x="310" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="381.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="381.0" dy="0">1</tspan>
+</text>
+<rect x="455" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="526.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="526.0" dy="0">4</tspan>
+</text>
+<rect x="600" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="671.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="671.0" dy="0">2</tspan>
+</text>
+<rect x="745" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="816.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="816.0" dy="0">3</tspan>
+</text>
+<rect x="890" y="244" width="142" height="61" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="961.0" y="285" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="961.0" dy="0">4</tspan>
+</text>
+<rect x="20" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="91.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="91.0" dy="0">D</tspan>
+</text>
+<rect x="165" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="236.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="236.0" dy="0">4</tspan>
+</text>
+<rect x="310" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="381.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="381.0" dy="0">3</tspan>
+</text>
+<rect x="455" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="526.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="526.0" dy="0">1</tspan>
+</text>
+<rect x="600" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="671.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="671.0" dy="0">3</tspan>
+</text>
+<rect x="745" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="816.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="816.0" dy="0">1</tspan>
+</text>
+<rect x="890" y="308" width="142" height="61" rx="0" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="961.0" y="349" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="middle">
+<tspan x="961.0" dy="0">2</tspan>
+</text>
+<circle cx="1060" cy="210" r="20" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="1060" y="217" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="1060" dy="0">!</tspan>
+</text>
+<text x="20" y="408" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="20" dy="0">El dato no explica por sí solo qué significa su código.</tspan>
+</text>
+</svg>

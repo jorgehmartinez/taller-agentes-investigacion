@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Sesión persistente frente a reproducción</title><desc>La memoria interactiva agiliza el trabajo. La reproducción exige reconstruir el análisis desde los archivos.</desc>
+<text x="15" y="36" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="15" dy="0">EXPLORACIÓN</tspan>
+</text>
+<text x="665" y="36" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="665" dy="0">REPRODUCCIÓN</tspan>
+</text>
+<rect x="15" y="80" width="430" height="190" rx="14" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="45" y="127" font-family="monospace" font-size="30" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="45" dy="0">.GlobalEnv</tspan>
+</text>
+<text x="45" y="179" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="45" dy="0">Objetos creados durante la</tspan>
+<tspan x="45" dy="31.2">sesión</tspan>
+</text>
+<text x="45" y="238" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#BF2568" text-anchor="start">
+<tspan x="45" dy="0">¿Están todos en el script?</tspan>
+</text>
+<line x1="470" y1="175" x2="615" y2="175" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="615.0,175.0 606.2,179.8 606.2,170.2" fill="#C6D5D7"/>
+<text x="540" y="130" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="540" dy="0">reiniciar</tspan>
+</text>
+<rect x="665" y="76" width="440" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="665" y="76" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="687" y="112" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="687" dy="0">01_microcaso.R</tspan>
+</text>
+<text x="687" y="148" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="687" dy="0">Entrada y pasos explícitos</tspan>
+</text>
+<rect x="665" y="215" width="440" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="665" y="215" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="687" y="251" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="687" dy="0">salida_referencia.txt</tspan>
+</text>
+<text x="687" y="287" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="687" dy="0">21.8 → 2.5; n válido = 4</tspan>
+</text>
+<text x="560" y="388" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">El historial de la conversación no sustituye al código canónico.</tspan>
+</text>
+</svg>
