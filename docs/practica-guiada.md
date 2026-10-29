@@ -39,4 +39,4 @@ La referencia de R y los parámetros de simulación están en `docente/caso_auto
 
 ## Capturas que faltan
 
-Una ejecución auténtica por MCP en la sesión de R y evidencia de que el agente definitivo leyó la skill. Seguir `docs/capturas-pendientes.md`. Las capturas de la configuración no demuestran por sí solas conexión ni activación de skills.
+Hay una captura real de una interacción de Codex con R en Positron, documentada en `docs/capturas-pendientes.md`. Sigue pendiente ensayar el recorrido del caso completo con la configuración definitiva y verificar durante el ensayo que el agente haya leído la skill adecuada. La configuración, por sí sola, no demuestra conexión ni activación de skills.

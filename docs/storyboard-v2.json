@@ -1399,7 +1399,7 @@
   },
   {
     "id": "mcp-captura",
-    "title": "Una llamada visible a una herramienta",
+    "title": "Una ejecución visible desde el agente",
     "section": "06 / ENTORNO DE TRABAJO",
     "blocks": [
       [
@@ -1411,37 +1411,37 @@
         "visual",
         "image",
         [
-          "assets/screenshots/mcp-vista.png",
-          "Captura oficial de Claude Code conectado a Positron: llamadas a herramientas, ejecución en consola y gráfico."
+          "assets/screenshots/codex-mcp-ejecucion-propia.png",
+          "Tres recortes de la ejecución real de Codex en Positron: petición y respuesta, consola R y gráfico."
         ]
       ],
       [
         "side1",
         "text",
-        "**1 · Solicitud.** El agente llama a una herramienta de Positron."
+        "**1 · Solicitud.** Codex recibe el encargo de calcular y dibujar."
       ],
       [
         "side2",
         "text",
-        "**2 · Ejecución.** La consola identifica el código del agente."
+        "**2 · Ejecución.** La consola R identifica el código enviado por Codex."
       ],
       [
         "side3",
         "text",
-        "**3 · Resultado.** Un gráfico observable, no solo una descripción."
+        "**3 · Resultado.** La consola muestra 3 + 4 y aparece el gráfico."
       ],
       [
         "takeaway",
         "text",
-        "La llamada y la salida dejan rastros que podemos inspeccionar."
+        "La ejecución y sus resultados dejan rastros que podemos inspeccionar."
       ],
       [
         "citation",
         "text",
-        "Posit (13-10-2026) · captura oficial de producto · fuente y original en assets/screenshots/"
+        "Captura propia (29-10-2026), remaquetada; original local y procedencia documentada."
       ]
     ],
-    "notes": "Mostrar la captura oficial como referencia de lo que se busca comprobar: llamada a herramienta, consola identificada y salida. Proviene de otro proyecto publicado por Posit. No es ejecución de este taller. Si el equipo dispone de una captura propia del agente definitivo, sustituirla manteniendo las tres regiones anotadas.",
+    "notes": "Captura propia proporcionada por el autor: se observa un encargo de Codex para calcular 3 + 4 y generar un gráfico; la respuesta declara ejecución mediante MCP, la consola R identifica Codex y aparece la figura de un girasol. Son tres recortes del mismo original, sin el avatar ni controles personales. No presenta un log de transporte MCP completo, por lo que no usarla como certificación independiente. La prueba anterior de sum(1:4) es otro encargo sugerido, no el cálculo mostrado aquí.",
     "variant": "screenshot",
     "kind": "concepto"
   },

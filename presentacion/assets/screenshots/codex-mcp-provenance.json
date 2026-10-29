@@ -1,0 +1,10 @@
+{
+  "source_type": "captura proporcionada por el autor",
+  "source_captured": "2026-10-29",
+  "source_sha256": "f787f7291c236345ae4b2f845801f6faef78e6717fdeea03047f84111456bc9d",
+  "published_derived": "assets/screenshots/codex-mcp-ejecucion-propia.png",
+  "derived_sha256": "43ac313b6734996678e42ee414da035891c6c89c11f48663ed130d588ff3b855",
+  "operations": "recortes fieles del mismo original, remaquetación en tres paneles y títulos; sin modificar ni recrear respuestas, código ni gráfico",
+  "excluded": "regiones de perfil personal, controles de permisos y escritorio no pertinentes",
+  "claims": "La captura muestra petición a Codex, respuesta que declara ejecución MCP, consola R etiquetada Codex y gráfico en Positron; evidencia observacional de interfaz, no auditoría independiente del transporte MCP."
+}

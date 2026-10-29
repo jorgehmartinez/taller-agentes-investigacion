@@ -443,9 +443,9 @@ Una respuesta correcta no basta: importa dónde y cómo se obtuvo.
 
 **Orientación docente:** Prueba a realizar con el cliente definitivo; no afirmar que ya se ejecutó vía MCP. sum(1:4) vale 10, pero obtener 10 en un chat no prueba acceso a esa sesión: debe observarse la llamada y su procedencia en Positron. Inspeccionar alcance de archivos y directorio de trabajo antes del caso. El kit incluye una lista de comprobación.
 
-## 41. Una llamada visible a una herramienta
+## 41. Una ejecución visible desde el agente
 
-Captura oficial de Claude Code conectado a Positron: llamadas a herramientas, ejecución en consola y gráfico.
+Tres recortes de la ejecución real de Codex en Positron: petición y respuesta, consola R y gráfico.
 
 **1 · Solicitud.** El agente llama a una herramienta de Positron.
 
@@ -453,9 +453,9 @@ Captura oficial de Claude Code conectado a Positron: llamadas a herramientas, ej
 
 **3 · Resultado.** Un gráfico observable, no solo una descripción.
 
-La llamada y la salida dejan rastros que podemos inspeccionar.
+La ejecución y sus resultados dejan rastros que podemos inspeccionar.
 
-**Orientación docente:** Mostrar la captura oficial como referencia de lo que se busca comprobar: llamada a herramienta, consola identificada y salida. Proviene de otro proyecto publicado por Posit. No es ejecución de este taller. Si el equipo dispone de una captura propia del agente definitivo, sustituirla manteniendo las tres regiones anotadas.
+**Orientación docente:** Captura propia proporcionada por el autor: se observa un encargo de Codex para calcular 3 + 4 y generar un gráfico; la respuesta declara ejecución mediante MCP, la consola R identifica Codex y aparece la figura de un girasol. Son tres recortes del mismo original, sin el avatar ni controles personales. No presenta un log de transporte MCP completo, por lo que no usarla como certificación independiente. La prueba anterior de sum(1:4) es otro encargo sugerido, no el cálculo mostrado aquí.
 
 ## 42. Posit Assistant: otra forma de entrar
 

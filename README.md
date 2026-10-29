@@ -4,10 +4,10 @@ Taller introductorio virtual de tres horas para el Congreso de la Sociedad Perua
 
 ## Abrir la presentación
 
-La fuente vigente sigue siendo **`presentacion/deck.qmd`** y su salida es **`presentacion/deck.bento.html`**. Esta revisión modifica el mismo proyecto Bento: no introduce otra carpeta de versión. El deck de la raíz es un borrador antiguo y no debe usarse para el taller.
+La fuente vigente sigue siendo **`presentacion/deck.qmd`** y su salida es **`presentacion/deck.bento.html`**. Esta revisión modifica el mismo proyecto Bento: no introduce otra carpeta de versión. Se eliminaron los antiguos archivos de presentación y estado Bento de la raíz para evitar duplicidades.
 
 ```sh
-cd /home/brian/Documents/Github/taller-agentes-investigacion
+cd taller-agentes-investigacion
 qbento edit presentacion/deck.qmd
 # Para regenerar la salida:
 qbento render presentacion/deck.qmd
@@ -28,7 +28,7 @@ El taller abre con objetivos y límites, no con código. Las escenas ficticias d
 - `materiales/descripciones-visuales.md`: acompañamiento textual y código mostrado.
 - `materiales/ejemplos-codigo.md`: antiejemplos, límites y alternativas de organización.
 - `materiales/herramientas.md`: configuración de MCP y prueba de conexión.
-- `docs/capturas-pendientes.md`: dos capturas auténticas del cliente definitivo que falta incorporar.
+- `docs/capturas-pendientes.md`: documentación de la captura propia de Codex/Positron y límites de su evidencia.
 - `practica/caso_autorregulacion_inicio.zip`: los seis insumos iniciales, sin configuración de agentes ni soluciones.
 - `practica/carpeta_recibida/`: copia distribuible de esos insumos.
 - `docs/practica-guiada.md`: construcción de AGENTS.md y organización durante la sesión.
@@ -48,7 +48,7 @@ QMD es la autoridad textual y `presentacion/.qbento/` conserva diseño y estado.
 
 El microejemplo del código 99 sí está ejecutado y reproducido en R: 21.8 antes de la corrección documentada; 2.5 y cuatro respuestas válidas después. Los ejemplos de AFC y arquitectura de código son ilustrativos, no modelos ya ajustados. Las escenas de chat no son screenshots de conversaciones reales.
 
-Las capturas propias de MCP muestran el ajuste y el comando en un perfil aislado; no se conectó ni autenticó un agente para obtenerlas. El caso factorial completo ya está generado y su referencia de R se ejecutó desde una extracción limpia, con salidas coincidentes. Falta ensayar el flujo con el agente definitivo y las skills de datos/psicometría. Las salidas docentes no se entregan en la carpeta inicial. El monorepo r-workflow-plugins se leyó, no se modificó.
+Las capturas de configuración del MCP muestran el ajuste y el comando en un perfil aislado, sin conexión en ese momento. Una captura posterior proporcionada por el autor muestra una interacción real de Codex con R en Positron y una figura generada; no es una auditoría completa del transporte MCP ni prueba que el agente haya leído una skill. El caso factorial completo ya está generado y su referencia de R se ejecutó desde una extracción limpia, con salidas coincidentes. Falta ensayar el flujo con el agente definitivo y las skills de datos/psicometría. Las salidas docentes no se entregan en la carpeta inicial. El monorepo r-workflow-plugins se leyó, no se modificó.
 
 ## Arranque de la práctica
 

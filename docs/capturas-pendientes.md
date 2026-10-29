@@ -1,27 +1,9 @@
-# Capturas auténticas del agente del taller
+# Captura propia de Codex y Positron
 
-Las escenas ChatGPT → RStudio son esquemas ficticios intencionados: no necesitan capturas reales. Ya existen capturas propias del editor, consola, archivo de skill, ajuste MCP y comando de configuración. Falta mostrar el **cliente definitivo conectado** y la skill realmente utilizada.
+La captura solicitada para el MCP fue proporcionada el 29-10-2026 e incorporada en la diapositiva `mcp-captura`. El archivo público es `presentacion/assets/screenshots/codex-mcp-ejecucion-propia.png`, con tres recortes fieles del original. Su procedencia está en `codex-mcp-provenance.json`. El original se conserva solo en `output/qa/capturas-originales/`, excluido de Git.
 
-Guardar los originales PNG en:
+El agente indica que ejecutó mediante MCP; la consola R muestra el identificador Codex, la operación `3 + 4` y la figura resultante. **La imagen muestra una interacción real, pero no incluye un registro técnico independiente del transporte MCP.**
 
-`presentacion/assets/screenshots/por-incorporar/`
+No necesitamos una captura adicional de `skill_codigo_revisable`: las diapositivas existentes sobre legibilidad y la skill disponible bastan para introducir el criterio. La selección y carga real de las skills metodológicas pendientes se comprobará al ensayar el caso, sin exigir otra captura.
 
-## 01_mcp_agente_r.png
-
-Extraer `practica/caso_autorregulacion_inicio.zip` fuera del repositorio, abrir esa carpeta en Positron e iniciar R y conectar el agente definitivo por MCP. Pedir: «Identifica la sesión R del taller y ejecuta sum(1:4) en ella». Distribuir los paneles para ver la petición, la llamada a la herramienta y la consola de Positron con el código y su salida 10. Capturar después de completar la ejecución real. Una respuesta textual del chat no prueba conexión.
-
-No mostrar URL de conexión, tokens, archivos de credenciales, cuentas personales ni claves. Cerrar esas vistas antes de capturar. No reconstruir una ejecución ficticia ni modificar los resultados de la imagen.
-
-## 02_skill_codigo_revisable.png
-
-En el mismo proyecto, cargar o invocar `r-analytic-coding-principles` mediante el mecanismo del agente elegido. Usar una tarea pequeña con datos sintéticos para revisar o reorganizar un análisis manteniendo sus decisiones y resultados. Mostrar la llamada o indicador que permita comprobar la lectura de la skill y un fragmento de script con especificación, estimación e inspección visibles. Escribir el nombre en un prompt no demuestra por sí solo que la skill se haya cargado.
-
-Cuando esté validada la skill psicométrica, podrá añadirse una captura de una decisión metodológica que realmente se deje a revisión humana. No fingir ese comportamiento mientras la implementación esté pendiente.
-
-## Formato y contexto
-
-Capturar la ventana de aplicación, no todo el escritorio. Preferir 1920×1080 o superior, PNG original y fuente del editor aproximadamente de 20–24 px; evitar líneas cortadas, notificaciones y compresión de mensajería. No añadir anotaciones al original: se prepararán recortes y llamadas después.
-
-Guardar también `contexto.md` con fecha, versión de Positron, agente, skill o commit, prompt exacto y operación realizada. No incluir secretos. Mientras falten estas imágenes, la presentación mantiene una captura oficial de Posit, identificada como ejemplo de otro proyecto, y no la atribuye al taller.
-
-Antes del ensayo, comprobar que el cliente puede extraer texto de los dos PDF. No aceptar un resumen que aparente haber leído documentos a los que el agente no tuvo acceso. No incluir la carpeta docente en su contexto.
+Para futuros reemplazos, no publicar credenciales, tokens, rutas con secretos, vistas de cuentas ni controles personales. Guardar originales fuera de Git; usar recortes atribuibles e indicar procedencia.

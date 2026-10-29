@@ -1388,7 +1388,7 @@ Prueba propuesta de conexión; no es evidencia de una conexión ya realizada.
 Prueba a realizar con el cliente definitivo; no afirmar que ya se ejecutó vía MCP. sum(1:4) vale 10, pero obtener 10 en un chat no prueba acceso a esa sesión: debe observarse la llamada y su procedencia en Positron. Inspeccionar alcance de archivos y directorio de trabajo antes del caso. El kit incluye una lista de comprobación.
 :::
 
-## Una llamada visible a una herramienta {#mcp-captura bento-variant="screenshot"}
+## Una ejecución visible desde el agente {#mcp-captura bento-variant="screenshot"}
 
 ::: {#mcp-captura-kicker bento-slot="kicker"}
 
@@ -1398,42 +1398,42 @@ Prueba a realizar con el cliente definitivo; no afirmar que ya se ejecutó vía 
 
 ::: {#mcp-captura-visual bento-slot="visual"}
 
-![](assets/screenshots/mcp-vista.png)
+![](assets/screenshots/codex-mcp-ejecucion-propia.png)
 
 :::
 
 ::: {#mcp-captura-side1 bento-slot="side1"}
 
-**1 · Solicitud.** El agente llama a una herramienta de Positron.
+**1 · Solicitud.** Codex recibe el encargo de calcular y dibujar.
 
 :::
 
 ::: {#mcp-captura-side2 bento-slot="side2"}
 
-**2 · Ejecución.** La consola identifica el código del agente.
+**2 · Ejecución.** La consola R identifica el código enviado por Codex.
 
 :::
 
 ::: {#mcp-captura-side3 bento-slot="side3"}
 
-**3 · Resultado.** Un gráfico observable, no solo una descripción.
+**3 · Resultado.** La consola muestra 3 + 4 y aparece el gráfico.
 
 :::
 
 ::: {#mcp-captura-takeaway bento-slot="takeaway"}
 
-La llamada y la salida dejan rastros que podemos inspeccionar.
+La ejecución y sus resultados dejan rastros que podemos inspeccionar.
 
 :::
 
 ::: {#mcp-captura-citation bento-slot="citation"}
 
-Posit (13-10-2026) · captura oficial de producto · fuente y original en assets/screenshots/
+Captura propia (29-10-2026), remaquetada; original local y procedencia documentada.
 
 :::
 
 ::: {#mcp-captura-notas .notes}
-Mostrar la captura oficial como referencia de lo que se busca comprobar: llamada a herramienta, consola identificada y salida. Proviene de otro proyecto publicado por Posit. No es ejecución de este taller. Si el equipo dispone de una captura propia del agente definitivo, sustituirla manteniendo las tres regiones anotadas.
+Captura propia proporcionada por el autor: se observa un encargo de Codex para calcular 3 + 4 y generar un gráfico; la respuesta declara ejecución mediante MCP, la consola R identifica Codex y aparece la figura de un girasol. Son tres recortes del mismo original, sin el avatar ni controles personales. No presenta un log de transporte MCP completo, por lo que no usarla como certificación independiente. La prueba anterior de sum(1:4) es otro encargo sugerido, no el cálculo mostrado aquí.
 :::
 
 ## Posit Assistant: otra forma de entrar {#posit-assistant bento-variant="screenshot"}

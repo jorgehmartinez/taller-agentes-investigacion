@@ -6,7 +6,7 @@ Este repositorio contiene **material docente en desarrollo** para un taller intr
 
 ## Fuentes de autoridad
 
-- `presentacion/deck.qmd`: autoridad textual y notas del ponente de la versión actual. El deck.qmd de la raíz es el borrador anterior, preservado.
+- `presentacion/deck.qmd`: autoridad textual y notas del ponente de la versión actual. No existe un segundo deck en la raíz. La historia anterior permanece únicamente en Git.
 - `presentacion/.qbento/`: autoridad visual retenida del rediseño; consultar `quarto-bento-workflow` antes de modificar estado.
 - `docs/programa.md`: secuencia y tiempos acordados.
 - `caso/especificacion.md`: alcance y separación entre insumos iniciales y referencia docente.
