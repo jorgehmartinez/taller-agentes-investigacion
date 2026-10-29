@@ -1,0 +1,33 @@
+{
+  "archive": "practica/caso_autorregulacion_inicio.zip",
+  "sha256": "b7b60aaed00850d59c1a55dc18505134c65fe3eb25a7393b15e297ed1ada0536",
+  "files": {
+    "Cuestionario y clave.pdf": {
+      "bytes": 5476,
+      "sha256": "1786903c439635a093fe6c3b0e9af6e36ae63d70b31e0fdc3f3155b2c2d91c8b"
+    },
+    "Encargo de investigacion.pdf": {
+      "bytes": 6352,
+      "sha256": "aac6e1fb9591ce123ead795d73fb37a61081aa567e833ae7328f57f07b9930d4"
+    },
+    "Notas del equipo.txt": {
+      "bytes": 1235,
+      "sha256": "c4b76b25ce377880c03ce6dd7932acd3d3778da7a8e38f60a8d64d2e35b53ddf"
+    },
+    "diccionario_variables.csv": {
+      "bytes": 3354,
+      "sha256": "96e1b317e6f623e9d00d76a96d1764dd654ea096ee3d5af98573732818da64d5"
+    },
+    "piloto_agosto.csv": {
+      "bytes": 2785,
+      "sha256": "a830bbdbde589dc120ab5644b08ff2abc96d1c6b574fb80c551f3e98ffeccfcc"
+    },
+    "respuestas_octubre.csv": {
+      "bytes": 22732,
+      "sha256": "74546bf21cc84e8f4d594569616d3df51f32e601385408d703d3b0319d949126"
+    }
+  },
+  "has_agent_instructions": false,
+  "has_scripts_or_solutions": false,
+  "distribution_note": "Extraer fuera del repositorio; revisar instrucciones globales o heredadas del cliente."
+}

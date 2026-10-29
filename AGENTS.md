@@ -9,7 +9,7 @@ Este repositorio contiene **material docente en desarrollo** para un taller intr
 - `presentacion/deck.qmd`: autoridad textual y notas del ponente de la versión actual. El deck.qmd de la raíz es el borrador anterior, preservado.
 - `presentacion/.qbento/`: autoridad visual retenida del rediseño; consultar `quarto-bento-workflow` antes de modificar estado.
 - `docs/programa.md`: secuencia y tiempos acordados.
-- `caso/especificacion.md`: contrato provisional del caso, no resultados estimados.
+- `caso/especificacion.md`: alcance y separación entre insumos iniciales y referencia docente.
 - El repositorio vecino `../r-workflow-plugins` es **externo y está en desarrollo paralelo**. Leerlo cuando corresponda; no escribir en él desde este proyecto ni congelar una interfaz no publicada.
 
 ## Reglas estables
@@ -41,10 +41,14 @@ Usar la skill local `plugins/quarto-bento/skills/quarto-bento-workflow/SKILL.md`
 
 ## Segunda versión visual
 
-La presentación actual está en `presentacion/`. Los recursos visuales tienen fuente y descripción; no convertir capturas oficiales en evidencia de ejecuciones propias. El microejemplo ya está ejecutado, pero el caso factorial continúa pendiente. Conservar originales de capturas y resultados de referencia. No reejecutar `scripts/author_deck_v2.py --write` sobre cambios manuales sin comparar antes.
+La presentación actual está en `presentacion/`. Los recursos visuales tienen fuente y descripción; no convertir capturas oficiales en evidencia de ejecuciones propias. El microejemplo y la referencia docente del caso completo están ejecutados; el recorrido con el agente definitivo continúa pendiente. Conservar originales de capturas y resultados de referencia. No reejecutar `scripts/author_deck_v2.py --write` sobre cambios manuales sin comparar antes.
 
 ## Secuencia vigente y control de versiones
 
 Editar presentacion/deck.qmd en su mismo proyecto. Guardar revisiones en Git, no crear carpetas de versiones. Abrir con encuadre y fundamentos; desarrollar el escenario ficticio chat/RStudio; motivar agentes y código revisable; presentar AGENTS.md y skills conjuntamente; introducir Positron antes de la práctica. Reservar el 99 al caso práctico.
 
 No generalizar el entrenamiento de todos los LLM ni afirmar que la programación de software no requiere revisión. Funciones, bucles y pipelines son adecuados cuando encajan: el problema que se enseña es ocultar decisiones que el investigador debe poder modificar. Las escenas ficticias no son capturas, y mostrar un ajuste MCP no demuestra conexión. Consultar docs/capturas-pendientes.md.
+
+## Carpeta inicial de la práctica
+
+`practica/carpeta_recibida/` es un insumo distribuible: conservar sus seis archivos, sin añadir AGENTS.md, README, scripts, skills, resultados o carpetas analíticas. El ZIP se ensaya fuera del repositorio. Los parámetros, soluciones y comprobaciones quedan en `docente/caso_autorregulacion/`; no filtrarlos al punto de partida. No sobrescribir una copia de trabajo de participantes al regenerar materiales.

@@ -1,51 +1,23 @@
-# Caso psicométrico sintético: especificación provisional
+# Caso psicométrico del taller
 
-**Estado: diseño del caso, no análisis ejecutado.** Ningún valor numérico inferencial debe aparecer en los materiales hasta generar y ejecutar los scripts de referencia.
+## Estado
 
-## Objetivo didáctico
+Datos e insumos generados y comprobados. La referencia docente se ejecutó en R y se repitió desde una extracción limpia del ZIP, con ocho salidas CSV idénticas. Esto no acredita todavía el recorrido con un agente por MCP.
 
-Comparar el valor de un agente con herramientas R, documentación y controles humanos frente a una solicitud descontextualizada de análisis psicométrico.
+## Punto de partida de participantes
 
-## Datos que se generarán
+`practica/carpeta_recibida/`: encargo científico en PDF, cuestionario y clave PDF, exportación principal, piloto independiente, diccionario y notas. Solo seis archivos sueltos. No hay AGENTS.md, scripts, resultados, modelo resuelto ni estructura analítica. El ZIP `practica/caso_autorregulacion_inicio.zip` permite repetir la actividad fuera del repositorio docente.
 
-- Muestra sintética prevista: 500 casos.
-- Instrumento ficticio: 12 ítems de autorregulación académica, dos dimensiones teóricas de seis ítems cada una.
-- Respuestas ordinales: cuatro categorías.
-- Diccionario: nombre del ítem, contenido sintético breve, dimensión teórica, dirección de puntuación, códigos perdidos y procedencia.
-- Problemas preparados: valores 99 como missing, al menos un ítem inverso identificado en documentación y algún patrón de distribución a inspeccionar.
-- Los parámetros de simulación deberán permanecer en un script docente separado de los scripts entregados para análisis, evitando filtrar artificialmente la solución.
+## Diseño simulado
 
-## Pregunta de investigación
+500 personas ficticias, 12 ítems con cuatro categorías y dos dimensiones propuestas: Planificación y Persistencia. Un piloto independiente queda como antecedente, no para concatenar. Se incluyen omisiones, dirección inversa documentada y una incidencia de exportación para practicar auditoría. Ningún registro representa una persona real.
 
-¿Qué evidencia proporciona la muestra sintética sobre la estructura interna propuesta y la fiabilidad de las puntuaciones de ambas dimensiones?
+Los objetivos son describir y revisar los datos, contrastar dos factores correlacionados frente a un factor general y examinar la fiabilidad de los compuestos de cada dimensión. El encargo deja a revisión la elección de estimador, ausencias y exclusiones. No pide normas, diagnóstico, invariancia ni selección mecánica de modelos.
 
-## Decisiones metodológicas por fijar en el script canónico
+## Material reservado al docente
 
-1. Tratamiento de códigos faltantes y evaluación descriptiva de patrones.
-2. Dirección de los ítems según contenido y clave, nunca por inversión automática de signos.
-3. Modelo de dos factores correlacionados especificado explícitamente.
-4. Pertinencia de tratar los ítems como ordinales y elección justificada de estimador (WLSMV es un candidato, no una regla universal).
-5. Inspección de estimación, parámetros, residuos y ajuste global/local; evitar heurísticas sin contexto.
-6. Estimación de fiabilidad compatible con el modelo y las puntuaciones, con límites interpretativos.
-7. Reproducción en sesión limpia de R y comparación con salidas guardadas.
+`docente/caso_autorregulacion/` contiene generación, comprobación de R, resultados, versiones, manifiesto y recibo de verificación. No se incluye en el ZIP ni se precarga en el agente. Los resultados allí son una referencia para ensayo, no una solución que se deba reproducir por obediencia.
 
-## Artefactos futuros y responsables
+## Pendientes de la sesión
 
-- `caso/data/escala_sintetica.csv` y `caso/data/diccionario_items.csv`: pendientes.
-- `caso/scripts/01_generar_datos.R`: generación sintética solo docente, pendiente.
-- `caso/scripts/02_auditoria.R`: entrada para participantes, pendiente.
-- `caso/scripts/03_estructura_interna.R`: análisis canónico, pendiente.
-- `caso/scripts/04_fiabilidad.R`: análisis canónico, pendiente.
-- `caso/resultados_referencia/`: salidas comprobadas, pendiente.
-- `caso/errores_preparados/`: contraste pedagógico deliberadamente defectuoso, pendiente.
-
-Evitar incorporar rutas inventadas a diapositivas como si los archivos existieran. Cuando se produzcan, enlazar explícitamente el script canónico y las diapositivas afectadas.
-
-## Condiciones de publicación del caso
-
-- Datos completamente sintéticos y documentados.
-- Código R research-first y legible, siguiendo la skill del monorepo cuando su alcance esté fijado.
-- Una ejecución canónica desde sesión limpia con resultados archivados.
-- Una segunda comprobación independiente de los números que se mostrarán.
-- Cualquier error intencional claramente marcado como ejemplo defectuoso.
-- Material del estudiante separado de parámetros y soluciones docentes, sin perder trazabilidad.
+Elegir y conectar el agente, verificar lectura de PDF y carga de skills, ensayar el ciclo de aprobaciones y el cronometraje. La organización del proyecto y AGENTS.md se construyen durante la práctica; no distribuirlos resueltos.

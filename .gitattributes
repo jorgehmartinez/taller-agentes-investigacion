@@ -1,2 +1,9 @@
 # Two trailing spaces are intentional Markdown line breaks in Quarto sources.
 *.qmd whitespace=-blank-at-eol
+
+# Preserve packaged and statistical artifacts as binary.
+*.pdf binary
+*.zip binary
+*.rds binary
+# R sessionInfo prints padded columns; preserve this execution receipt.
+docente/caso_autorregulacion/resultados/sesion_*.txt whitespace=-blank-at-eol

@@ -11,9 +11,9 @@
 | 01:05–01:30 | Contexto e instrucciones | 24–34 | AGENTS.md, skills y documentos del estudio, conjuntamente |
 | 01:30–01:40 | Pausa | 35 | Diez minutos |
 | 01:40–01:55 | Positron y MCP | 36–42 | Configurar y comprobar la procedencia de la ejecución |
-| 01:55–02:50 | Práctica psicométrica | 43–53 | Inspeccionar, decidir, ejecutar, revisar y reproducir |
-| 02:50–03:00 | Síntesis y preguntas | 54–55 | Criterios transferibles y dudas |
-| Apoyo | Referencias | 56–57 | Fuentes, no exposición obligatoria |
+| 01:55–02:50 | Práctica psicométrica | 43–54 | Inspeccionar, decidir, ejecutar, revisar y reproducir |
+| 02:50–03:00 | Síntesis y preguntas | 55–56 | Criterios transferibles y dudas |
+| Apoyo | Referencias | 57–58 | Fuentes, no exposición obligatoria |
 
 **Total: 180 minutos.** Las escenas sucesivas del chat se explican como una sola historia. Las láminas prácticas sirven de estaciones entre operaciones en R, no reemplazan la demostración. El cronometraje necesita ensayo en videoconferencia.
 
@@ -27,4 +27,4 @@ Antes del método: pregunta, diseño, datos e hipótesis. Durante: cambios de mo
 
 ## Estado de la práctica
 
-El 99 se reserva al bloque práctico. El microejemplo está ejecutado y permite revisar códigos y denominadores. El caso factorial completo aún necesita su base, scripts y resultados comprobados. Los diagramas no simulan resultados de ajuste y las capturas del ajuste MCP no prueban una conexión completada.
+El 99 se reserva al bloque práctico. El microejemplo está ejecutado y permite revisar códigos y denominadores. El caso completo ya tiene datos simulados, objetivos en PDF y una referencia docente ejecutada. La carpeta inicial no contiene AGENTS.md, scripts ni soluciones: su preparación se realiza en vivo. El guion de ese bloque está en practica-guiada.md. Los diagramas no simulan resultados de ajuste y las capturas del ajuste MCP no prueban una conexión completada.

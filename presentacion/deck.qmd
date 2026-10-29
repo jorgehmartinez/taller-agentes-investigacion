@@ -1484,7 +1484,7 @@ Posit (13-10-2026) · captura oficial de producto · fuente y original en assets
 Alternativa integrada a un agente externo. Mostrar petición, acceso a herramientas y revisión en la captura oficial. Requiere un proveedor compatible configurado; el acceso y las credenciales se resuelven fuera de la proyección. Evitar duplicar una instalación si ya se eligió la vía externa.
 :::
 
-## Del diccionario al modelo {#caso-portada bento-variant="section"}
+## De una carpeta recibida al análisis {#caso-portada bento-variant="section"}
 
 ::: {#caso-portada-kicker bento-slot="kicker"}
 
@@ -1500,15 +1500,17 @@ Alternativa integrada a un agente externo. Mostrar petición, acceso a herramien
 
 ::: {#caso-portada-subtitle bento-slot="subtitle"}
 
-Dirigir un análisis, revisar sus decisiones y poder continuarlo sin IA.
+Comprender el encargo, organizar el proyecto y construir un análisis que podamos revisar.
 
 :::
 
 ::: {#caso-portada-notas .notes}
-Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que se construye. El caso factorial completo sigue pendiente de datos y validación; las láminas diferencian hipótesis, microejemplo comprobado y futuros resultados. No presentar números ajustados inexistentes.
+
+Abrir una copia extraída del ZIP fuera del repositorio docente. El punto de partida contiene seis archivos, sin AGENTS.md, scripts ni resultados. El grupo debe construir esa organización durante la práctica. Los datos completos ya están simulados y comprobados en una referencia docente separada; no precargarla en el agente. Mantener visible la aprobación humana antes de reorganizar o modelar.
+
 :::
 
-## Respuestas ordinales {#caso-diseno bento-variant="visual"}
+## La carpeta que recibimos {#caso-diseno bento-variant="visual"}
 
 ::: {#caso-diseno-kicker bento-slot="kicker"}
 
@@ -1518,24 +1520,56 @@ Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que
 
 ::: {#caso-diseno-visual bento-slot="visual"}
 
-![](assets/visuals/datos-ordinales.svg)
+![](assets/visuals/carpeta-recibida.svg)
 
 :::
 
 ::: {#caso-diseno-takeaway bento-slot="takeaway"}
 
-Primero, entender la estructura y los códigos.
+Primero leer y comprender; todavía no reorganizar ni ejecutar modelos.
 
 :::
 
 ::: {#caso-diseno-citation bento-slot="citation"}
 
-Ilustración ficticia · el caso completo previsto es de 500 casos, 12 ítems y 2 dimensiones.
+Archivos reales del ejercicio · datos simulados · practica/caso_autorregulacion_inicio.zip
 
 :::
 
 ::: {#caso-diseno-notas .notes}
-Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y las dos dimensiones. La matriz dibujada es ficticia y no es un extracto de un archivo analizado. Se revisará el diccionario antes de modelar. Mostrar después la hipótesis factorial.
+
+Mostrar la carpeta extraída con los dos PDF, las dos bases, el diccionario y las notas. Pedir que el agente identifique objetivos, archivo principal y dudas sin modificar nada. No usar la raíz del repositorio porque contiene instrucciones y soluciones docentes. Verificar además instrucciones heredadas del cliente. El escenario contempla 500 participantes, doce ítems ordinales y dos dimensiones; no confundir filas exportadas con personas.
+
+:::
+
+## Antes del primer modelo {#caso-configurar bento-variant="visual"}
+
+::: {#caso-configurar-kicker bento-slot="kicker"}
+
+07 / PRÁCTICA PSICOMÉTRICA
+
+:::
+
+::: {#caso-configurar-visual bento-slot="visual"}
+
+![](assets/visuals/preparar-proyecto.svg)
+
+:::
+
+::: {#caso-configurar-takeaway bento-slot="takeaway"}
+
+La preparación del proyecto también forma parte del análisis.
+
+:::
+
+::: {#caso-configurar-citation bento-slot="citation"}
+
+Guion de la actividad en docs/practica-guiada.md · sin configuración precargada en el ZIP.
+
+:::
+
+::: {#caso-configurar-notas .notes}
+Después del inventario, pedir una propuesta de organización y de instrucciones estables. Separar qué va en AGENTS.md, qué se mantiene en los PDF o en un resumen científico y qué aporta la skill. Revisar antes de autorizar escritura. El agente puede proponer carpetas pero no hay un árbol obligatorio ni se exige plan.md. Solo entonces organizar una copia del trabajo, crear AGENTS.md y proceder con la auditoría y el método aprobado.
 :::
 
 ## El encargo para la demostración {#caso-prompt bento-variant="comparison"}
@@ -1548,34 +1582,36 @@ Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y 
 
 ::: {#caso-prompt-left-label bento-slot="left-label"}
 
-Primero: comprender e inspeccionar
+Primero: entender la carpeta recibida
 
 :::
 
 ::: {#caso-prompt-left bento-slot="left" .bento-code}
 
 ```{#caso-prompt-left-source .text}
-Lee protocolo y diccionario.
-Identifica la pregunta del estudio.
-Audita ítems y códigos con R.
-No recodifiques ambigüedades.
+Lee el encargo PDF y las notas.
+Revisa cuestionario y diccionario.
+Distingue estudio principal y piloto.
+Resume objetivos y dudas.
+No cambies archivos todavía.
 ```
 
 :::
 
 ::: {#caso-prompt-right-label bento-slot="right-label"}
 
-Después: actuar y justificar
+Después: acordar y construir
 
 :::
 
 ::: {#caso-prompt-right bento-slot="right" .bento-code}
 
 ```{#caso-prompt-right-source .text}
-Explica decisiones pendientes.
-Espera aprobación del método.
-Ejecuta código legible.
-Guarda salidas y diagnósticos.
+Propón organización y AGENTS.md.
+Espera mi revisión antes de escribir.
+Organiza sin alterar originales.
+Audita datos; propón el método.
+Ejecuta tras aprobarlo y revisa.
 ```
 
 :::
@@ -1593,7 +1629,9 @@ Texto docente · versión extendida en materiales/prompts-demostracion.md.
 :::
 
 ::: {#caso-prompt-notas .notes}
-Aplicar las instrucciones del proyecto y la skill disponible antes de ejecutar. El encargo pide inspección, preguntas pendientes, código legible y evidencias. No exigir un plan.md. El investigador revisa los cambios de método; el agente puede realizar operaciones rutinarias autorizadas.
+
+No entregar un AGENTS.md prefabricado. Hacer explícito el paso de leer los insumos a proponer una forma de trabajo y obtener aprobación. Después de configurar, inspeccionar los datos con R y presentar decisiones metodológicas. La comparación con la solución docente es apoyo del facilitador, no información que reciba el agente al inicio. El método debe poder continuarse manualmente.
+
 :::
 
 ## Antes de aceptar un cálculo {#promesa bento-variant="visual"}
@@ -1882,33 +1920,35 @@ CIERRE
 
 ::: {#recursos-left-label bento-slot="left-label"}
 
-Recursos de aprendizaje
+Punto de partida para la práctica
 
 :::
 
 ::: {#recursos-left bento-slot="left" .bento-code}
 
 ```{#recursos-left-source .text}
-materiales/
-  microcaso/
-  plantilla-proyecto/
-  actividades.md
-  guia-para-evaluar-skills.md
+practica/
+  caso_autorregulacion_inicio.zip
+  carpeta_recibida/
+
+Solo datos y documentos del estudio.
 ```
 
 :::
 
 ::: {#recursos-right-label bento-slot="right-label"}
 
-Ejecutar el microejemplo
+Abrir una copia independiente
 
 :::
 
 ::: {#recursos-right bento-slot="right" .bento-code}
 
-```{#recursos-right-source .bash}
-Rscript --vanilla \
-  materiales/microcaso/01_microcaso.R
+```{#recursos-right-source .text}
+Extrae el ZIP fuera del repositorio.
+Abre la carpeta recibida en Positron.
+Comprende, acuerda y configura.
+No precargues soluciones docentes.
 ```
 
 :::
@@ -1926,7 +1966,9 @@ Proyecto local del taller · fuentes, notas y scripts separados.
 :::
 
 ::: {#recursos-notas .notes}
-Materiales reales disponibles: microcaso, plantilla de contexto, ejemplos de estilo y guía de herramientas. Identificar claramente el caso factorial y skills en desarrollo. No abrir otra unidad al cierre. Recordar ruta del proyecto y fuente QMD única.
+
+El recurso principal es el ZIP con seis insumos, sin scripts ni instrucciones de agentes. La carpeta docente guarda parámetros y comprobaciones y no debe distribuirse como punto de partida. El microejemplo y las guías generales siguen disponibles como apoyos, pero no deben resolver por anticipado la configuración del caso. Las skills definitivas siguen requiriendo ensayo con el agente elegido.
+
 :::
 
 ## Fuentes de herramientas y formatos {#referencias-herramientas bento-variant="references"}
@@ -1981,10 +2023,10 @@ APOYO · REFERENCIAS
 
 **Skill de R**  
 r-workflow-plugins: r-analytic-coding-principles.  
-**AFC ordinal**  
-lavaan: tutorial de datos categóricos.  
-**Cálculos del ejemplo**  
-Script y salida real de R en materiales/microcaso/.
+**AFC y fiabilidad**  
+lavaan: datos categóricos; semTools: compRelSEM.  
+**Caso del taller**  
+Datos simulados y referencia docente separada.
 
 :::
 
@@ -2006,5 +2048,7 @@ Consultar docs/fuentes.md y assets/screenshots/provenance.json.
 :::
 
 ::: {#referencias-materiales-notas .notes}
-Distinguir ejemplos de código ficticio, esquemas, capturas reales propias/oficiales y microejemplo ejecutado. La skill del repositorio fundamenta nuestras convenciones, no demuestra que todos los agentes produzcan el mismo estilo de código.
+
+Distinguir esquemas y ejemplos ficticios de capturas y resultados ejecutados. La carpeta inicial sí tiene datos completos, PDF y diccionario; las comprobaciones en R se guardan por separado para el docente. La presentación no atribuye esos resultados a un agente ni muestra una activación de skills no comprobada. La documentación de lavaan y semTools respalda el uso de funciones, no la validez de un instrumento real.
+
 :::

@@ -1,0 +1,21 @@
+{
+  "docId": "df4c5c4d-a30d-4a3f-9907-de020668cb21",
+  "revision": 32,
+  "slides": 58,
+  "main_including_break": 56,
+  "appendix": 2,
+  "same_document": true,
+  "notes": 58,
+  "out_of_bounds": [],
+  "failed_images": [],
+  "pending": [],
+  "source_order_matches": true,
+  "browser_captured": 58,
+  "svg_used": 33,
+  "png_used": 7,
+  "source_sha256": "4b4cad5a10ed7fb0d8cdb3e69c4640e2216c77466f54991b6b2572b92a14f963",
+  "visual_review": "Existing revised sequence retained. All slides re-captured; changed practice slides 44,45,46 and56 inspected at full resolution. Not a timed rehearsal.",
+  "practice_verification": "docente/caso_autorregulacion/verificacion.json",
+  "practice_start_files": 6,
+  "practice_has_scripts_or_agent_configuration": false
+}

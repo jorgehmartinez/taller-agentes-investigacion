@@ -1,6 +1,6 @@
-# Guion docente vigente
+# Guion docente de la presentación vigente
 
-Fuente: presentacion/deck.qmd. Distribución de tiempos: programa.md. El 99 se reserva a la práctica; AGENTS.md y skills se presentan conjuntamente.
+Fuente: `presentacion/deck.qmd`. 58 diapositivas: 56 del recorrido, incluida la pausa, y dos de referencias. La práctica empieza con insumos sin configurar; consultar `practica-guiada.md` para tiempos y permisos.
 
 ## 1. Uso de Agentes IA para análisis de datos e investigación
 
@@ -170,62 +170,66 @@ Mostrar la captura oficial como referencia de lo que se busca comprobar: llamada
 
 Alternativa integrada a un agente externo. Mostrar petición, acceso a herramientas y revisión en la captura oficial. Requiere un proveedor compatible configurado; el acceso y las credenciales se resuelven fuera de la proyección. Evitar duplicar una instalación si ya se eligió la vía externa.
 
-## 43. Del diccionario al modelo
+## 43. De una carpeta recibida al análisis
 
-Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que se construye. El caso factorial completo sigue pendiente de datos y validación; las láminas diferencian hipótesis, microejemplo comprobado y futuros resultados. No presentar números ajustados inexistentes.
+Abrir una copia extraída del ZIP fuera del repositorio docente. El punto de partida contiene seis archivos, sin AGENTS.md, scripts ni resultados. El grupo debe construir esa organización durante la práctica. Los datos completos ya están simulados y comprobados en una referencia docente separada; no precargarla en el agente. Mantener visible la aprobación humana antes de reorganizar o modelar.
 
-## 44. Respuestas ordinales
+## 44. La carpeta que recibimos
 
-Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y las dos dimensiones. La matriz dibujada es ficticia y no es un extracto de un archivo analizado. Se revisará el diccionario antes de modelar. Mostrar después la hipótesis factorial.
+Mostrar la carpeta extraída con los dos PDF, las dos bases, el diccionario y las notas. Pedir que el agente identifique objetivos, archivo principal y dudas sin modificar nada. No usar la raíz del repositorio porque contiene instrucciones y soluciones docentes. Verificar además instrucciones heredadas del cliente. El escenario contempla 500 participantes, doce ítems ordinales y dos dimensiones; no confundir filas exportadas con personas.
 
-## 45. El encargo para la demostración
+## 45. Antes del primer modelo
 
-Aplicar las instrucciones del proyecto y la skill disponible antes de ejecutar. El encargo pide inspección, preguntas pendientes, código legible y evidencias. No exigir un plan.md. El investigador revisa los cambios de método; el agente puede realizar operaciones rutinarias autorizadas.
+Después del inventario, pedir una propuesta de organización y de instrucciones estables. Separar qué va en AGENTS.md, qué se mantiene en los PDF o en un resumen científico y qué aporta la skill. Revisar antes de autorizar escritura. El agente puede proponer carpetas pero no hay un árbol obligatorio ni se exige plan.md. Solo entonces organizar una copia del trabajo, crear AGENTS.md y proceder con la auditoría y el método aprobado.
 
-## 46. Antes de aceptar un cálculo
+## 46. El encargo para la demostración
+
+No entregar un AGENTS.md prefabricado. Hacer explícito el paso de leer los insumos a proponer una forma de trabajo y obtener aprobación. Después de configurar, inspeccionar los datos con R y presentar decisiones metodológicas. La comparación con la solución docente es apoyo del facilitador, no información que reciba el agente al inicio. El método debe poder continuarse manualmente.
+
+## 47. Antes de aceptar un cálculo
 
 Ahora, dentro de la práctica, mostrar las cinco respuestas ficticias. Pedir qué significa 99 y qué documento lo decide. No se usa esta pregunta para abrir el taller, sino para ejercitar la revisión ya aprendida.
 
-## 47. Una ejecución sin errores
+## 48. Una ejecución sin errores
 
 Salida real de R para el microejemplo: mean de 1,2,3,4,99 es 21.8. El error didáctico es semántico, no computacional. No atribuirlo a un agente concreto. Buscar el diccionario antes de corregir.
 
-## 48. La corrección documentada
+## 49. La corrección documentada
 
 El diccionario del microejemplo define 99 como perdido. La recodificación explícita produce media 2.5 con cuatro observaciones válidas. Mostrar código y denominador, conservar los originales y vincular la corrección con el criterio humano. No confundir este ejemplo con un análisis de fiabilidad.
 
-## 49. La salida real de R
+## 50. La salida real de R
 
 Captura propia de la consola del microejemplo, también reproducida desde una sesión limpia de R. Verificar que aparecen 21.8, 2.5 y 4. La captura no prueba ejecución por un agente ni un ajuste factorial completo.
 
-## 50. La estructura que vamos a contrastar
+## 51. La estructura que vamos a contrastar
 
 Hipótesis de dos factores y doce indicadores. Residuos omitidos solo en el esquema. Contrastar con el código explícito mostrado antes: cambiar un ítem afecta una decisión sustantiva. Los coeficientes y diagnósticos del caso completo se incorporarán cuando se hayan ejecutado y verificado.
 
-## 51. Después de la convergencia
+## 52. Después de la convergencia
 
 Después de ejecutar un AFC no basta el mensaje de convergencia. Revisar admisibilidad, parámetros, ajuste local/global y coherencia sustantiva. No se muestran índices de ajuste fabricados. Identificar qué procedimiento realizará el agente y qué evaluación corresponde al investigador.
 
-## 52. Volver a empezar desde los archivos
+## 53. Volver a empezar desde los archivos
 
 Volver a ejecutar el script desde archivos en una sesión limpia. La sesión persistente ayuda a explorar, pero no debe crear dependencia de objetos invisibles. La reproducibilidad conserva también los errores, así que revisar significado y decisiones sigue siendo necesario.
 
-## 53. Del resultado a la conclusión
+## 54. Del resultado a la conclusión
 
 Auditar la frase que infiere validez global solo del ajuste factorial. Es una afirmación ficticia para discutir, no un resultado del taller. Pedir datos, código, diagnósticos y delimitación de la inferencia. Recuperar los Human Gates antes de redactar conclusiones.
 
-## 54. Lo que conservamos al delegar
+## 55. Lo que conservamos al delegar
 
 Cerrar sin novedades. Contrastar el inicio con el recorrido: ya no solo se recibe código, se dirige un proceso que podemos revisar y continuar. No prometer productividad automática; la mejora depende del uso competente y del contexto.
 
-## 55. Un proyecto para seguir practicando
+## 56. Un proyecto para seguir practicando
 
-Materiales reales disponibles: microcaso, plantilla de contexto, ejemplos de estilo y guía de herramientas. Identificar claramente el caso factorial y skills en desarrollo. No abrir otra unidad al cierre. Recordar ruta del proyecto y fuente QMD única.
+El recurso principal es el ZIP con seis insumos, sin scripts ni instrucciones de agentes. La carpeta docente guarda parámetros y comprobaciones y no debe distribuirse como punto de partida. El microejemplo y las guías generales siguen disponibles como apoyos, pero no deben resolver por anticipado la configuración del caso. Las skills definitivas siguen requiriendo ensayo con el agente elegido.
 
-## 56. Fuentes de herramientas y formatos
+## 57. Fuentes de herramientas y formatos
 
 Fuentes oficiales y enlaces completos en docs/fuentes.md. Esta lámina es apoyo, no tiempo de exposición obligatorio. Se añadieron fuentes sobre harness y configuración de MCP; no usar citas de producto como prueba de productividad universal.
 
-## 57. Fuentes y límites del material
+## 58. Fuentes y límites del material
 
-Distinguir ejemplos de código ficticio, esquemas, capturas reales propias/oficiales y microejemplo ejecutado. La skill del repositorio fundamenta nuestras convenciones, no demuestra que todos los agentes produzcan el mismo estilo de código.
+Distinguir esquemas y ejemplos ficticios de capturas y resultados ejecutados. La carpeta inicial sí tiene datos completos, PDF y diccionario; las comprobaciones en R se guardan por separado para el docente. La presentación no atribuye esos resultados a un agente ni muestra una activación de skills no comprobada. La documentación de lavaan y semTools respalda el uso de funciones, no la validez de un instrumento real.

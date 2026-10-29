@@ -44,3 +44,7 @@ La bibliografía específica para fiabilidad y evaluación del caso factorial de
 - Capturas propias de configuración: presentacion/assets/screenshots/setup-provenance.json. Muestran interfaz, no conexión autenticada.
 
 Los antiejemplos safe_cfa, clean_data y las escenas ChatGPT/RStudio son construcciones docentes. Las convenciones de legibilidad se apoyan en la skill r-analytic-coding-principles y en el encuadre del autor, no en una investigación del entrenamiento de todos los LLM.
+
+## Referencia docente del caso completo
+
+semTools, compRelSEM: https://simsem.r-universe.dev/semTools/doc/manual.html . Se usó la escala ordinal observada para los compuestos de seis ítems; decisiones y versiones están en `docente/caso_autorregulacion/`. Las salidas verificadas no se incluyen en la carpeta recibida.

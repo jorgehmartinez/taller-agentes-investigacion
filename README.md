@@ -17,7 +17,7 @@ qbento render presentacion/deck.qmd
 
 **Encuadre → fundamentos → análisis con chat → agentes → código revisable → contexto e instrucciones → Positron → práctica.**
 
-La presentación contiene 57 diapositivas: 55 de recorrido, incluida la pausa, y dos de referencias. El número incluye estados sucesivos del mismo ejemplo, no 55 exposiciones independientes. Se mantienen 180 minutos y queda pendiente el ensayo cronometrado.
+La presentación contiene 58 diapositivas: 56 de recorrido, incluida la pausa, y dos de referencias. El número incluye estados sucesivos del mismo ejemplo, no 56 exposiciones independientes. Se mantienen 180 minutos y queda pendiente el ensayo cronometrado.
 
 El taller abre con objetivos y límites, no con código. Las escenas ficticias de ChatGPT y RStudio hacen visible el intercambio manual. Después se introducen la ejecución con herramientas y los Human Gates. Los antiejemplos safe_cfa, limpieza oculta y errores silenciados plantean la necesidad de código que podamos revisar y continuar. AGENTS.md y skills se presentan conjuntamente. Positron y su configuración aparecen cuando ya se conoce la forma de trabajo que queremos implementar.
 
@@ -29,7 +29,11 @@ El taller abre con objetivos y límites, no con código. Las escenas ficticias d
 - `materiales/ejemplos-codigo.md`: antiejemplos, límites y alternativas de organización.
 - `materiales/herramientas.md`: configuración de MCP y prueba de conexión.
 - `docs/capturas-pendientes.md`: dos capturas auténticas del cliente definitivo que falta incorporar.
-- `materiales/microcaso/`: script, diccionario y salida de referencia ejecutada.
+- `practica/caso_autorregulacion_inicio.zip`: los seis insumos iniciales, sin configuración de agentes ni soluciones.
+- `practica/carpeta_recibida/`: copia distribuible de esos insumos.
+- `docs/practica-guiada.md`: construcción de AGENTS.md y organización durante la sesión.
+- `docente/caso_autorregulacion/`: generación y comprobación del caso, fuera del ZIP.
+- `materiales/microcaso/`: ejemplo breve adicional con salida de referencia.
 - `materiales/plantilla-proyecto/`: contexto y reglas de trabajo.
 - `docs/integracion-skills.md`: integración del EPIC desde el repositorio externo.
 - `docs/fuentes.md`: fuentes oficiales y procedencia de recursos.
@@ -44,4 +48,8 @@ QMD es la autoridad textual y `presentacion/.qbento/` conserva diseño y estado.
 
 El microejemplo del código 99 sí está ejecutado y reproducido en R: 21.8 antes de la corrección documentada; 2.5 y cuatro respuestas válidas después. Los ejemplos de AFC y arquitectura de código son ilustrativos, no modelos ya ajustados. Las escenas de chat no son screenshots de conversaciones reales.
 
-Las capturas propias de MCP muestran el ajuste y el comando en un perfil aislado; no se conectó ni autenticó un agente para obtenerlas. El caso factorial completo y las skills de datos/psicometría deben completarse y verificarse antes del evento. El monorepo r-workflow-plugins se leyó, no se modificó.
+Las capturas propias de MCP muestran el ajuste y el comando en un perfil aislado; no se conectó ni autenticó un agente para obtenerlas. El caso factorial completo ya está generado y su referencia de R se ejecutó desde una extracción limpia, con salidas coincidentes. Falta ensayar el flujo con el agente definitivo y las skills de datos/psicometría. Las salidas docentes no se entregan en la carpeta inicial. El monorepo r-workflow-plugins se leyó, no se modificó.
+
+## Arranque de la práctica
+
+Extraer el ZIP en una carpeta vacía fuera de este repositorio y abrir solo `caso_autorregulacion/` en Positron. La copia versionada no es una carpeta de trabajo en vivo. Así se evita heredar este AGENTS.md docente; comprobar también instrucciones globales del cliente. No copiar las plantillas ni las soluciones antes de la actividad.

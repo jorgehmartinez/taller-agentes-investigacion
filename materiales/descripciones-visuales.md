@@ -1,10 +1,10 @@
-# Acompañamiento textual de la presentación
+# Acompañamiento textual y descripciones visuales
 
-Las interfaces esquemáticas son recreaciones ficticias. Las capturas reales indican su origen. Estas descripciones complementan el visor, sin declarar conformidad completa de accesibilidad.
+Fuente: presentación vigente. Las imágenes son esquemas o capturas identificadas. Los textos alternativos se conservan en esta guía, en las notas y en los SVG; no se declara conformidad completa de accesibilidad del visor Bento.
 
 ## 1. Uso de Agentes IA para análisis de datos e investigación
 
-Pregunta, código, R y evidencia alrededor del criterio científico.
+Motivo visual del taller: instrucciones y decisiones humanas conectadas con R y resultados.
 
 Una introducción al trabajo con agentes, con aplicaciones al análisis psicométrico.
 
@@ -12,7 +12,7 @@ Una introducción al trabajo con agentes, con aplicaciones al análisis psicomé
 
 ## 2. Qué aprenderemos y qué no
 
-Explicar el alcance antes de entrar en herramientas
+Objetivos de la introducción y límites de su alcance.
 
 Aprender a dirigir y revisar un análisis, no a dejar de comprenderlo.
 
@@ -28,7 +28,7 @@ En el chat: 1 = conversación; 2 = código sugerido; 3 = herramientas; 4 = anál
 
 ## 4. El recorrido de hoy
 
-Fundamentos, forma de trabajo, instrucciones y práctica en R.
+De entender el modelo a dirigir un análisis revisable en R.
 
 Primero entender la necesidad; después elegir y configurar la herramienta.
 
@@ -36,7 +36,7 @@ Primero entender la necesidad; después elegir y configurar la herramienta.
 
 ## 5. Un redactor que trabaja con contexto
 
-Analogía de un modelo de lenguaje que propone continuaciones condicionadas por el contexto.
+Analogía de continuaciones posibles, sin probabilidades ni frecuencias medidas.
 
 LLM: modelo de lenguaje. Genera propuestas; no certifica su verdad.
 
@@ -44,7 +44,7 @@ LLM: modelo de lenguaje. Genera propuestas; no certifica su verdad.
 
 ## 6. Algunos nombres conocidos
 
-Mostrar tres marcas reconocibles, sin ranking ni versiones efímeras
+GPT/ChatGPT de OpenAI, Claude de Anthropic y Gemini de Google, sin ranking ni versiones.
 
 Reconocer una marca no basta para saber qué herramientas tiene disponibles.
 
@@ -52,7 +52,7 @@ Reconocer una marca no basta para saber qué herramientas tiene disponibles.
 
 ## 7. Conversar o actuar sobre el proyecto
 
-Dar la distinción operativa en una sola lámina: un chat sin herramientas locales propone texto y código; un agente de codificación puede leer y modificar archivos, usar la terminal y encadenar acciones observando resultados
+Una interfaz de chat sin herramientas locales frente a un agente con acceso autorizado.
 
 Archivos + terminal + ejecución e iteración, dentro de un alcance autorizado.
 
@@ -60,7 +60,7 @@ Archivos + terminal + ejecución e iteración, dentro de un alcance autorizado.
 
 ## 8. Lenguaje, cálculo y criterio
 
-Separar tres operaciones que suelen mezclarse
+El modelo propone, R ejecuta y el investigador evalúa; las revisiones retornan al procedimiento.
 
 El modelo propone; R ejecuta; el investigador evalúa el significado.
 
@@ -68,7 +68,7 @@ El modelo propone; R ejecuta; el investigador evalúa el significado.
 
 ## 9. Más capacidad, el mismo criterio
 
-Presentar el potencial: acelerar tareas mecánicas, bosquejar código, explorar documentación y revisar errores
+El agente puede asumir mecánica sin asumir la responsabilidad científica.
 
 Aprovechar la ejecución asistida sin renunciar a comprender el análisis.
 
@@ -76,7 +76,7 @@ Aprovechar la ejecución asistida sin renunciar a comprender el análisis.
 
 ## 10. Un código del que podamos hacernos cargo
 
-Fijar el contrato de aprendizaje: leer, revisar, ejecutar, modificar y depurar, incluso sin el agente
+El script se conecta con cinco capacidades que el investigador conserva.
 
 No queremos un análisis que solo el LLM pueda mantener.
 
@@ -84,19 +84,19 @@ No queremos un análisis que solo el LLM pueda mantener.
 
 ## 11. Una petición de análisis en el chat
 
-Mostrar una recreación explícitamente ficticia de ChatGPT web
+Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.
 
 **Orientación docente:** Mostrar una recreación explícitamente ficticia de ChatGPT web. El usuario pide contrastar dos factores en doce ítems ordinales. La respuesta propone revisar el diccionario y aporta un fragmento de código. No es una captura real ni una respuesta evaluada de un modelo; sirve para seguir el recorrido de trabajo.
 
 ## 12. Del bloque de código a RStudio
 
-Mantener fija la petición y el mismo fragmento de código
+Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.
 
 **Orientación docente:** Mantener fija la petición y el mismo fragmento de código. La persona copia el bloque del chat y lo pega en un script de RStudio. Mostrar que entre ambas ventanas hay un paso manual. El fragmento está abreviado y no se distribuye como receta de AFC; el método requiere especificación previa. No afirmar que todo copiado produce errores.
 
 ## 13. Del error de vuelta al chat
 
-En el mismo escenario ficticio, falta cargar una función y aparece un error ilustrativo de R
+Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.
 
 El usuario transporta código, resultados y contexto de una ventana a otra.
 
@@ -112,7 +112,7 @@ Sin que tú tengas que copiar cada resultado de vuelta.
 
 ## 15. El agente dentro del proyecto
 
-Mostrar el ciclo archivos, ejecución, observación y corrección
+Un agente lee el proyecto, ejecuta, observa resultados y corrige dentro del alcance autorizado.
 
 Se reduce el intercambio manual; no desaparece la supervisión.
 
@@ -120,7 +120,7 @@ Se reduce el intercambio manual; no desaparece la supervisión.
 
 ## 16. Human Gates: puntos de revisión
 
-Recorrer los carriles
+Tres carriles separan decisiones humanas, trabajo del agente y operaciones en R.
 
 Antes del método, ante cambios sustantivos y antes de interpretar.
 
@@ -136,7 +136,7 @@ Piensa en cambiar un solo modelo, una recodificación o un gráfico.
 
 ## 18. Un cambio pequeño, demasiados lugares
 
-Proyecto ficticio con modelos definidos en configuración, función safe_cfa en helpers, un bucle en otro script y clasificación de resultados aparte
+Escenario ficticio con configuración, envoltura, ciclo y selección separados.
 
 La organización debe facilitar la siguiente decisión del investigador.
 
@@ -233,9 +233,9 @@ datos <- tryCatch(
 
 Diagnosticar el problema concreto
 
-Leer con una llamada ordinaria.
-Inspeccionar el error de ruta o paquete.
-Corregir su causa en el entorno.
+Leer con una llamada ordinaria.\
+Inspeccionar el error de ruta o paquete.\
+Corregir su causa en el entorno.\
 Conservar las comprobaciones del estudio.
 
 Controles proporcionados; diagnósticos visibles; sin errores maquillados.
@@ -244,7 +244,7 @@ Controles proporcionados; diagnósticos visibles; sin errores maquillados.
 
 ## 23. El estilo depende del trabajo
 
-Contrastar una tarea estable y repetitiva con una investigación iterativa en la que se revisa cada modelo
+Las abstracciones se ajustan a la estabilidad de las decisiones, no a una jerarquía entre industria e investigación.
 
 Automatizar mecánica estable; mantener editables las decisiones que evolucionan.
 
@@ -252,13 +252,13 @@ Automatizar mecánica estable; mantener editables las decisiones que evolucionan
 
 ## 24. Lo que rodea al agente
 
-Dar un solo mapa
+Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP.
 
 **Orientación docente:** Dar un solo mapa. Harness: programa que organiza el ciclo, el contexto, herramientas y permisos. System prompt: reglas iniciales del producto o implementación. AGENTS.md: guía persistente del proyecto en agentes compatibles. Skills: procedimientos y recursos reutilizables. Plugins: una vía de empaquetarlos junto con herramientas. MCP: conexión con herramientas. No son sinónimos ni todos se configuran del mismo modo.
 
 ## 25. Nuestro foco: contexto y forma de trabajar
 
-Repetir el mismo mapa, destacando únicamente AGENTS
+Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP.
 
 El proyecto explica qué investigamos; las instrucciones orientan cómo trabajamos.
 
@@ -266,7 +266,7 @@ El proyecto explica qué investigamos; las instrucciones orientan cómo trabajam
 
 ## 26. Como un analista que llega al equipo
 
-Diferenciar conocimiento general de investigación de contexto específico del estudio
+Un estudio exige ciencia, semántica de datos y reglas de colaboración antes de modelar.
 
 Conocer estadística no equivale a conocer tu estudio.
 
@@ -274,7 +274,7 @@ Conocer estadística no equivale a conocer tu estudio.
 
 ## 27. Proyecto, guía y procedimientos
 
-Ubicación de documentos científicos, reglas del proyecto y procedimientos reutilizables.
+El proyecto describe la ciencia; AGENTS.md enlaza las fuentes y las skills orientan trabajo reutilizable.
 
 Una fuente para cada decisión; las demás instrucciones la enlazan.
 
@@ -295,9 +295,9 @@ Guía del proyecto
 
 Procedimiento reutilizable
 
-La skill desarrolla el estilo de código,
-las comprobaciones y sus límites.
-El protocolo decide el método del estudio.
+La skill desarrolla el estilo de código,\
+las comprobaciones y sus límites.\
+El protocolo decide el método del estudio.\
 AGENTS.md no sustituye ese protocolo.
 
 No duplicar la guía entera de R en cada proyecto.
@@ -316,15 +316,15 @@ Lee la finalidad, el alcance y los límites antes de utilizarla.
 
 Cuándo usarla
 
-**Nombre y descripción:** activación y alcance.
-**Instrucciones:** cómo desarrollar la tarea.
+**Nombre y descripción:** activación y alcance.\
+**Instrucciones:** cómo desarrollar la tarea.\
 **Límites:** qué no debe decidir por nosotros.
 
 Qué puede acompañarla
 
-Referencias que se consultan al necesitarlas.
-Ejemplos y recursos de apoyo.
-Scripts opcionales que hay que revisar.
+Referencias que se consultan al necesitarlas.\
+Ejemplos y recursos de apoyo.\
+Scripts opcionales que hay que revisar.\
 No reentrena el modelo ni valida el resultado.
 
 Reutilizar un procedimiento sin convertirlo en una regla ciega.
@@ -333,7 +333,7 @@ Reutilizar un procedimiento sin convertirlo en una regla ciega.
 
 ## 31. Las skills del taller
 
-Mostrar r-analytic-core como base actualmente inspeccionable
+Base R ya inspeccionable y dos áreas del EPIC todavía en desarrollo.
 
 La misma fuente de skills; una versión comprobada para la demostración.
 
@@ -341,7 +341,7 @@ La misma fuente de skills; una versión comprobada para la demostración.
 
 ## 32. ¿Dónde guardarías cada información?
 
-«Dos factores propuestos»
+«Dos factores propuestos»\
 «Código R editable modelo por modelo»
 
 ¿Qué pertenece al estudio y qué se puede reutilizar en otros proyectos?
@@ -350,7 +350,7 @@ La misma fuente de skills; una versión comprobada para la demostración.
 
 ## 33. La planificación proporcional
 
-No exigir un plan
+Dos tareas de distinto riesgo: una inspección breve no exige un archivo de plan; decisiones encadenadas requieren mayor explicitud.
 
 Planificar es explicitar decisiones; no producir archivos por reflejo.
 
@@ -358,7 +358,7 @@ Planificar es explicitar decisiones; no producir archivos por reflejo.
 
 ## 34. Antes de adoptar una skill
 
-Dar un ejemplo de recomendación metodológica rígida y otro de script externo no revisado
+Cadena de revisión desde la procedencia de una skill hasta una prueba reproducible.
 
 Revisar también lo que la skill puede ejecutar.
 
@@ -400,7 +400,7 @@ Elegimos una vía y verificamos permisos, contexto y resultados.
 
 ## 38. MCP: el puente hacia R
 
-Definir Model Context Protocol una sola vez
+Ruta de llamadas desde un agente hasta la sesión R de Positron y retorno de resultados.
 
 Sesión compartida para explorar; archivos para reproducir.
 
@@ -434,9 +434,9 @@ archivos ni configuraciones.
 
 Qué debemos observar
 
-La sesión correcta.
-La llamada a la herramienta.
-El código y el nombre del agente.
+La sesión correcta.\
+La llamada a la herramienta.\
+El código y el nombre del agente.\
 La salida 10 en la consola R.
 
 Una respuesta correcta no basta: importa dónde y cómo se obtuvo.
@@ -471,71 +471,81 @@ Un proveedor configurado; ningún secreto en las diapositivas.
 
 **Orientación docente:** Alternativa integrada a un agente externo. Mostrar petición, acceso a herramientas y revisión en la captura oficial. Requiere un proveedor compatible configurado; el acceso y las credenciales se resuelven fuera de la proyección. Evitar duplicar una instalación si ya se eligió la vía externa.
 
-## 43. Del diccionario al modelo
+## 43. De una carpeta recibida al análisis
 
 07
 
-Dirigir un análisis, revisar sus decisiones y poder continuarlo sin IA.
+Comprender el encargo, organizar el proyecto y construir un análisis que podamos revisar.
 
-**Orientación docente:** Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que se construye. El caso factorial completo sigue pendiente de datos y validación; las láminas diferencian hipótesis, microejemplo comprobado y futuros resultados. No presentar números ajustados inexistentes.
+**Orientación docente:** Abrir una copia extraída del ZIP fuera del repositorio docente. El punto de partida contiene seis archivos, sin AGENTS.md, scripts ni resultados. El grupo debe construir esa organización durante la práctica. Los datos completos ya están simulados y comprobados en una referencia docente separada; no precargarla en el agente. Mantener visible la aprobación humana antes de reorganizar o modelar.
 
-## 44. Respuestas ordinales
+## 44. La carpeta que recibimos
 
-Matriz ilustrativa ficticia, no resultados de la escala final
+Seis archivos reales: encargo PDF, cuestionario y clave PDF, base principal CSV, piloto CSV, diccionario CSV y notas TXT. No contiene AGENTS.md, scripts ni resultados.
 
-Primero, entender la estructura y los códigos.
+Primero leer y comprender; todavía no reorganizar ni ejecutar modelos.
 
-**Orientación docente:** Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y las dos dimensiones. La matriz dibujada es ficticia y no es un extracto de un archivo analizado. Se revisará el diccionario antes de modelar. Mostrar después la hipótesis factorial.
+**Orientación docente:** Mostrar la carpeta extraída con los dos PDF, las dos bases, el diccionario y las notas. Pedir que el agente identifique objetivos, archivo principal y dudas sin modificar nada. No usar la raíz del repositorio porque contiene instrucciones y soluciones docentes. Verificar además instrucciones heredadas del cliente. El escenario contempla 500 participantes, doce ítems ordinales y dos dimensiones; no confundir filas exportadas con personas.
 
-## 45. El encargo para la demostración
+## 45. Antes del primer modelo
 
-Primero: comprender e inspeccionar
+Leer el encargo, acordar decisiones, proponer organización y crear instrucciones. La aprobación humana precede a la escritura y al análisis.
+
+La preparación del proyecto también forma parte del análisis.
+
+**Orientación docente:** Después del inventario, pedir una propuesta de organización y de instrucciones estables. Separar qué va en AGENTS.md, qué se mantiene en los PDF o en un resumen científico y qué aporta la skill. Revisar antes de autorizar escritura. El agente puede proponer carpetas pero no hay un árbol obligatorio ni se exige plan.md. Solo entonces organizar una copia del trabajo, crear AGENTS.md y proceder con la auditoría y el método aprobado.
+
+## 46. El encargo para la demostración
+
+Primero: entender la carpeta recibida
 
 ```text
-Lee protocolo y diccionario.
-Identifica la pregunta del estudio.
-Audita ítems y códigos con R.
-No recodifiques ambigüedades.
+Lee el encargo PDF y las notas.
+Revisa cuestionario y diccionario.
+Distingue estudio principal y piloto.
+Resume objetivos y dudas.
+No cambies archivos todavía.
 ```
 
-Después: actuar y justificar
+Después: acordar y construir
 
 ```text
-Explica decisiones pendientes.
-Espera aprobación del método.
-Ejecuta código legible.
-Guarda salidas y diagnósticos.
+Propón organización y AGENTS.md.
+Espera mi revisión antes de escribir.
+Organiza sin alterar originales.
+Audita datos; propón el método.
+Ejecuta tras aprobarlo y revisa.
 ```
 
 La tarea y los controles importan más que una formulación sofisticada.
 
-**Orientación docente:** Aplicar las instrucciones del proyecto y la skill disponible antes de ejecutar. El encargo pide inspección, preguntas pendientes, código legible y evidencias. No exigir un plan.md. El investigador revisa los cambios de método; el agente puede realizar operaciones rutinarias autorizadas.
+**Orientación docente:** No entregar un AGENTS.md prefabricado. Hacer explícito el paso de leer los insumos a proponer una forma de trabajo y obtener aprobación. Después de configurar, inspeccionar los datos con R y presentar decisiones metodológicas. La comparación con la solución docente es apoyo del facilitador, no información que reciba el agente al inicio. El método debe poder continuarse manualmente.
 
-## 46. Antes de aceptar un cálculo
+## 47. Antes de aceptar un cálculo
 
-Pedir al grupo que anticipe qué información revisaría antes de aceptar la media
+Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.
 
 ¿Qué falta saber antes de aceptar el resultado?
 
 **Orientación docente:** Ahora, dentro de la práctica, mostrar las cinco respuestas ficticias. Pedir qué significa 99 y qué documento lo decide. No se usa esta pregunta para abrir el taller, sino para ejercitar la revisión ya aprendida.
 
-## 47. Una ejecución sin errores
+## 48. Una ejecución sin errores
 
-Mostrar que R efectivamente ejecutó el código y devolvió 21
+Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.
 
 El código funciona; el análisis puede seguir estando mal.
 
 **Orientación docente:** Salida real de R para el microejemplo: mean de 1,2,3,4,99 es 21.8. El error didáctico es semántico, no computacional. No atribuirlo a un agente concreto. Buscar el diccionario antes de corregir.
 
-## 48. La corrección documentada
+## 49. La corrección documentada
 
-Regresar al mismo vector del inicio y cambiar solo el tratamiento documentado de 99
+Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario.
 
 La corrección debe quedar en código y conservar el original.
 
 **Orientación docente:** El diccionario del microejemplo define 99 como perdido. La recodificación explícita produce media 2.5 con cuatro observaciones válidas. Mostrar código y denominador, conservar los originales y vincular la corrección con el criterio humano. No confundir este ejemplo con un análisis de fiabilidad.
 
-## 49. La salida real de R
+## 50. La salida real de R
 
 Recorte de consola Positron que muestra las medias 21.8 y 2.5 y el recuento válido de 4.
 
@@ -543,39 +553,39 @@ Los números del relato deben coincidir con la evidencia de ejecución.
 
 **Orientación docente:** Captura propia de la consola del microejemplo, también reproducida desde una sesión limpia de R. Verificar que aparecen 21.8, 2.5 y 4. La captura no prueba ejecución por un agente ni un ajuste factorial completo.
 
-## 50. La estructura que vamos a contrastar
+## 51. La estructura que vamos a contrastar
 
-Dos factores correlacionados y doce indicadores; los nombres de dimensiones son didácticos y corresponden a autorregulación académica
+Esquema de dos factores correlacionados y doce indicadores. Se omiten residuos para simplificar; no hay coeficientes estimados.
 
 El modelo expresa una hipótesis; no es un dibujo que el agente deba adivinar.
 
 **Orientación docente:** Hipótesis de dos factores y doce indicadores. Residuos omitidos solo en el esquema. Contrastar con el código explícito mostrado antes: cambiar un ítem afecta una decisión sustantiva. Los coeficientes y diagnósticos del caso completo se incorporarán cuando se hayan ejecutado y verificado.
 
-## 51. Después de la convergencia
+## 52. Después de la convergencia
 
-Introducir el significado de converger: el procedimiento alcanzó un criterio de parada
+La finalización de un algoritmo no sustituye las comprobaciones de solución, ajuste y sentido sustantivo.
 
 Un algoritmo que termina todavía deja preguntas importantes.
 
 **Orientación docente:** Después de ejecutar un AFC no basta el mensaje de convergencia. Revisar admisibilidad, parámetros, ajuste local/global y coherencia sustantiva. No se muestran índices de ajuste fabricados. Identificar qué procedimiento realizará el agente y qué evaluación corresponde al investigador.
 
-## 52. Volver a empezar desde los archivos
+## 53. Volver a empezar desde los archivos
 
-Mostrar sesión persistente frente a ejecución limpia
+La memoria interactiva agiliza el trabajo. La reproducción exige reconstruir el análisis desde los archivos.
 
 Reproducir el cálculo también permite reproducir un error: todavía hay que interpretarlo.
 
 **Orientación docente:** Volver a ejecutar el script desde archivos en una sesión limpia. La sesión persistente ayuda a explorar, pero no debe crear dependencia de objetos invisibles. La reproducibilidad conserva también los errores, así que revisar significado y decisiones sigue siendo necesario.
 
-## 53. Del resultado a la conclusión
+## 54. Del resultado a la conclusión
 
-Actividad final
+Cada conclusión necesita evidencia pertinente. Un ajuste favorable no prueba todos los usos de una escala.
 
 ¿Qué parte de la afirmación está respaldada y cuál excede la evidencia?
 
 **Orientación docente:** Auditar la frase que infiere validez global solo del ajuste factorial. Es una afirmación ficticia para discutir, no un resultado del taller. Pedir datos, código, diagnósticos y delimitación de la inferencia. Recuperar los Human Gates antes de redactar conclusiones.
 
-## 54. Lo que conservamos al delegar
+## 55. Lo que conservamos al delegar
 
 **La pregunta** y las decisiones metodológicas.
 
@@ -587,69 +597,63 @@ Actividad final
 
 **Orientación docente:** Cerrar sin novedades. Contrastar el inicio con el recorrido: ya no solo se recibe código, se dirige un proceso que podemos revisar y continuar. No prometer productividad automática; la mejora depende del uso competente y del contexto.
 
-## 55. Un proyecto para seguir practicando
+## 56. Un proyecto para seguir practicando
 
-Recursos de aprendizaje
+Punto de partida para la práctica
 
 ```text
-materiales/
-  microcaso/
-  plantilla-proyecto/
-  actividades.md
-  guia-para-evaluar-skills.md
+practica/
+  caso_autorregulacion_inicio.zip
+  carpeta_recibida/
+
+Solo datos y documentos del estudio.
 ```
 
-Ejecutar el microejemplo
+Abrir una copia independiente
 
-```bash
-Rscript --vanilla \
-  materiales/microcaso/01_microcaso.R
+```text
+Extrae el ZIP fuera del repositorio.
+Abre la carpeta recibida en Positron.
+Comprende, acuerda y configura.
+No precargues soluciones docentes.
 ```
 
 Practica el método antes de aumentar la complejidad.
 
-**Orientación docente:** Materiales reales disponibles: microcaso, plantilla de contexto, ejemplos de estilo y guía de herramientas. Identificar claramente el caso factorial y skills en desarrollo. No abrir otra unidad al cierre. Recordar ruta del proyecto y fuente QMD única.
+**Orientación docente:** El recurso principal es el ZIP con seis insumos, sin scripts ni instrucciones de agentes. La carpeta docente guarda parámetros y comprobaciones y no debe distribuirse como punto de partida. El microejemplo y las guías generales siguen disponibles como apoyos, pero no deben resolver por anticipado la configuración del caso. Las skills definitivas siguen requiriendo ensayo con el agente elegido.
 
-## 56. Fuentes de herramientas y formatos
+## 57. Fuentes de herramientas y formatos
 
-**Positron / MCP**
-Posit, October Release Highlights (13-10-2026).
-
-**Posit Assistant**
-Getting Started y Providers.
-
-**R Core**
+**Positron / MCP**\
+Posit, October Release Highlights (13-10-2026).\
+**Posit Assistant**\
+Getting Started y Providers.\
+**R Core**\
 Random Number Generation: set.seed / RNGversion.
 
-**AGENTS.md**
-Convención oficial: agents.md.
-
-**Agent Skills**
-Specification: agentskills.io.
-
-**Agentes de codificación**
+**AGENTS.md**\
+Convención oficial: agents.md.\
+**Agent Skills**\
+Specification: agentskills.io.\
+**Agentes de codificación**\
 Documentación de Codex, Claude Code y Gemini CLI.
 
 **Orientación docente:** Fuentes oficiales y enlaces completos en docs/fuentes.md. Esta lámina es apoyo, no tiempo de exposición obligatorio. Se añadieron fuentes sobre harness y configuración de MCP; no usar citas de producto como prueba de productividad universal.
 
-## 57. Fuentes y límites del material
+## 58. Fuentes y límites del material
 
-**Skill de R**
-r-workflow-plugins: r-analytic-coding-principles.
+**Skill de R**\
+r-workflow-plugins: r-analytic-coding-principles.\
+**AFC y fiabilidad**\
+lavaan: datos categóricos; semTools: compRelSEM.\
+**Caso del taller**\
+Datos simulados y referencia docente separada.
 
-**AFC ordinal**
-lavaan: tutorial de datos categóricos.
-
-**Cálculos del ejemplo**
-Script y salida real de R en materiales/microcaso/.
-
-**Diagramas**
-Esquemas didácticos; no resultados empíricos.
-
-**Capturas**
-Propias en perfil aislado u oficiales de Posit, identificadas.
-
-**Caso completo**
+**Diagramas**\
+Esquemas didácticos; no resultados empíricos.\
+**Capturas**\
+Propias en perfil aislado u oficiales de Posit, identificadas.\
+**Caso completo**\
 No se presentan índices de ajuste ni coeficientes no calculados.
 
-**Orientación docente:** Distinguir ejemplos de código ficticio, esquemas, capturas reales propias/oficiales y microejemplo ejecutado. La skill del repositorio fundamenta nuestras convenciones, no demuestra que todos los agentes produzcan el mismo estilo de código.
+**Orientación docente:** Distinguir esquemas y ejemplos ficticios de capturas y resultados ejecutados. La carpeta inicial sí tiene datos completos, PDF y diccionario; las comprobaciones en R se guardan por separado para el docente. La presentación no atribuye esos resultados a un agente ni muestra una activación de skills no comprobada. La documentación de lavaan y semTools respalda el uso de funciones, no la validez de un instrumento real.

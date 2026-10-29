@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>La carpeta recibida</title><desc>Seis archivos reales: encargo PDF, cuestionario y clave PDF, base principal CSV, piloto CSV, diccionario CSV y notas TXT. No contiene AGENTS.md, scripts ni resultados.</desc>
+<rect x="20" y="24" width="650" height="376" rx="12" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1"/>
+<rect x="20" y="24" width="650" height="58" rx="12" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="42" y="62" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="600" fill="#FFFFFF" text-anchor="start">
+<tspan x="42" dy="0">caso_autorregulacion/</tspan>
+</text>
+<rect x="43" y="90" width="54" height="30" rx="5" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="70" y="112" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="70" dy="0">PDF</tspan>
+</text>
+<text x="115" y="113" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">Encargo de investigacion.pdf</tspan>
+</text>
+<rect x="43" y="137" width="54" height="30" rx="5" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="70" y="159" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="70" dy="0">PDF</tspan>
+</text>
+<text x="115" y="160" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">Cuestionario y clave.pdf</tspan>
+</text>
+<rect x="43" y="184" width="54" height="30" rx="5" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="70" y="206" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="70" dy="0">CSV</tspan>
+</text>
+<text x="115" y="207" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">respuestas_octubre.csv</tspan>
+</text>
+<rect x="43" y="231" width="54" height="30" rx="5" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="70" y="253" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="70" dy="0">CSV</tspan>
+</text>
+<text x="115" y="254" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">piloto_agosto.csv</tspan>
+</text>
+<rect x="43" y="278" width="54" height="30" rx="5" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="70" y="300" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="70" dy="0">CSV</tspan>
+</text>
+<text x="115" y="301" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">diccionario_variables.csv</tspan>
+</text>
+<rect x="43" y="325" width="54" height="30" rx="5" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="70" y="347" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="70" dy="0">TXT</tspan>
+</text>
+<text x="115" y="348" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="115" dy="0">Notas del equipo.txt</tspan>
+</text>
+<text x="727" y="104" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="700" fill="#BF2568" text-anchor="start">
+<tspan x="727" dy="0">TODAVÍA NO HAY</tspan>
+</text>
+<text x="727" y="157" font-family="Fira Sans, Arial, sans-serif" font-size="31" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="727" dy="0">AGENTS.md</tspan>
+</text>
+<text x="727" y="203" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="727" dy="0">Scripts de análisis</tspan>
+</text>
+<text x="727" y="249" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="727" dy="0">Resultados</tspan>
+</text>
+<line x1="727" y1="277" x2="1090" y2="277" stroke="#C6D5D7" stroke-width="2"/>
+<text x="727" y="322" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="727" dy="0">La organización se construye</tspan>
+</text>
+<text x="727" y="355" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="727" dy="0">durante la práctica.</tspan>
+</text>
+</svg>

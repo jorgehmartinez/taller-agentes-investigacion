@@ -1,0 +1,37 @@
+{
+  "raw_rows": 501,
+  "unique_people": 500,
+  "pilot_rows": 60,
+  "items": 12,
+  "missing_99": 90,
+  "missing_blank": 30,
+  "exact_duplicate": "E0173",
+  "inverse_items": [
+    "i03",
+    "i09"
+  ],
+  "initial_files": [
+    "Cuestionario y clave.pdf",
+    "Encargo de investigacion.pdf",
+    "Notas del equipo.txt",
+    "diccionario_variables.csv",
+    "piloto_agosto.csv",
+    "respuestas_octubre.csv"
+  ],
+  "initial_has_agent_configuration": false,
+  "zip_sha256": "b7b60aaed00850d59c1a55dc18505134c65fe3eb25a7393b15e297ed1ada0536",
+  "independent_csv_checks": true,
+  "pdf_text_extraction": true,
+  "clean_session_from_unzipped_inputs": true,
+  "byte_equal_reference_csv": {
+    "auditoria_entrada.csv": true,
+    "frecuencias_items.csv": true,
+    "n_por_pares.csv": true,
+    "comparacion_modelos.csv": true,
+    "fiabilidad_dimensiones.csv": true,
+    "diagnosticos.csv": true,
+    "parametros_dos_factores.csv": true,
+    "residuos_correlaciones.csv": true
+  },
+  "note": "R reproducibility test, not an authenticated agent/MCP rehearsal."
+}

@@ -1,0 +1,16 @@
+Asunto: Materiales para revisar la escala de autorregulación
+
+Hola:
+
+Enviamos los archivos del ejercicio. Todos los registros y el instrumento son ficticios; no hay datos personales de participantes reales.
+
+El archivo respuestas_octubre.csv es la exportación del estudio principal. Se esperaban 500 participantes, con una respuesta por persona. Hubo reintentos durante la exportación; conviene comprobar que el número de filas y los identificadores sean coherentes antes de usar la base.
+
+piloto_agosto.csv pertenece a un piloto independiente de 60 casos. Lo dejamos como antecedente del equipo, no para sumarlo al estudio principal. No mezclar ambos archivos.
+
+Los dos PDF contienen el encargo científico y la redacción de los ítems. El diccionario explica las columnas y los códigos. Los CSV usan comas como separador y UTF-8. No hemos calculado puntuaciones ni aplicado la clave inversa.
+
+Los archivos se han reunido tal como fueron recibidos. Aún no hay un proyecto de análisis organizado. Antes de cambiar los datos o ajustar modelos, necesitamos comprender las incidencias y revisar la propuesta metodológica. Conservemos los originales y trabajemos con derivados identificables.
+
+Gracias,
+Equipo del caso didáctico

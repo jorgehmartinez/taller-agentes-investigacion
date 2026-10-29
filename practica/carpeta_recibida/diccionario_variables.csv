@@ -1,0 +1,17 @@
+variable,descripcion,tipo,valores_validos,perdidos,dimension_propuesta,direccion
+id,"Identificador sintético; E = principal, P = piloto",texto,E0001 a E0500; P0001 a P0060,No previstos,No aplica,No aplica
+edad,Edad ficticia en años cumplidos,entero,18 a 30,No previstos,No aplica,No aplica
+ciclo,Ciclo universitario ficticio,entero,2; 4; 6; 8; 10,No previstos,No aplica,No aplica
+modalidad,Modalidad ficticia de estudios,texto,Presencial; Hibrida,No previstos,No aplica,No aplica
+i01,"Antes de estudiar, defino qué quiero completar.",ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Directa
+i02,Distribuyo mi tiempo entre las tareas que tengo pendientes.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Directa
+i03,Empiezo a estudiar sin decidir qué tareas haré.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Inversa: 1 a 4; 2 a 3; 3 a 2; 4 a 1 (solo valores válidos)
+i04,Organizo los materiales que necesito antes de comenzar.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Directa
+i05,Divido los trabajos extensos en pasos más pequeños.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Directa
+i06,Reviso mi planificación cuando cambian los plazos.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Planificacion,Directa
+i07,Continúo trabajando aunque una tarea requiera más esfuerzo del previsto.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Directa
+i08,Retomo el estudio después de una interrupción.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Directa
+i09,"Cuando una actividad se complica, suelo abandonarla.",ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Inversa: 1 a 4; 2 a 3; 3 a 2; 4 a 1 (solo valores válidos)
+i10,Busco otra manera de avanzar cuando no entiendo un ejercicio.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Directa
+i11,Mantengo el esfuerzo hasta terminar las actividades que me propongo.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Directa
+i12,Vuelvo a intentar una tarea después de equivocarme.,ordinal,1 = casi nunca; 2 = algunas veces; 3 = muchas veces; 4 = casi siempre,99 = sin respuesta; celda vacía = dato no registrado en exportación,Persistencia,Directa

@@ -14,7 +14,7 @@
         "image",
         [
           "assets/visuals/hero.svg",
-          "Pregunta, código, R y evidencia alrededor del criterio científico."
+          "Motivo visual del taller: instrucciones y decisiones humanas conectadas con R y resultados."
         ]
       ],
       [
@@ -47,7 +47,7 @@
         "image",
         [
           "assets/visuals/encuadre.svg",
-          "Explicar el alcance antes de entrar en herramientas"
+          "Objetivos de la introducción y límites de su alcance."
         ]
       ],
       [
@@ -105,7 +105,7 @@
         "image",
         [
           "assets/visuals/ruta-investigacion.svg",
-          "Fundamentos, forma de trabajo, instrucciones y práctica en R."
+          "De entender el modelo a dirigir un análisis revisable en R."
         ]
       ],
       [
@@ -138,7 +138,7 @@
         "image",
         [
           "assets/visuals/llm-lenguaje.svg",
-          "Analogía de un modelo de lenguaje que propone continuaciones condicionadas por el contexto."
+          "Analogía de continuaciones posibles, sin probabilidades ni frecuencias medidas."
         ]
       ],
       [
@@ -171,7 +171,7 @@
         "image",
         [
           "assets/visuals/marcas-llm.svg",
-          "Mostrar tres marcas reconocibles, sin ranking ni versiones efímeras"
+          "GPT/ChatGPT de OpenAI, Claude de Anthropic y Gemini de Google, sin ranking ni versiones."
         ]
       ],
       [
@@ -204,7 +204,7 @@
         "image",
         [
           "assets/visuals/chat-agente-directo.svg",
-          "Dar la distinción operativa en una sola lámina: un chat sin herramientas locales propone texto y código; un agente de codificación puede leer y modificar archivos, usar la terminal y encadenar acciones observando resultados"
+          "Una interfaz de chat sin herramientas locales frente a un agente con acceso autorizado."
         ]
       ],
       [
@@ -237,7 +237,7 @@
         "image",
         [
           "assets/visuals/modelo-r-investigador.svg",
-          "Separar tres operaciones que suelen mezclarse"
+          "El modelo propone, R ejecuta y el investigador evalúa; las revisiones retornan al procedimiento."
         ]
       ],
       [
@@ -270,7 +270,7 @@
         "image",
         [
           "assets/visuals/analista-aumentado.svg",
-          "Presentar el potencial: acelerar tareas mecánicas, bosquejar código, explorar documentación y revisar errores"
+          "El agente puede asumir mecánica sin asumir la responsabilidad científica."
         ]
       ],
       [
@@ -303,7 +303,7 @@
         "image",
         [
           "assets/visuals/codigo-apropiable.svg",
-          "Fijar el contrato de aprendizaje: leer, revisar, ejecutar, modificar y depurar, incluso sin el agente"
+          "El script se conecta con cinco capacidades que el investigador conserva."
         ]
       ],
       [
@@ -336,7 +336,7 @@
         "image",
         [
           "assets/visuals/chat-necesidad.svg",
-          "Mostrar una recreación explícitamente ficticia de ChatGPT web"
+          "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real."
         ]
       ],
       [
@@ -364,7 +364,7 @@
         "image",
         [
           "assets/visuals/chat-traslado.svg",
-          "Mantener fija la petición y el mismo fragmento de código"
+          "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real."
         ]
       ],
       [
@@ -392,7 +392,7 @@
         "image",
         [
           "assets/visuals/chat-error.svg",
-          "En el mismo escenario ficticio, falta cargar una función y aparece un error ilustrativo de R"
+          "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real."
         ]
       ],
       [
@@ -450,7 +450,7 @@
         "image",
         [
           "assets/visuals/agente-operando.svg",
-          "Mostrar el ciclo archivos, ejecución, observación y corrección"
+          "Un agente lee el proyecto, ejecuta, observa resultados y corrige dentro del alcance autorizado."
         ]
       ],
       [
@@ -483,7 +483,7 @@
         "image",
         [
           "assets/visuals/controles-humanos.svg",
-          "Recorrer los carriles"
+          "Tres carriles separan decisiones humanas, trabajo del agente y operaciones en R."
         ]
       ],
       [
@@ -541,7 +541,7 @@
         "image",
         [
           "assets/visuals/safe-cfa-mapa.svg",
-          "Proyecto ficticio con modelos definidos en configuración, función safe_cfa en helpers, un bucle en otro script y clasificación de resultados aparte"
+          "Escenario ficticio con configuración, envoltura, ciclo y selección separados."
         ]
       ],
       [
@@ -725,7 +725,7 @@
       [
         "right",
         "text",
-        "Leer con una llamada ordinaria.\nInspeccionar el error de ruta o paquete.\nCorregir su causa en el entorno.\nConservar las comprobaciones del estudio."
+        "Leer con una llamada ordinaria.  \nInspeccionar el error de ruta o paquete.  \nCorregir su causa en el entorno.  \nConservar las comprobaciones del estudio."
       ],
       [
         "takeaway",
@@ -757,7 +757,7 @@
         "image",
         [
           "assets/visuals/dos-estilos.svg",
-          "Contrastar una tarea estable y repetitiva con una investigación iterativa en la que se revisa cada modelo"
+          "Las abstracciones se ajustan a la estabilidad de las decisiones, no a una jerarquía entre industria e investigación."
         ]
       ],
       [
@@ -790,7 +790,7 @@
         "image",
         [
           "assets/visuals/ecosistema-agente.svg",
-          "Dar un solo mapa"
+          "Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP."
         ]
       ],
       [
@@ -818,7 +818,7 @@
         "image",
         [
           "assets/visuals/ecosistema-foco.svg",
-          "Repetir el mismo mapa, destacando únicamente AGENTS"
+          "Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP."
         ]
       ],
       [
@@ -851,7 +851,7 @@
         "image",
         [
           "assets/visuals/onboarding.svg",
-          "Diferenciar conocimiento general de investigación de contexto específico del estudio"
+          "Un estudio exige ciencia, semántica de datos y reglas de colaboración antes de modelar."
         ]
       ],
       [
@@ -884,7 +884,7 @@
         "image",
         [
           "assets/visuals/proyecto-skills.svg",
-          "Ubicación de documentos científicos, reglas del proyecto y procedimientos reutilizables."
+          "El proyecto describe la ciencia; AGENTS.md enlaza las fuentes y las skills orientan trabajo reutilizable."
         ]
       ],
       [
@@ -933,7 +933,7 @@
       [
         "right",
         "text",
-        "La skill desarrolla el estilo de código,\nlas comprobaciones y sus límites.\nEl protocolo decide el método del estudio.\nAGENTS.md no sustituye ese protocolo."
+        "La skill desarrolla el estilo de código,  \nlas comprobaciones y sus límites.  \nEl protocolo decide el método del estudio.  \nAGENTS.md no sustituye ese protocolo."
       ],
       [
         "takeaway",
@@ -1001,7 +1001,7 @@
       [
         "left",
         "text",
-        "**Nombre y descripción:** activación y alcance.\n**Instrucciones:** cómo desarrollar la tarea.\n**Límites:** qué no debe decidir por nosotros."
+        "**Nombre y descripción:** activación y alcance.  \n**Instrucciones:** cómo desarrollar la tarea.  \n**Límites:** qué no debe decidir por nosotros."
       ],
       [
         "right-label",
@@ -1011,7 +1011,7 @@
       [
         "right",
         "text",
-        "Referencias que se consultan al necesitarlas.\nEjemplos y recursos de apoyo.\nScripts opcionales que hay que revisar.\nNo reentrena el modelo ni valida el resultado."
+        "Referencias que se consultan al necesitarlas.  \nEjemplos y recursos de apoyo.  \nScripts opcionales que hay que revisar.  \nNo reentrena el modelo ni valida el resultado."
       ],
       [
         "takeaway",
@@ -1043,7 +1043,7 @@
         "image",
         [
           "assets/visuals/skills-catalogo.svg",
-          "Mostrar r-analytic-core como base actualmente inspeccionable"
+          "Base R ya inspeccionable y dos áreas del EPIC todavía en desarrollo."
         ]
       ],
       [
@@ -1074,7 +1074,7 @@
       [
         "question",
         "text",
-        "«Dos factores propuestos»\n«Código R editable modelo por modelo»"
+        "«Dos factores propuestos»  \n«Código R editable modelo por modelo»"
       ],
       [
         "prompt",
@@ -1101,7 +1101,7 @@
         "image",
         [
           "assets/visuals/plan.svg",
-          "No exigir un plan"
+          "Dos tareas de distinto riesgo: una inspección breve no exige un archivo de plan; decisiones encadenadas requieren mayor explicitud."
         ]
       ],
       [
@@ -1134,7 +1134,7 @@
         "image",
         [
           "assets/visuals/skill-confianza.svg",
-          "Dar un ejemplo de recomendación metodológica rígida y otro de script externo no revisado"
+          "Cadena de revisión desde la procedencia de una skill hasta una prueba reproducible."
         ]
       ],
       [
@@ -1280,7 +1280,7 @@
         "image",
         [
           "assets/visuals/mcp.svg",
-          "Definir Model Context Protocol una sola vez"
+          "Ruta de llamadas desde un agente hasta la sesión R de Positron y retorno de resultados."
         ]
       ],
       [
@@ -1380,7 +1380,7 @@
       [
         "right",
         "text",
-        "La sesión correcta.\nLa llamada a la herramienta.\nEl código y el nombre del agente.\nLa salida 10 en la consola R."
+        "La sesión correcta.  \nLa llamada a la herramienta.  \nEl código y el nombre del agente.  \nLa salida 10 en la consola R."
       ],
       [
         "takeaway",
@@ -1495,7 +1495,7 @@
   },
   {
     "id": "caso-portada",
-    "title": "Del diccionario al modelo",
+    "title": "De una carpeta recibida al análisis",
     "section": "07 / PRÁCTICA PSICOMÉTRICA",
     "blocks": [
       [
@@ -1511,16 +1511,16 @@
       [
         "subtitle",
         "text",
-        "Dirigir un análisis, revisar sus decisiones y poder continuarlo sin IA."
+        "Comprender el encargo, organizar el proyecto y construir un análisis que podamos revisar."
       ]
     ],
-    "notes": "Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que se construye. El caso factorial completo sigue pendiente de datos y validación; las láminas diferencian hipótesis, microejemplo comprobado y futuros resultados. No presentar números ajustados inexistentes.",
+    "notes": "Abrir una copia extraída del ZIP fuera del repositorio docente. El punto de partida contiene seis archivos, sin AGENTS.md, scripts ni resultados. El grupo debe construir esa organización durante la práctica. Los datos completos ya están simulados y comprobados en una referencia docente separada; no precargarla en el agente. Mantener visible la aprobación humana antes de reorganizar o modelar.",
     "variant": "section",
     "kind": "transición"
   },
   {
     "id": "caso-diseno",
-    "title": "Respuestas ordinales",
+    "title": "La carpeta que recibimos",
     "section": "07 / PRÁCTICA PSICOMÉTRICA",
     "blocks": [
       [
@@ -1532,24 +1532,57 @@
         "visual",
         "image",
         [
-          "assets/visuals/datos-ordinales.svg",
-          "Matriz ilustrativa ficticia, no resultados de la escala final"
+          "assets/visuals/carpeta-recibida.svg",
+          "Seis archivos reales: encargo PDF, cuestionario y clave PDF, base principal CSV, piloto CSV, diccionario CSV y notas TXT. No contiene AGENTS.md, scripts ni resultados."
         ]
       ],
       [
         "takeaway",
         "text",
-        "Primero, entender la estructura y los códigos."
+        "Primero leer y comprender; todavía no reorganizar ni ejecutar modelos."
       ],
       [
         "citation",
         "text",
-        "Ilustración ficticia · el caso completo previsto es de 500 casos, 12 ítems y 2 dimensiones."
+        "Archivos reales del ejercicio · datos simulados · practica/caso_autorregulacion_inicio.zip"
       ]
     ],
-    "notes": "Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y las dos dimensiones. La matriz dibujada es ficticia y no es un extracto de un archivo analizado. Se revisará el diccionario antes de modelar. Mostrar después la hipótesis factorial.",
+    "notes": "Mostrar la carpeta extraída con los dos PDF, las dos bases, el diccionario y las notas. Pedir que el agente identifique objetivos, archivo principal y dudas sin modificar nada. No usar la raíz del repositorio porque contiene instrucciones y soluciones docentes. Verificar además instrucciones heredadas del cliente. El escenario contempla 500 participantes, doce ítems ordinales y dos dimensiones; no confundir filas exportadas con personas.",
     "variant": "visual",
     "kind": "explicación visual"
+  },
+  {
+    "id": "caso-configurar",
+    "title": "Antes del primer modelo",
+    "section": "07 / PRÁCTICA PSICOMÉTRICA",
+    "blocks": [
+      [
+        "kicker",
+        "text",
+        "07 / PRÁCTICA PSICOMÉTRICA"
+      ],
+      [
+        "visual",
+        "image",
+        [
+          "assets/visuals/preparar-proyecto.svg",
+          "Leer el encargo, acordar decisiones, proponer organización y crear instrucciones. La aprobación humana precede a la escritura y al análisis."
+        ]
+      ],
+      [
+        "takeaway",
+        "text",
+        "La preparación del proyecto también forma parte del análisis."
+      ],
+      [
+        "citation",
+        "text",
+        "Guion de la actividad en docs/practica-guiada.md · sin configuración precargada en el ZIP."
+      ]
+    ],
+    "notes": "Después del inventario, pedir una propuesta de organización y de instrucciones estables. Separar qué va en AGENTS.md, qué se mantiene en los PDF o en un resumen científico y qué aporta la skill. Revisar antes de autorizar escritura. El agente puede proponer carpetas pero no hay un árbol obligatorio ni se exige plan.md. Solo entonces organizar una copia del trabajo, crear AGENTS.md y proceder con la auditoría y el método aprobado.",
+    "variant": "visual",
+    "kind": "práctica guiada"
   },
   {
     "id": "caso-prompt",
@@ -1564,26 +1597,26 @@
       [
         "left-label",
         "text",
-        "Primero: comprender e inspeccionar"
+        "Primero: entender la carpeta recibida"
       ],
       [
         "left",
         "code",
         [
-          "Lee protocolo y diccionario.\nIdentifica la pregunta del estudio.\nAudita ítems y códigos con R.\nNo recodifiques ambigüedades.",
+          "Lee el encargo PDF y las notas.\nRevisa cuestionario y diccionario.\nDistingue estudio principal y piloto.\nResume objetivos y dudas.\nNo cambies archivos todavía.",
           "text"
         ]
       ],
       [
         "right-label",
         "text",
-        "Después: actuar y justificar"
+        "Después: acordar y construir"
       ],
       [
         "right",
         "code",
         [
-          "Explica decisiones pendientes.\nEspera aprobación del método.\nEjecuta código legible.\nGuarda salidas y diagnósticos.",
+          "Propón organización y AGENTS.md.\nEspera mi revisión antes de escribir.\nOrganiza sin alterar originales.\nAudita datos; propón el método.\nEjecuta tras aprobarlo y revisa.",
           "text"
         ]
       ],
@@ -1598,7 +1631,7 @@
         "Texto docente · versión extendida en materiales/prompts-demostracion.md."
       ]
     ],
-    "notes": "Aplicar las instrucciones del proyecto y la skill disponible antes de ejecutar. El encargo pide inspección, preguntas pendientes, código legible y evidencias. No exigir un plan.md. El investigador revisa los cambios de método; el agente puede realizar operaciones rutinarias autorizadas.",
+    "notes": "No entregar un AGENTS.md prefabricado. Hacer explícito el paso de leer los insumos a proponer una forma de trabajo y obtener aprobación. Después de configurar, inspeccionar los datos con R y presentar decisiones metodológicas. La comparación con la solución docente es apoyo del facilitador, no información que reciba el agente al inicio. El método debe poder continuarse manualmente.",
     "variant": "comparison",
     "kind": "concepto"
   },
@@ -1617,7 +1650,7 @@
         "image",
         [
           "assets/visuals/micro-pregunta.svg",
-          "Pedir al grupo que anticipe qué información revisaría antes de aceptar la media"
+          "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario."
         ]
       ],
       [
@@ -1650,7 +1683,7 @@
         "image",
         [
           "assets/visuals/micro-ejecucion.svg",
-          "Mostrar que R efectivamente ejecutó el código y devolvió 21"
+          "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario."
         ]
       ],
       [
@@ -1683,7 +1716,7 @@
         "image",
         [
           "assets/visuals/micro-correccion.svg",
-          "Regresar al mismo vector del inicio y cambiar solo el tratamiento documentado de 99"
+          "Cinco respuestas ficticias. El código 99 se trata como valor o como perdido según el diccionario."
         ]
       ],
       [
@@ -1749,7 +1782,7 @@
         "image",
         [
           "assets/visuals/modelo-factorial.svg",
-          "Dos factores correlacionados y doce indicadores; los nombres de dimensiones son didácticos y corresponden a autorregulación académica"
+          "Esquema de dos factores correlacionados y doce indicadores. Se omiten residuos para simplificar; no hay coeficientes estimados."
         ]
       ],
       [
@@ -1782,7 +1815,7 @@
         "image",
         [
           "assets/visuals/diagnostico.svg",
-          "Introducir el significado de converger: el procedimiento alcanzó un criterio de parada"
+          "La finalización de un algoritmo no sustituye las comprobaciones de solución, ajuste y sentido sustantivo."
         ]
       ],
       [
@@ -1815,7 +1848,7 @@
         "image",
         [
           "assets/visuals/sesion-limpia.svg",
-          "Mostrar sesión persistente frente a ejecución limpia"
+          "La memoria interactiva agiliza el trabajo. La reproducción exige reconstruir el análisis desde los archivos."
         ]
       ],
       [
@@ -1848,7 +1881,7 @@
         "image",
         [
           "assets/visuals/validez.svg",
-          "Actividad final"
+          "Cada conclusión necesita evidencia pertinente. Un ajuste favorable no prueba todos los usos de una escala."
         ]
       ],
       [
@@ -1914,27 +1947,27 @@
       [
         "left-label",
         "text",
-        "Recursos de aprendizaje"
+        "Punto de partida para la práctica"
       ],
       [
         "left",
         "code",
         [
-          "materiales/\n  microcaso/\n  plantilla-proyecto/\n  actividades.md\n  guia-para-evaluar-skills.md",
+          "practica/\n  caso_autorregulacion_inicio.zip\n  carpeta_recibida/\n\nSolo datos y documentos del estudio.",
           "text"
         ]
       ],
       [
         "right-label",
         "text",
-        "Ejecutar el microejemplo"
+        "Abrir una copia independiente"
       ],
       [
         "right",
         "code",
         [
-          "Rscript --vanilla \\\n  materiales/microcaso/01_microcaso.R",
-          "bash"
+          "Extrae el ZIP fuera del repositorio.\nAbre la carpeta recibida en Positron.\nComprende, acuerda y configura.\nNo precargues soluciones docentes.",
+          "text"
         ]
       ],
       [
@@ -1948,7 +1981,7 @@
         "Proyecto local del taller · fuentes, notas y scripts separados."
       ]
     ],
-    "notes": "Materiales reales disponibles: microcaso, plantilla de contexto, ejemplos de estilo y guía de herramientas. Identificar claramente el caso factorial y skills en desarrollo. No abrir otra unidad al cierre. Recordar ruta del proyecto y fuente QMD única.",
+    "notes": "El recurso principal es el ZIP con seis insumos, sin scripts ni instrucciones de agentes. La carpeta docente guarda parámetros y comprobaciones y no debe distribuirse como punto de partida. El microejemplo y las guías generales siguen disponibles como apoyos, pero no deben resolver por anticipado la configuración del caso. Las skills definitivas siguen requiriendo ensayo con el agente elegido.",
     "variant": "comparison",
     "kind": "concepto"
   },
@@ -1965,12 +1998,12 @@
       [
         "left",
         "text",
-        "**Positron / MCP**\nPosit, October Release Highlights (13-10-2026).\n\n**Posit Assistant**\nGetting Started y Providers.\n\n**R Core**\nRandom Number Generation: set.seed / RNGversion."
+        "**Positron / MCP**  \nPosit, October Release Highlights (13-10-2026).  \n**Posit Assistant**  \nGetting Started y Providers.  \n**R Core**  \nRandom Number Generation: set.seed / RNGversion."
       ],
       [
         "right",
         "text",
-        "**AGENTS.md**\nConvención oficial: agents.md.\n\n**Agent Skills**\nSpecification: agentskills.io.\n\n**Agentes de codificación**\nDocumentación de Codex, Claude Code y Gemini CLI."
+        "**AGENTS.md**  \nConvención oficial: agents.md.  \n**Agent Skills**  \nSpecification: agentskills.io.  \n**Agentes de codificación**  \nDocumentación de Codex, Claude Code y Gemini CLI."
       ],
       [
         "citation",
@@ -1995,12 +2028,12 @@
       [
         "left",
         "text",
-        "**Skill de R**\nr-workflow-plugins: r-analytic-coding-principles.\n\n**AFC ordinal**\nlavaan: tutorial de datos categóricos.\n\n**Cálculos del ejemplo**\nScript y salida real de R en materiales/microcaso/."
+        "**Skill de R**  \nr-workflow-plugins: r-analytic-coding-principles.  \n**AFC y fiabilidad**  \nlavaan: datos categóricos; semTools: compRelSEM.  \n**Caso del taller**  \nDatos simulados y referencia docente separada."
       ],
       [
         "right",
         "text",
-        "**Diagramas**\nEsquemas didácticos; no resultados empíricos.\n\n**Capturas**\nPropias en perfil aislado u oficiales de Posit, identificadas.\n\n**Caso completo**\nNo se presentan índices de ajuste ni coeficientes no calculados."
+        "**Diagramas**  \nEsquemas didácticos; no resultados empíricos.  \n**Capturas**  \nPropias en perfil aislado u oficiales de Posit, identificadas.  \n**Caso completo**  \nNo se presentan índices de ajuste ni coeficientes no calculados."
       ],
       [
         "citation",
@@ -2008,7 +2041,7 @@
         "Consultar docs/fuentes.md y assets/screenshots/provenance.json."
       ]
     ],
-    "notes": "Distinguir ejemplos de código ficticio, esquemas, capturas reales propias/oficiales y microejemplo ejecutado. La skill del repositorio fundamenta nuestras convenciones, no demuestra que todos los agentes produzcan el mismo estilo de código.",
+    "notes": "Distinguir esquemas y ejemplos ficticios de capturas y resultados ejecutados. La carpeta inicial sí tiene datos completos, PDF y diccionario; las comprobaciones en R se guardan por separado para el docente. La presentación no atribuye esos resultados a un agente ni muestra una activación de skills no comprobada. La documentación de lavaan y semTools respalda el uso de funciones, no la validez de un instrumento real.",
     "variant": "references",
     "kind": "referencias"
   }

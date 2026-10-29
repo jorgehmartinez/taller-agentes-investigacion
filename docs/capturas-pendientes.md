@@ -8,7 +8,7 @@ Guardar los originales PNG en:
 
 ## 01_mcp_agente_r.png
 
-Abrir el proyecto sintético del taller en Positron, iniciar R y conectar el agente definitivo por MCP. Pedir: «Identifica la sesión R del taller y ejecuta sum(1:4) en ella». Distribuir los paneles para ver la petición, la llamada a la herramienta y la consola de Positron con el código y su salida 10. Capturar después de completar la ejecución real. Una respuesta textual del chat no prueba conexión.
+Extraer `practica/caso_autorregulacion_inicio.zip` fuera del repositorio, abrir esa carpeta en Positron e iniciar R y conectar el agente definitivo por MCP. Pedir: «Identifica la sesión R del taller y ejecuta sum(1:4) en ella». Distribuir los paneles para ver la petición, la llamada a la herramienta y la consola de Positron con el código y su salida 10. Capturar después de completar la ejecución real. Una respuesta textual del chat no prueba conexión.
 
 No mostrar URL de conexión, tokens, archivos de credenciales, cuentas personales ni claves. Cerrar esas vistas antes de capturar. No reconstruir una ejecución ficticia ni modificar los resultados de la imagen.
 
@@ -23,3 +23,5 @@ Cuando esté validada la skill psicométrica, podrá añadirse una captura de un
 Capturar la ventana de aplicación, no todo el escritorio. Preferir 1920×1080 o superior, PNG original y fuente del editor aproximadamente de 20–24 px; evitar líneas cortadas, notificaciones y compresión de mensajería. No añadir anotaciones al original: se prepararán recortes y llamadas después.
 
 Guardar también `contexto.md` con fecha, versión de Positron, agente, skill o commit, prompt exacto y operación realizada. No incluir secretos. Mientras falten estas imágenes, la presentación mantiene una captura oficial de Posit, identificada como ejemplo de otro proyecto, y no la atribuye al taller.
+
+Antes del ensayo, comprobar que el cliente puede extraer texto de los dos PDF. No aceptar un resumen que aparente haber leído documentos a los que el agente no tuvo acceso. No incluir la carpeta docente en su contexto.
