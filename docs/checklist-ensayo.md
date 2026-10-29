@@ -1,28 +1,26 @@
-# Comprobación de la versión visual
+# Comprobaciones de la presentación vigente
 
-## Completado el 29-10-2026
+## Comprobado en esta revisión
 
-- [x] Título y duración previstos conservados.
-- [x] Presentación actual en `presentacion/`, anterior preservada y respaldada.
-- [x] 59 diapositivas, 56 del recorrido y 3 de apoyo, todas con notas.
-- [x] 31 SVG didácticos y 8 recortes de capturas realmente insertados.
-- [x] Fuentes y originales de capturas registrados; separación propia/oficial.
-- [x] Microejemplo ejecutado en R y repetido desde `Rscript --vanilla`; salida idéntica.
-- [x] Comparación de código compacto/legible: ambos producen 2.5.
-- [x] Render con qbento 0.2.0 completado, sin diagnósticos ni pendientes.
-- [x] Validación nativa: 59 slides; todas las imágenes locales disponibles.
-- [x] Captura en Chromium del recorrido completo, 1280×720; teclado siguiente/anterior/salir ejercitado.
-- [x] Revisión visual del conjunto y ampliada de elementos de código, capturas y diagramas; ajustes finales recapturados.
-- [x] Límites del lienzo, notas y carga de imágenes comprobados.
+- Secuencia nueva aplicada en el mismo QMD y docId de Bento.
+- 57 diapositivas: 55 del recorrido con pausa y 2 de referencias.
+- Todas tienen notas; orden de fuente y salida nativa coincidentes.
+- Render sin diagnósticos y sin cambios pendientes.
+- Captura del recorrido completo en Chromium a 1280×720, con navegación ejercitada.
+- Revisión del conjunto y ampliada de código, esquemas y capturas de configuración.
+- Archivos de imagen disponibles, cargados y elementos dentro del lienzo.
+- Microejemplo repetido con Rscript --vanilla, idéntico a su salida de referencia.
+- Antiejemplos de código y escenas de chat identificados como ficticios.
 
-Evidencias: `output/qa/final-check.json`, `browser-check.json`, `microcaso-verified.json`, `slides/` y mosaicos de revisión. No confundir estas pruebas con un ensayo de enseñanza ni con validación estadística del caso completo.
+Evidencias locales: output/qa/final-check.json, browser-check.json, slides/ y vista-previa-secuencia.jpg.
 
 ## Pendiente antes del evento
 
-- [ ] Generar y ejecutar el caso completo de 500 respuestas y 12 ítems.
-- [ ] Fijar y probar las skills del EPIC en el agente de la demostración.
-- [ ] Validar modelo, diagnósticos, fiabilidad e interpretación antes de mostrarlos como resultados.
-- [ ] Ensayar conexión MCP, permisos y proveedor del equipo que se utilizará.
-- [ ] Ensayar los 180 minutos con pantalla compartida y participación.
-- [ ] Comprobar el respaldo de entrega fuera del equipo del autor; PDF solo si se decide producirlo.
-- [ ] Evaluar accesibilidad específica del visor. Existe un acompañamiento textual, pero no se declara conformidad completa.
+- Ensayo cronometrado de las tres horas en videoconferencia.
+- Conexión real del agente definitivo y verificación de carga de la skill.
+- Dos capturas descritas en capturas-pendientes.md.
+- Datos, scripts, resultados y diagnósticos del caso factorial completo.
+- Incorporación de las skills de datos y psicometría cuando estén validadas.
+- Revisión de accesibilidad y respaldo de entrega fuera del equipo del autor.
+
+El render no acredita validez psicométrica, conexión MCP ni eficacia docente.

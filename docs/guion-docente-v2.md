@@ -1,3 +1,5 @@
+> Documento histórico de la secuencia anterior. La guía vigente es `guion-docente.md` y la fuente actual es `presentacion/deck.qmd`.
+
 # Guion docente del rediseño visual
 
 Las notas de cada diapositiva contienen la explicación local. Este documento organiza las transiciones y el uso de pantalla compartida.

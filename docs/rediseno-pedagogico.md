@@ -1,35 +1,29 @@
-# Rediseño pedagógico y visual
+# Secuencia pedagógica vigente
 
-## Cambio principal
+## Organización por necesidades
 
-El primer borrador enumeraba conceptos mediante tarjetas. La segunda versión presenta mecanismos, contrastes y decisiones, con un ejemplo que reaparece a medida que se introducen las herramientas necesarias para resolverlo.
+Primero establecer qué aprenderemos y qué queda fuera. Después comprender el componente generativo. A continuación reconocer el intercambio manual con un chat, motivar herramientas, comprobar qué no resuelven y solo entonces introducir instrucciones y entorno. No abrir con un fallo estadístico que presupone familiaridad con R.
 
-| Distinción | Confusión que se busca corregir | Recurso | Acción de aprendizaje |
-|---|---|---|---|
-| Ejecutar / interpretar | «Si el código corre, está bien» | Microejemplo 1,2,3,4,99 y consola real | Anticipar, comprobar y corregir |
-| Modelo / herramientas | «El agente es solo otro modelo» | Anatomía y circuito de trabajo | Explicar qué componente hace cada tarea |
-| Chatbot / agente | «Todo cambia cuando uso un agente» | Contraste con tarea y motor constantes | Identificar qué cambia y qué permanece |
-| Contexto / instrucciones | «Todo debe ir en AGENTS.md» | Mapa documental y clasificación | Ubicar cada información por su función |
-| Planificación / archivo | «Todo análisis necesita plan.md» | Bifurcación por riesgo y complejidad | Justificar documentación proporcional |
-| Skill / herramienta | «Una skill ejecuta o certifica el método» | Procedimiento frente a capacidad | Distinguir instrucciones, permisos y evidencia |
-| Código breve / legible | «Menos líneas es mejor» | Dos formas del mismo cálculo | Localizar transformación y decisión |
-| Modelo propuesto / resultado | «El diagrama ya demuestra la estructura» | Esquema factorial sin coeficientes | Separar hipótesis de estimación |
-| Convergencia / adecuación | «Terminó, por tanto es válido» | Rama de diagnósticos posteriores | Pedir evidencias adicionales |
+## Transiciones
 
-## Capturas con intención
+**Fundamentos → análisis.** La analogía del redactor introduce generación condicionada por contexto, no describe toda la arquitectura de un LLM. Las marcas permiten reconocer productos sin ranking ni versiones efímeras. Se distingue modelo, interfaz y herramientas disponibles.
 
-Cada captura se introduce con una pregunta de observación. Las vistas generales orientan, los recortes amplían detalles y las anotaciones indican dónde mirar. Los originales se conservan separados. No se han reconstruido ventanas ficticias para simular evidencia.
+**Chat → agente.** La misma petición y código pasan por tres escenas: recibir, trasladar a RStudio y devolver un error. Se etiquetan como recreaciones ficticias, no screenshots ni evaluaciones de productos. El problema es el transporte manual de contexto. Un producto de chat también puede incorporar herramientas: la distinción está en el acceso operativo, no en el aspecto de la ventana.
 
-## Ritmo y densidad
+**Agente → código revisable.** Ejecutar y observar puede reducir intercambios, pero no garantiza adecuación o legibilidad. Preguntar si podemos cambiar un solo AFC prepara los antiejemplos de safe_cfa, limpieza escondida y fallos silenciados. No se desacreditan todas las funciones o bucles; se analiza qué decisiones quedan ocultas.
 
-Hay láminas de pregunta, separadores, esquemas, comparaciones de código y capturas. Los títulos identifican el objeto. Las notas contienen matices y límites que no deben saturar la proyección. El aumento de láminas descompone explicaciones, no amplía la promesa del taller.
+**Legibilidad → instrucciones.** Un mapa único presenta harness, reglas, AGENTS.md, skills/plugins y MCP. La siguiente lámina mantiene la composición y resalta la guía del proyecto y los procedimientos reutilizables. El onboarding del analista explica por qué necesitamos contexto. El mapa documental distingue ciencia, reglas locales y procedimientos reutilizables.
 
-## Identidad visual y edición
+**Instrucciones → Positron.** La configuración llega cuando ya sabemos qué queremos del entorno. Se muestran ajuste, comando y una prueba que debe dejar rastros en la sesión correcta. Las capturas oficiales permanecen atribuidas a otro proyecto, no a la ejecución del taller.
 
-La paleta mantiene una relación reconocible con SPP: magenta de énfasis, azul petróleo, verde azulado y fondo marfil. El diseño está en un paquete nativo Bento con variantes y slots reutilizables. Los diagramas son SVG autocontenidos que pueden editarse en su fuente; las capturas mantienen sus píxeles originales con recortes y anotaciones separados.
+## Matices que deben mantenerse
 
-El rediseño vive en `presentacion/`, con identidad Bento propia. Se conservó el proyecto anterior porque sus elementos no tenían todas las identidades necesarias para una sustitución estructural completa sin ambigüedad. No se modificó manualmente su estado interno.
+La productividad es un beneficio potencial dependiente de tarea, experiencia y supervisión, no una promesa cuantificada. No afirmar que todo software se desarrolla sin revisión ni que todos los LLM se entrenaron para priorizar pipelines. El patrón de código sobreestructurado es un riesgo posible, no una característica universal demostrada.
 
-## Qué no se afirma
+Las funciones, bucles, controles y pipelines también son útiles en investigación, especialmente en simulaciones y tareas estables. Legibilidad y reproducibilidad no se contraponen. El objetivo es mantener visibles las decisiones que queremos revisar y modificar, conservando diagnósticos y controles sustantivos.
 
-No se ha probado la eficacia del taller con participantes, no se ha ensayado aún el cronometraje real de 180 minutos, no se ha ejecutado el AFC completo y no se presenta una validación global de accesibilidad. Las capturas no prueban el funcionamiento del agente elegido para el evento: esa integración debe ensayarse de forma independiente.
+AGENTS.md puede incluir normas cortas cuando basta. Una skill es útil para un procedimiento reutilizable o especializado. No exigir documentación fragmentada artificialmente, ni plan.md para cada tarea. AGENTS.md no equivale al system prompt ni impone permisos de ejecución por sí mismo.
+
+## Edición y continuidad
+
+Se mantiene presentacion/deck.qmd y su identidad Bento. Las láminas retiradas se borraron mediante revisión de fuente; las retenidas conservan sus identificadores. Git guarda el estado previo y la reorganización. No se creó otra presentación numerada para esta revisión.

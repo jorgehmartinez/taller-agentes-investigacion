@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>El ciclo con herramientas</title><desc>Un agente lee el proyecto, ejecuta, observa resultados y corrige dentro del alcance autorizado.</desc>
+<rect x="24" y="65" width="263" height="285" rx="12" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="2"/>
+<text x="50" y="107" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="50" dy="0">PROYECTO LOCAL</tspan>
+</text>
+<text x="53" y="167" font-family="monospace" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="53" dy="0">protocolo.md</tspan>
+</text>
+<text x="53" y="228" font-family="monospace" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="53" dy="0">datos.csv</tspan>
+</text>
+<text x="53" y="289" font-family="monospace" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="53" dy="0">analisis.R</tspan>
+</text>
+<circle cx="500" cy="202" r="89" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="500" y="193" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="500" dy="0">AGENTE</tspan>
+</text>
+<text x="500" y="237" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#9EDADE" text-anchor="middle">
+<tspan x="500" dy="0">elige la acción</tspan>
+</text>
+<line x1="300" y1="166" x2="398" y2="166" stroke="#087F8C" stroke-width="3"/>
+<polygon points="398.0,166.0 389.2,170.8 389.2,161.2" fill="#087F8C"/>
+<line x1="398" y1="243" x2="300" y2="243" stroke="#087F8C" stroke-width="3"/>
+<polygon points="300.0,243.0 308.8,238.2 308.8,247.8" fill="#087F8C"/>
+<rect x="728" y="65" width="367" height="285" rx="12" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="2"/>
+<text x="751" y="108" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="751" dy="0">TERMINAL / R</tspan>
+</text>
+<text x="753" y="171" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="753" dy="0">Ejecuta el script</tspan>
+</text>
+<text x="753" y="237" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="753" dy="0">Observa la salida</tspan>
+</text>
+<text x="753" y="303" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="753" dy="0">Revisa y vuelve a probar</tspan>
+</text>
+<line x1="603" y1="166" x2="711" y2="166" stroke="#087F8C" stroke-width="3"/>
+<polygon points="711.0,166.0 702.2,170.8 702.2,161.2" fill="#087F8C"/>
+<line x1="711" y1="243" x2="603" y2="243" stroke="#BF2568" stroke-width="3"/>
+<polygon points="603.0,243.0 611.8,238.2 611.8,247.8" fill="#BF2568"/>
+<text x="560" y="402" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">La persona define alcance, método y cambios que requieren aprobación.</tspan>
+</text>
+</svg>

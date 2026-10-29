@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Del chat al entorno</title><desc>Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.</desc>
+<rect x="10" y="17" width="487" height="370" rx="13" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="10" y="17" width="487" height="43" rx="13" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<circle cx="28" cy="38" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<circle cx="44" cy="38" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<circle cx="60" cy="38" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="87" y="46" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="87" dy="0">ChatGPT · ejemplo ficticio</tspan>
+</text>
+<rect x="634" y="17" width="476" height="370" rx="13" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="634" y="17" width="476" height="43" rx="13" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<circle cx="652" cy="38" r="4" fill="#087F8C" stroke="none" stroke-width="2"/>
+<circle cx="668" cy="38" r="4" fill="#087F8C" stroke="none" stroke-width="2"/>
+<circle cx="684" cy="38" r="4" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="711" y="46" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="711" dy="0">RStudio · ejemplo ficticio</tspan>
+</text>
+<rect x="29" y="82" width="449" height="72" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="46" y="110" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="46" dy="0">«Quiero evaluar dos factores</tspan>
+</text>
+<text x="46" y="140" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="46" dy="0">en 12 ítems ordinales.»</tspan>
+</text>
+<text x="31" y="188" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="31" dy="0">Revisa el diccionario. Luego:</tspan>
+</text>
+<rect x="30" y="209" width="447" height="119" rx="9" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="53" y="238" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#9EDADE" text-anchor="start">
+<tspan x="53" dy="0">R</tspan>
+</text>
+<text x="449" y="238" font-family="Fira Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#9EDADE" text-anchor="end">
+<tspan x="449" dy="0">Copiar</tspan>
+</text>
+<text x="52" y="275" font-family="monospace" font-size="21" font-weight="400" fill="#FFFFFF" text-anchor="start">
+<tspan x="52" dy="0">ajuste &lt;- cfa(modelo,</tspan>
+</text>
+<text x="52" y="305" font-family="monospace" font-size="21" font-weight="400" fill="#FFFFFF" text-anchor="start">
+<tspan x="52" dy="0">  data = datos, ordered = items)</tspan>
+</text>
+<line x1="651" y1="244" x2="1091" y2="244" stroke="#C6D5D7" stroke-width="2"/>
+<text x="655" y="104" font-family="Fira Sans, Arial, sans-serif" font-size="19" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="655" dy="0">SCRIPT</tspan>
+</text>
+<text x="655" y="275" font-family="Fira Sans, Arial, sans-serif" font-size="19" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="655" dy="0">CONSOLA</tspan>
+</text>
+<text x="655" y="152" font-family="monospace" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">ajuste &lt;- cfa(modelo,</tspan>
+</text>
+<text x="655" y="182" font-family="monospace" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">  data = datos,</tspan>
+</text>
+<text x="655" y="212" font-family="monospace" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">  ordered = items)</tspan>
+</text>
+<line x1="510" y1="219" x2="619" y2="219" stroke="#087F8C" stroke-width="5"/>
+<polygon points="619.0,219.0 610.2,223.8 610.2,214.2" fill="#087F8C"/>
+<text x="565" y="186" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="565" dy="0">copiar</tspan>
+</text>
+<text x="565" y="267" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="565" dy="0">pegar</tspan>
+</text>
+<text x="655" y="331" font-family="monospace" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="655" dy="0">&gt; Ejecutar el fragmento…</tspan>
+</text>
+</svg>

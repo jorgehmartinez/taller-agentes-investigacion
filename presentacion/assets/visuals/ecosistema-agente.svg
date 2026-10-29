@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>El entorno del agente</title><desc>Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP.</desc>
+<rect x="331" y="58" width="453" height="300" rx="16" fill="#F6F5F0" stroke="#C6D5D7" stroke-width="2"/>
+<text x="557" y="98" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="557" dy="0">HARNESS</tspan>
+</text>
+<text x="557" y="133" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="557" dy="0">programa que coordina el trabajo</tspan>
+</text>
+<circle cx="557" cy="231" r="68" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="557" y="225" font-family="Fira Sans, Arial, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="557" dy="0">LLM</tspan>
+</text>
+<text x="557" y="259" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#9EDADE" text-anchor="middle">
+<tspan x="557" dy="0">modelo</tspan>
+</text>
+<rect x="8" y="37" width="280" height="131" rx="11" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.4"/>
+<text x="26" y="81" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="26" dy="0">SYSTEM PROMPT</tspan>
+</text>
+<text x="26" y="125" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="26" dy="0">Reglas del producto</tspan>
+</text>
+<line x1="288" y1="102" x2="331" y2="178" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="8" y="206" width="280" height="131" rx="11" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.4"/>
+<text x="26" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="26" dy="0">AGENTS.md</tspan>
+</text>
+<text x="26" y="294" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="26" dy="0">Guía del proyecto</tspan>
+</text>
+<line x1="288" y1="271" x2="331" y2="278" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="832" y="37" width="280" height="131" rx="11" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.4"/>
+<text x="850" y="81" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="850" dy="0">SKILLS / PLUGINS</tspan>
+</text>
+<text x="850" y="125" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="850" dy="0">Procedimientos y</tspan>
+<tspan x="850" dy="28.6">recursos</tspan>
+</text>
+<line x1="832" y1="102" x2="784" y2="178" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="832" y="206" width="280" height="131" rx="11" fill="#FFFFFF" stroke="#087F8C" stroke-width="1.4"/>
+<text x="850" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="850" dy="0">HERRAMIENTAS / MCP</tspan>
+</text>
+<text x="850" y="294" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="850" dy="0">Acceso a archivos, R y</tspan>
+<tspan x="850" dy="28.6">más</tspan>
+</text>
+<line x1="832" y1="271" x2="784" y2="278" stroke="#C6D5D7" stroke-width="2"/>
+<text x="557" y="398" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="557" dy="0">Contexto · acciones · permisos · límites</tspan>
+</text>
+</svg>

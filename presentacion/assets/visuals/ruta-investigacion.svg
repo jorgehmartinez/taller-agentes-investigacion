@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>El recorrido</title><desc>De entender el modelo a dirigir un análisis revisable en R.</desc>
+<circle cx="132" cy="126" r="53" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="132" y="143" font-family="Fira Sans, Arial, sans-serif" font-size="45" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="132" dy="0">01</tspan>
+</text>
+<text x="132" y="234" font-family="Fira Sans, Arial, sans-serif" font-size="31" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="132" dy="0">Entender</tspan>
+</text>
+<text x="132" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="132" dy="0">LLM y agentes</tspan>
+</text>
+<line x1="200" y1="126" x2="255" y2="126" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="255.0,126.0 246.2,130.8 246.2,121.2" fill="#C6D5D7"/>
+<circle cx="405" cy="126" r="53" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="405" y="143" font-family="Fira Sans, Arial, sans-serif" font-size="45" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="405" dy="0">02</tspan>
+</text>
+<text x="405" y="234" font-family="Fira Sans, Arial, sans-serif" font-size="31" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="405" dy="0">Reconocer</tspan>
+</text>
+<text x="405" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="405" dy="0">Fricciones y código</tspan>
+</text>
+<line x1="473" y1="126" x2="528" y2="126" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="528.0,126.0 519.2,130.8 519.2,121.2" fill="#C6D5D7"/>
+<circle cx="678" cy="126" r="53" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="678" y="143" font-family="Fira Sans, Arial, sans-serif" font-size="45" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="678" dy="0">03</tspan>
+</text>
+<text x="678" y="234" font-family="Fira Sans, Arial, sans-serif" font-size="31" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="678" dy="0">Orientar</tspan>
+</text>
+<text x="678" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="678" dy="0">Contexto y skills</tspan>
+</text>
+<line x1="746" y1="126" x2="801" y2="126" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="801.0,126.0 792.2,130.8 792.2,121.2" fill="#C6D5D7"/>
+<circle cx="951" cy="126" r="53" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="951" y="143" font-family="Fira Sans, Arial, sans-serif" font-size="45" font-weight="600" fill="#BF2568" text-anchor="middle">
+<tspan x="951" dy="0">04</tspan>
+</text>
+<text x="951" y="234" font-family="Fira Sans, Arial, sans-serif" font-size="31" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="951" dy="0">Practicar</tspan>
+</text>
+<text x="951" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="951" dy="0">Positron y R</tspan>
+</text>
+<line x1="38" y1="337" x2="1080" y2="337" stroke="#C6D5D7" stroke-width="2"/>
+<text x="560" y="385" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">Un hilo común: no perder el control del análisis</tspan>
+</text>
+</svg>

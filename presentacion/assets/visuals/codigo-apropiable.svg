@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Código que podemos continuar</title><desc>El script se conecta con cinco capacidades que el investigador conserva.</desc>
+<rect x="365" y="95" width="390" height="204" rx="12" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="560" y="151" font-family="Fira Sans, Arial, sans-serif" font-size="40" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">analisis.R</tspan>
+</text>
+<text x="560" y="204" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#9EDADE" text-anchor="middle">
+<tspan x="560" dy="0">modelos · datos · diagnósticos</tspan>
+</text>
+<text x="560" y="260" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="500" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">Decisiones a la vista</tspan>
+</text>
+<rect x="38" y="48" width="222" height="72" rx="10" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="149" y="95" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="149" dy="0">Leer</tspan>
+</text>
+<line x1="260" y1="84" x2="365" y2="154" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="365.0,154.0 355.0,153.1 360.4,145.1" fill="#C6D5D7"/>
+<rect x="38" y="289" width="222" height="72" rx="10" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="149" y="336" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="149" dy="0">Revisar</tspan>
+</text>
+<line x1="260" y1="325" x2="365" y2="253" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="365.0,253.0 360.5,261.9 355.1,254.0" fill="#C6D5D7"/>
+<rect x="854" y="48" width="222" height="72" rx="10" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="965" y="95" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="965" dy="0">Ejecutar</tspan>
+</text>
+<line x1="854" y1="84" x2="755" y2="154" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="755.0,154.0 759.4,145.0 764.9,152.8" fill="#C6D5D7"/>
+<rect x="854" y="289" width="222" height="72" rx="10" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="965" y="336" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="965" dy="0">Modificar</tspan>
+</text>
+<line x1="854" y1="325" x2="755" y2="253" stroke="#C6D5D7" stroke-width="2"/>
+<polygon points="755.0,253.0 764.9,254.3 759.3,262.0" fill="#C6D5D7"/>
+<text x="560" y="379" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">Y depurar o continuar sin depender de la conversación.</tspan>
+</text>
+</svg>

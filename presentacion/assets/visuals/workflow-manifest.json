@@ -1,0 +1,121 @@
+[
+  {
+    "file": "presentacion/assets/visuals/encuadre.svg",
+    "kind": "esquema didáctico",
+    "title": "Qué aprenderemos y qué no",
+    "description": "Objetivos de la introducción y límites de su alcance.",
+    "sha256": "4210e85baaee9fd453b5437d431905dd7ac812ea68d3ac4dceffb946c953381c"
+  },
+  {
+    "file": "presentacion/assets/visuals/ruta-investigacion.svg",
+    "kind": "esquema didáctico",
+    "title": "El recorrido",
+    "description": "De entender el modelo a dirigir un análisis revisable en R.",
+    "sha256": "7c0286fea8af967461884223f757aeac8af26f2a9ec148ca3c9df19e58315e56"
+  },
+  {
+    "file": "presentacion/assets/visuals/llm-lenguaje.svg",
+    "kind": "esquema didáctico",
+    "title": "Un redactor con contexto",
+    "description": "Analogía de continuaciones posibles, sin probabilidades ni frecuencias medidas.",
+    "sha256": "2566ce5a37eeb12459ca3bf976fd910ca78185a77037163d1b14416dcb672807"
+  },
+  {
+    "file": "presentacion/assets/visuals/marcas-llm.svg",
+    "kind": "esquema didáctico",
+    "title": "Marcas conocidas",
+    "description": "GPT/ChatGPT de OpenAI, Claude de Anthropic y Gemini de Google, sin ranking ni versiones.",
+    "sha256": "7870a0b35e9463fdc7648d2767f8d700ae7819307104a3b4a75f8d16ce95a42b"
+  },
+  {
+    "file": "presentacion/assets/visuals/chat-agente-directo.svg",
+    "kind": "esquema didáctico",
+    "title": "Conversar o actuar",
+    "description": "Una interfaz de chat sin herramientas locales frente a un agente con acceso autorizado.",
+    "sha256": "4412c9857d5b7b3dd2b110c2a9107ec5144c47eb1e6dc659e7bb7a4e2b1da752"
+  },
+  {
+    "file": "presentacion/assets/visuals/analista-aumentado.svg",
+    "kind": "esquema didáctico",
+    "title": "Asistencia al investigador",
+    "description": "El agente puede asumir mecánica sin asumir la responsabilidad científica.",
+    "sha256": "773cec9bf75d214752b8e899f1d945dd03c3742d042771ddf3a116af417dc96d"
+  },
+  {
+    "file": "presentacion/assets/visuals/codigo-apropiable.svg",
+    "kind": "esquema didáctico",
+    "title": "Código que podemos continuar",
+    "description": "El script se conecta con cinco capacidades que el investigador conserva.",
+    "sha256": "b66d6f3a6fae2dfa66d5081a7df737d777f16b93c3821f8576d1148efa3bdd14"
+  },
+  {
+    "file": "presentacion/assets/visuals/chat-necesidad.svg",
+    "kind": "recreación ficticia de interfaz",
+    "title": "Del chat al entorno",
+    "description": "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.",
+    "sha256": "06a8f4f406cc566b2a301a39dfd3ef1091ca31484357b1e63e5f4e96d7e6bda6"
+  },
+  {
+    "file": "presentacion/assets/visuals/chat-traslado.svg",
+    "kind": "recreación ficticia de interfaz",
+    "title": "Del chat al entorno",
+    "description": "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.",
+    "sha256": "aed2855960138a96d757f23d3828e2e13f6de0ec5ef8423b86dd15be04d66e8d"
+  },
+  {
+    "file": "presentacion/assets/visuals/chat-error.svg",
+    "kind": "recreación ficticia de interfaz",
+    "title": "Del chat al entorno",
+    "description": "Recreación esquemática ficticia de ChatGPT web y RStudio. No reproduce una conversación real.",
+    "sha256": "852c998f341193c1f2d8ead5c2b28bc97cbe6df4aab1b97e31925fb46c78423f"
+  },
+  {
+    "file": "presentacion/assets/visuals/agente-operando.svg",
+    "kind": "esquema didáctico",
+    "title": "El ciclo con herramientas",
+    "description": "Un agente lee el proyecto, ejecuta, observa resultados y corrige dentro del alcance autorizado.",
+    "sha256": "02dc8e36d748494c72c077a79da8592b0ae969f1d8252d8c8f158dc6767160f1"
+  },
+  {
+    "file": "presentacion/assets/visuals/safe-cfa-mapa.svg",
+    "kind": "esquema didáctico",
+    "title": "La decisión fragmentada",
+    "description": "Escenario ficticio con configuración, envoltura, ciclo y selección separados.",
+    "sha256": "d68b431f1586cd41f5ca90dcad8a723450655ba8433112235fc9a2d23192cadb"
+  },
+  {
+    "file": "presentacion/assets/visuals/dos-estilos.svg",
+    "kind": "esquema didáctico",
+    "title": "Dos necesidades de trabajo",
+    "description": "Las abstracciones se ajustan a la estabilidad de las decisiones, no a una jerarquía entre industria e investigación.",
+    "sha256": "8504d7a2657b0839a8028c98d7f4741cf6c6c7475c996a5adbe1845569728dc1"
+  },
+  {
+    "file": "presentacion/assets/visuals/ecosistema-agente.svg",
+    "kind": "esquema didáctico",
+    "title": "El entorno del agente",
+    "description": "Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP.",
+    "sha256": "bc2fda137834e27d99b832f60b39456b8a1c98b0a9732991567914b4f618b510"
+  },
+  {
+    "file": "presentacion/assets/visuals/ecosistema-foco.svg",
+    "kind": "esquema didáctico",
+    "title": "El entorno del agente",
+    "description": "Mapa conjunto de harness, reglas, AGENTS.md, skills, plugins y MCP.",
+    "sha256": "d072094710aa9624c9155cff489f4bf583bf1bc637e1924dc73a598cbc1242ae"
+  },
+  {
+    "file": "presentacion/assets/visuals/proyecto-skills.svg",
+    "kind": "esquema didáctico",
+    "title": "Proyecto y procedimiento",
+    "description": "El proyecto describe la ciencia; AGENTS.md enlaza las fuentes y las skills orientan trabajo reutilizable.",
+    "sha256": "d8b38bdbd4a3960724d97c4ecfe54fe9b95a7ed4c5a729f058ed3e5619a4cbc1"
+  },
+  {
+    "file": "presentacion/assets/visuals/skills-catalogo.svg",
+    "kind": "esquema didáctico",
+    "title": "Las skills del taller",
+    "description": "Base R ya inspeccionable y dos áreas del EPIC todavía en desarrollo.",
+    "sha256": "1e40403a902bad3d81a6189377796e8438f75f993e57fb95fe5e9c9ff4f0f9b7"
+  }
+]

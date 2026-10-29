@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Asistencia al investigador</title><desc>El agente puede asumir mecánica sin asumir la responsabilidad científica.</desc>
+<circle cx="175" cy="185" r="90" fill="#15333D" stroke="none" stroke-width="2"/>
+<circle cx="175" cy="158" r="21" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<path d="M 132 219 Q 175 167 218 219" stroke="#FFFFFF" stroke-width="9" fill="none"/>
+<text x="175" y="316" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="175" dy="0">INVESTIGADOR</tspan>
+</text>
+<text x="340" y="103" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="340" dy="0">PUEDE APOYARSE EN EL AGENTE</tspan>
+</text>
+<rect x="342" y="142" width="345" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="514.5" y="176" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="514.5" dy="0">Preparar código</tspan>
+</text>
+<rect x="719" y="142" width="345" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="891.5" y="176" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="891.5" dy="0">Revisar documentación</tspan>
+</text>
+<rect x="342" y="246" width="345" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="514.5" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="514.5" dy="0">Ejecutar tareas</tspan>
+</text>
+<rect x="719" y="246" width="345" height="52" rx="9" fill="#E9F4F3" stroke="#087F8C" stroke-width="1.5"/>
+<text x="891.5" y="280" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="891.5" dy="0">Inspeccionar errores</tspan>
+</text>
+<line x1="273" y1="185" x2="326" y2="185" stroke="#087F8C" stroke-width="3"/>
+<polygon points="326.0,185.0 317.2,189.8 317.2,180.2" fill="#087F8C"/>
+<rect x="339" y="370" width="731" height="44" rx="8" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="365" y="400" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="500" fill="#BF2568" text-anchor="start">
+<tspan x="365" dy="0">Potencial de productividad, no una ganancia garantizada.</tspan>
+</text>
+</svg>

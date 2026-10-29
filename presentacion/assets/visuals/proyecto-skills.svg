@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Proyecto y procedimiento</title><desc>El proyecto describe la ciencia; AGENTS.md enlaza las fuentes y las skills orientan trabajo reutilizable.</desc>
+<rect x="14" y="25" width="498" height="245" rx="12" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<text x="40" y="65" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="40" dy="0">ESTE ESTUDIO</tspan>
+</text>
+<text x="42" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="42" dy="0">Protocolo</tspan>
+</text>
+<text x="245" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="245" dy="0">objetivos y diseño</tspan>
+</text>
+<text x="42" y="176" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="42" dy="0">Especificación</tspan>
+</text>
+<text x="245" y="176" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="245" dy="0">hipótesis y modelos</tspan>
+</text>
+<text x="42" y="237" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="42" dy="0">Diccionario</tspan>
+</text>
+<text x="245" y="237" font-family="Fira Sans, Arial, sans-serif" font-size="23" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="245" dy="0">variables y códigos</tspan>
+</text>
+<rect x="610" y="25" width="495" height="245" rx="12" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<text x="638" y="65" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="638" dy="0">FORMA DE TRABAJAR</tspan>
+</text>
+<text x="639" y="121" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="639" dy="0">Skill de codificación R</tspan>
+</text>
+<text x="639" y="164" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="639" dy="0">legibilidad, edición y diagnósticos</tspan>
+</text>
+<text x="639" y="216" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="639" dy="0">Skills de análisis</tspan>
+</text>
+<text x="639" y="250" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="639" dy="0">procedimientos y condiciones</tspan>
+</text>
+<rect x="278" y="324" width="565" height="80" rx="12" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="560" y="358" font-family="Fira Sans, Arial, sans-serif" font-size="30" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<tspan x="560" dy="0">AGENTS.md</tspan>
+</text>
+<text x="560" y="388" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#9EDADE" text-anchor="middle">
+<tspan x="560" dy="0">rutas + límites + expectativas del proyecto</tspan>
+</text>
+<line x1="390" y1="317" x2="278" y2="279" stroke="#BF2568" stroke-width="2"/>
+<polygon points="278.0,279.0 287.9,277.3 284.8,286.4" fill="#BF2568"/>
+<line x1="733" y1="317" x2="858" y2="279" stroke="#087F8C" stroke-width="2"/>
+<polygon points="858.0,279.0 851.0,286.1 848.2,277.0" fill="#087F8C"/>
+</svg>

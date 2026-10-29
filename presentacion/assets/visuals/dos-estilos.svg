@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Dos necesidades de trabajo</title><desc>Las abstracciones se ajustan a la estabilidad de las decisiones, no a una jerarquía entre industria e investigación.</desc>
+<text x="32" y="43" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="32" dy="0">TAREA ESTABLE Y REPETIDA</tspan>
+</text>
+<text x="616" y="43" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="616" dy="0">INVESTIGACIÓN ITERATIVA</tspan>
+</text>
+<line x1="560" y1="30" x2="560" y2="367" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="37" y="103" width="460" height="62" rx="8" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="65" y="144" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="65" dy="0">Una regla acordada</tspan>
+</text>
+<line x1="267" y1="167" x2="267" y2="189" stroke="#087F8C" stroke-width="2"/>
+<polygon points="267.0,189.0 262.2,180.2 271.8,180.2" fill="#087F8C"/>
+<rect x="37" y="194" width="460" height="62" rx="8" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="65" y="235" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="65" dy="0">Muchas ejecuciones</tspan>
+</text>
+<line x1="267" y1="258" x2="267" y2="280" stroke="#087F8C" stroke-width="2"/>
+<polygon points="267.0,280.0 262.2,271.2 271.8,271.2" fill="#087F8C"/>
+<rect x="37" y="285" width="460" height="62" rx="8" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="65" y="326" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="65" dy="0">Automatización explícita</tspan>
+</text>
+<rect x="622" y="104" width="450" height="217" rx="12" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="650" y="153" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="650" dy="0">Especificar → estimar → revisar</tspan>
+</text>
+<text x="650" y="208" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="650" dy="0">Cambiar una decisión</tspan>
+</text>
+<text x="650" y="262" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="650" dy="0">Volver a inspeccionar</tspan>
+</text>
+<text x="560" y="400" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="560" dy="0">Ambos necesitan rigor y reproducibilidad; cambia la organización.</tspan>
+</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>La decisión fragmentada</title><desc>Escenario ficticio con configuración, envoltura, ciclo y selección separados.</desc>
+<text x="21" y="35" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="21" dy="0">NECESIDAD: «QUIERO CAMBIAR UN SOLO AFC»</tspan>
+</text>
+<rect x="18" y="81" width="490" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="18" y="81" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="40" y="117" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="40" dy="0">config/modelos.R</tspan>
+</text>
+<text x="40" y="153" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="40" dy="0">Lista de modelos</tspan>
+</text>
+<rect x="597" y="81" width="490" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="597" y="81" width="7" height="102" rx="0" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="619" y="117" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="619" dy="0">R/helpers.R</tspan>
+</text>
+<text x="619" y="153" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="619" dy="0">safe_cfa()</tspan>
+</text>
+<rect x="18" y="247" width="490" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="18" y="247" width="7" height="102" rx="0" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="40" y="283" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="40" dy="0">scripts/ajustar.R</tspan>
+</text>
+<text x="40" y="319" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="40" dy="0">Bucle for</tspan>
+</text>
+<rect x="597" y="247" width="490" height="102" rx="8" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="597" y="247" width="7" height="102" rx="0" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="619" y="283" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="619" dy="0">R/comparar.R</tspan>
+</text>
+<text x="619" y="319" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="619" dy="0">Ordenar y seleccionar</tspan>
+</text>
+<line x1="512" y1="132" x2="578" y2="132" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="578.0,132.0 569.2,136.8 569.2,127.2" fill="#C6D5D7"/>
+<line x1="842" y1="194" x2="842" y2="235" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="842.0,235.0 837.2,226.2 846.8,226.2" fill="#C6D5D7"/>
+<line x1="578" y1="297" x2="512" y2="297" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="512.0,297.0 520.8,292.2 520.8,301.8" fill="#C6D5D7"/>
+<text x="560" y="409" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">¿Dónde están la hipótesis, el estimador y los fallos?</tspan>
+</text>
+</svg>

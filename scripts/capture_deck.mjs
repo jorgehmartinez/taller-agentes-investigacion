@@ -42,7 +42,7 @@ try{
  const info=await evaluate(`({title:document.title, scripts:[...document.querySelectorAll('script[type="application/json"]')].map(e=>({id:e.id,size:e.textContent.length}))})`);
  await evaluate(`(()=>{const b=[...document.querySelectorAll('button')].find(b=>b.textContent?.trim()==='Presentar en esta pestaña');b.click();return true})()`);
  await sleep(800);
- const doc=JSON.parse(await fs.readFile(path.join(ROOT,'output/qa/native-v2.json'),'utf8'));
+ const doc=JSON.parse(await fs.readFile(path.join(ROOT,'output/qa/native-deck.json'),'utf8'));
  const records=[];
  for(let i=0;i<doc.deck.slides.length;i++){
   await sleep(450);

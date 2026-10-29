@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Conversar o actuar</title><desc>Una interfaz de chat sin herramientas locales frente a un agente con acceso autorizado.</desc>
+<rect x="22" y="60" width="410" height="250" rx="13" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="1.5"/>
+<rect x="22" y="60" width="410" height="43" rx="13" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<circle cx="40" cy="81" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<circle cx="56" cy="81" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<circle cx="72" cy="81" r="4" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="99" y="89" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="99" dy="0">CHAT SIN ACCESO LOCAL</tspan>
+</text>
+<rect x="55" y="128" width="339" height="61" rx="12" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="76" y="168" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="76" dy="0">«Aquí tienes un código…»</tspan>
+</text>
+<text x="58" y="253" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="58" dy="0">La persona lo lleva al entorno.</tspan>
+</text>
+<line x1="454" y1="188" x2="526" y2="188" stroke="#C6D5D7" stroke-width="3"/>
+<polygon points="526.0,188.0 517.2,192.8 517.2,183.2" fill="#C6D5D7"/>
+<rect x="551" y="60" width="547" height="250" rx="13" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<text x="580" y="103" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="580" dy="0">AGENTE DE CODIFICACIÓN</tspan>
+</text>
+<rect x="577" y="137" width="148" height="71" rx="9" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="651" y="181" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="651" dy="0">Archivos</tspan>
+</text>
+<text x="651" y="249" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="651" dy="0">lee y edita</tspan>
+</text>
+<rect x="749" y="137" width="148" height="71" rx="9" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="823" y="181" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="823" dy="0">Terminal</tspan>
+</text>
+<text x="823" y="249" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="823" dy="0">ejecuta</tspan>
+</text>
+<rect x="921" y="137" width="148" height="71" rx="9" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="995" y="181" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#087F8C" text-anchor="middle">
+<tspan x="995" dy="0">Iteración</tspan>
+</text>
+<text x="995" y="249" font-family="Fira Sans, Arial, sans-serif" font-size="21" font-weight="400" fill="#52666E" text-anchor="middle">
+<tspan x="995" dy="0">observa y sigue</tspan>
+</text>
+<text x="560" y="378" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">Con permisos, límites y puntos de revisión humana.</tspan>
+</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Qué aprenderemos y qué no</title><desc>Objetivos de la introducción y límites de su alcance.</desc>
+<text x="34" y="44" font-family="Fira Sans, Arial, sans-serif" font-size="26" font-weight="600" fill="#087F8C" text-anchor="start">
+<tspan x="34" dy="0">SÍ: UN MÉTODO DE TRABAJO</tspan>
+</text>
+<text x="609" y="44" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="609" dy="0">NO: UN REEMPLAZO DEL INVESTIGADOR</tspan>
+</text>
+<line x1="560" y1="25" x2="560" y2="361" stroke="#C6D5D7" stroke-width="2"/>
+<circle cx="49" cy="107" r="15" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="49" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="49" dy="0">✓</tspan>
+</text>
+<text x="82" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="82" dy="0">Comprender agentes y</tspan>
+<tspan x="82" dy="36.4">herramientas</tspan>
+</text>
+<text x="615" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="615" dy="0">×</tspan>
+</text>
+<text x="655" y="115" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">Dejar de aprender R o</tspan>
+<tspan x="655" dy="35.1">metodología</tspan>
+</text>
+<circle cx="49" cy="203" r="15" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="49" y="211" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="49" dy="0">✓</tspan>
+</text>
+<text x="82" y="211" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="82" dy="0">Dirigir un análisis con contexto</tspan>
+</text>
+<text x="615" y="211" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="615" dy="0">×</tspan>
+</text>
+<text x="655" y="211" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">Delegar decisiones científicas</tspan>
+</text>
+<circle cx="49" cy="299" r="15" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="49" y="307" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<tspan x="49" dy="0">✓</tspan>
+</text>
+<text x="82" y="307" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="82" dy="0">Revisar y continuar el código</tspan>
+</text>
+<text x="615" y="307" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="600" fill="#BF2568" text-anchor="start">
+<tspan x="615" dy="0">×</tspan>
+</text>
+<text x="655" y="307" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="400" fill="#15333D" text-anchor="start">
+<tspan x="655" dy="0">Dominar todos los modelos en 3</tspan>
+<tspan x="655" dy="35.1">horas</tspan>
+</text>
+</svg>

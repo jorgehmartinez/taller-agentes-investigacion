@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Las skills del taller</title><desc>Base R ya inspeccionable y dos áreas del EPIC todavía en desarrollo.</desc>
+<rect x="20" y="60" width="340" height="274" rx="13" fill="#FFFFFF" stroke="#087F8C" stroke-width="2"/>
+<rect x="20" y="60" width="340" height="10" rx="3" fill="#087F8C" stroke="none" stroke-width="2"/>
+<text x="42" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="42" dy="0">r-analytic-core</tspan>
+</text>
+<text x="42" y="205" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="42" dy="0">Código de investigación</tspan>
+</text>
+<rect x="39" y="260" width="302" height="49" rx="8" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="190" y="292" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="500" fill="#087F8C" text-anchor="middle">
+<tspan x="190" dy="0">Disponible para revisar</tspan>
+</text>
+<rect x="390" y="60" width="340" height="274" rx="13" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="390" y="60" width="340" height="10" rx="3" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="412" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="412" dy="0">Manejo de datos</tspan>
+</text>
+<text x="412" y="205" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="412" dy="0">Lectura y preparación</tspan>
+</text>
+<rect x="409" y="260" width="302" height="49" rx="8" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="560" y="292" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="500" fill="#BF2568" text-anchor="middle">
+<tspan x="560" dy="0">EPIC en desarrollo</tspan>
+</text>
+<rect x="760" y="60" width="340" height="274" rx="13" fill="#FFFFFF" stroke="#C6D5D7" stroke-width="2"/>
+<rect x="760" y="60" width="340" height="10" rx="3" fill="#BF2568" stroke="none" stroke-width="2"/>
+<text x="782" y="123" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="600" fill="#15333D" text-anchor="start">
+<tspan x="782" dy="0">Análisis psicométrico</tspan>
+</text>
+<text x="782" y="205" font-family="Fira Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="782" dy="0">Modelos y diagnósticos</tspan>
+</text>
+<rect x="779" y="260" width="302" height="49" rx="8" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="930" y="292" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="500" fill="#BF2568" text-anchor="middle">
+<tspan x="930" dy="0">EPIC en desarrollo</tspan>
+</text>
+<text x="560" y="398" font-family="Fira Sans, Arial, sans-serif" font-size="27" font-weight="500" fill="#15333D" text-anchor="middle">
+<tspan x="560" dy="0">r-workflow-plugins · una fuente, sin copias paralelas</tspan>
+</text>
+</svg>

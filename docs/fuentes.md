@@ -35,3 +35,12 @@ Las capturas propias se obtuvieron en un perfil aislado de Positron, con datos s
 ## Límites metodológicos
 
 La bibliografía específica para fiabilidad y evaluación del caso factorial debe completarse cuando se fijen y ejecuten los procedimientos. No se han incorporado índices de ajuste, cargas ni coeficientes inventados. Las frases que se auditan en actividades se identifican como afirmaciones para discutir, no como resultados.
+
+## Fuentes adicionales de esta reorganización
+
+- Anthropic. Effective harnesses for long-running agents: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents . Papel del entorno de coordinación, no garantía de autonomía ilimitada.
+- OpenAI. Iterating development workflows with Codex: https://developers.openai.com/cookbook/examples/codex/iterating-development-workflows-with-codex . Ejemplo de instrucciones y revisión humana; no evidencia de productividad universal.
+- Iconos oficiales: registro en presentacion/assets/brands/provenance.json. Las marcas pertenecen a sus titulares y no implican patrocinio.
+- Capturas propias de configuración: presentacion/assets/screenshots/setup-provenance.json. Muestran interfaz, no conexión autenticada.
+
+Los antiejemplos safe_cfa, clean_data y las escenas ChatGPT/RStudio son construcciones docentes. Las convenciones de legibilidad se apoyan en la skill r-analytic-coding-principles y en el encuadre del autor, no en una investigación del entrenamiento de todos los LLM.

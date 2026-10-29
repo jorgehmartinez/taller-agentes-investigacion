@@ -1,46 +1,47 @@
-# Taller: Uso de Agentes IA para análisis de datos e investigación
+# Uso de Agentes IA para análisis de datos e investigación
 
-## Abrir la versión actual
+Taller introductorio virtual de tres horas para el Congreso de la Sociedad Peruana de Psicometría. Método transferible a investigación cuantitativa, con R y aplicaciones psicométricas.
 
-La presentación rediseñada está en **`presentacion/deck.qmd`** y su salida es **`presentacion/deck.bento.html`**. El `deck.qmd` de la raíz se conserva como **borrador anterior de 40 diapositivas**, no como versión vigente.
+## Abrir la presentación
+
+La fuente vigente sigue siendo **`presentacion/deck.qmd`** y su salida es **`presentacion/deck.bento.html`**. Esta revisión modifica el mismo proyecto Bento: no introduce otra carpeta de versión. El deck de la raíz es un borrador antiguo y no debe usarse para el taller.
 
 ```sh
 cd /home/brian/Documents/Github/taller-agentes-investigacion
 qbento edit presentacion/deck.qmd
+# Para regenerar la salida:
+qbento render presentacion/deck.qmd
 ```
 
-Para regenerar el HTML: `qbento render presentacion/deck.qmd`.
+## Secuencia actual
 
-## Segunda versión: explicación visual y práctica
+**Encuadre → fundamentos → análisis con chat → agentes → código revisable → contexto e instrucciones → Positron → práctica.**
 
-59 diapositivas: 56 del recorrido principal, incluida la pausa, y 3 de apoyo/referencias. La duración continúa siendo 180 minutos. El número aumenta por secuencias progresivas y ampliaciones de capturas, no por incorporar nuevas unidades de contenido.
+La presentación contiene 57 diapositivas: 55 de recorrido, incluida la pausa, y dos de referencias. El número incluye estados sucesivos del mismo ejemplo, no 55 exposiciones independientes. Se mantienen 180 minutos y queda pendiente el ensayo cronometrado.
 
-La presentación utiliza 31 esquemas SVG originales y 8 recortes/capturas diferentes efectivamente insertados en el deck. Hay 9 derivados preparados en el directorio de capturas. Se distingue entre esquemas didácticos, datos ficticios, capturas oficiales de Posit y capturas propias de Positron.
+El taller abre con objetivos y límites, no con código. Las escenas ficticias de ChatGPT y RStudio hacen visible el intercambio manual. Después se introducen la ejecución con herramientas y los Human Gates. Los antiejemplos safe_cfa, limpieza oculta y errores silenciados plantean la necesidad de código que podamos revisar y continuar. AGENTS.md y skills se presentan conjuntamente. Positron y su configuración aparecen cuando ya se conoce la forma de trabajo que queremos implementar.
 
-El microejemplo de cinco respuestas está **ejecutado y reproducido en R**: tratar 99 como respuesta produce 21.8; recodificarlo como perdido según el diccionario produce 2.5, con cuatro respuestas válidas. Las capturas propias muestran ese script, su consola y una skill real abierta en Positron. No se presentan como ejecuciones realizadas por un agente.
+## Materiales principales
 
-## Materiales
-
-- `docs/programa.md`: secuencia de 180 minutos y tramos de diapositivas.
-- `docs/guion-docente-v2.md`: instrucciones de presentación, preguntas y transiciones.
-- `docs/rediseno-pedagogico.md`: decisiones de comunicación y papel de cada contraste.
-- `docs/fuentes.md`: fuentes oficiales y límites de lo que respaldan.
-- `materiales/microcaso/`: script R, diccionario y salida de referencia.
-- `materiales/descripciones-visuales.md`: guía textual de las diapositivas, código y notas.
-- `materiales/plantilla-proyecto/`: ejemplo de protocolo, diccionario y AGENTS.md.
-- `materiales/actividades.md` y `prompts-demostracion.md`: práctica complementaria.
-- `docs/integracion-skills.md`: integración pendiente con el EPIC paralelo.
+- `docs/programa.md`: organización de los 180 minutos.
+- `docs/guion-docente.md`: indicaciones por diapositiva.
+- `materiales/descripciones-visuales.md`: acompañamiento textual y código mostrado.
+- `materiales/ejemplos-codigo.md`: antiejemplos, límites y alternativas de organización.
+- `materiales/herramientas.md`: configuración de MCP y prueba de conexión.
+- `docs/capturas-pendientes.md`: dos capturas auténticas del cliente definitivo que falta incorporar.
+- `materiales/microcaso/`: script, diccionario y salida de referencia ejecutada.
+- `materiales/plantilla-proyecto/`: contexto y reglas de trabajo.
+- `docs/integracion-skills.md`: integración del EPIC desde el repositorio externo.
+- `docs/fuentes.md`: fuentes oficiales y procedencia de recursos.
 
 ## Fuente y diseño
 
-`presentacion/deck.qmd` es la autoridad semántica; `presentacion/.qbento/` conserva diseño y estado nativo. El paquete reutilizable es `design/spp-workshop-v2.design.json`. No editar manualmente el HTML generado ni el estado interno.
+QMD es la autoridad textual y `presentacion/.qbento/` conserva diseño y estado. No editar manualmente state.json ni el HTML generado. Los SVG son autocontenidos; las capturas originales se mantienen separadas de sus recortes y anotaciones.
 
-Los scripts `build_visuals.py` y `build_design.py` generan recursos y el paquete, pero no aplican cambios de estado. `author_deck_v2.py --write` fue el autor inicial: **no volver a ejecutarlo sobre cambios manuales de QMD sin revisar**, porque regenera el contenido. `capture_deck.mjs` comprueba la presentación real en Chromium sin reescribir su contenido.
+`scripts/build_workflow_visuals.py` genera los esquemas del recorrido. `scripts/capture_deck.mjs` abre y recorre la presentación real en Chromium. Los scripts de autoría inicial con sufijo v2 son históricos: no ejecutarlos sobre el QMD actual, porque restablecerían contenido anterior. Las revisiones se guardan en Git.
 
-Se conservó el primer proyecto ligado a su identidad Bento y se creó una identidad independiente para el rediseño. No se sobrescribió su estado interno. El respaldo previo está en `backups/` y la evidencia técnica en `output/qa/`.
+## Evidencia y pendientes
 
-## Límites actuales
+El microejemplo del código 99 sí está ejecutado y reproducido en R: 21.8 antes de la corrección documentada; 2.5 y cuatro respuestas válidas después. Los ejemplos de AFC y arquitectura de código son ilustrativos, no modelos ya ajustados. Las escenas de chat no son screenshots de conversaciones reales.
 
-El caso factorial completo de 500 casos y 12 ítems sigue siendo una especificación, no un análisis ejecutado. La integración final de skills de datos y psicometría espera versiones comprobadas del EPIC. No se modificó `r-workflow-plugins` ni se configuraron credenciales o un proveedor IA en el perfil usado para capturas.
-
-La revisión visual y las comprobaciones de render no sustituyen un ensayo cronometrado en videoconferencia ni una validación psicométrica. La accesibilidad del adaptador Bento tiene límites; se proporcionan descripciones textuales, sin afirmar una auditoría completa de lectores de pantalla.
+Las capturas propias de MCP muestran el ajuste y el comando en un perfil aislado; no se conectó ni autenticó un agente para obtenerlas. El caso factorial completo y las skills de datos/psicometría deben completarse y verificarse antes del evento. El monorepo r-workflow-plugins se leyó, no se modificó.

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "presentacion/assets/screenshots/mcp-ajuste.png",
+    "original": "presentacion/assets/screenshots/propias/positron-mcp-ajuste.png",
+    "crop": [
+      390,
+      265,
+      740,
+      321
+    ],
+    "modification": "Recorte ampliado; anotaciones docentes fuera del recorte. No cambia el contenido de la interfaz.",
+    "connection_completed": false
+  },
+  {
+    "file": "presentacion/assets/screenshots/mcp-comando.png",
+    "original": "presentacion/assets/screenshots/propias/positron-mcp-comando.png",
+    "crop": [
+      510,
+      103,
+      920,
+      126
+    ],
+    "modification": "Recorte ampliado; anotaciones docentes fuera del recorte. No cambia el contenido de la interfaz.",
+    "connection_completed": false
+  }
+]

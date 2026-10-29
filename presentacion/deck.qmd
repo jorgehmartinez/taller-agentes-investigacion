@@ -32,104 +32,44 @@ Brian Norman Peña Calero · 3 horas · R como motor de ejecución
 :::
 
 ::: {#inicio-notas .notes}
-Conservar el título anunciado. Presentar carácter introductorio, independencia del agente y foco psicométrico. No prometer investigación autónoma ni una validación completa de instrumentos.
+Presentar el título difundido y la promesa introductoria. Abrir con qué aprenderemos y qué no. No mostrar código ni el ejemplo de 99 en la apertura. La meta es incorporar agentes sin perder la posibilidad de continuar el análisis por nuestra cuenta.
 :::
 
-## Cinco respuestas, una decisión {#promesa bento-variant="visual"}
+## Qué aprenderemos y qué no {#encuadre bento-variant="visual"}
 
-::: {#promesa-kicker bento-slot="kicker"}
+::: {#encuadre-kicker bento-slot="kicker"}
 
-APERTURA · ANTICIPAR
-
-:::
-
-::: {#promesa-visual bento-slot="visual"}
-
-![](assets/visuals/micro-pregunta.svg)
+01 / PRESENTACIÓN
 
 :::
 
-::: {#promesa-takeaway bento-slot="takeaway"}
+::: {#encuadre-visual bento-slot="visual"}
 
-¿Qué falta saber antes de aceptar el resultado?
-
-:::
-
-::: {#promesa-citation bento-slot="citation"}
-
-Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
+![](assets/visuals/encuadre.svg)
 
 :::
 
-::: {#promesa-notas .notes}
-Pedir al grupo que anticipe qué información revisaría antes de aceptar la media. No revelar todavía que 99 representa un perdido. Mantener fijo el vector durante los estados siguientes.
-:::
+::: {#encuadre-takeaway bento-slot="takeaway"}
 
-## Una ejecución sin errores {#micro-ejecucion bento-variant="visual"}
-
-::: {#micro-ejecucion-kicker bento-slot="kicker"}
-
-APERTURA · OBSERVAR
+Aprender a dirigir y revisar un análisis, no a dejar de comprenderlo.
 
 :::
 
-::: {#micro-ejecucion-visual bento-slot="visual"}
+::: {#encuadre-citation bento-slot="citation"}
 
-![](assets/visuals/micro-ejecucion.svg)
-
-:::
-
-::: {#micro-ejecucion-takeaway bento-slot="takeaway"}
-
-El código funciona; el análisis puede seguir estando mal.
+Esquema didáctico; no resultado de una investigación.
 
 :::
 
-::: {#micro-ejecucion-citation bento-slot="citation"}
-
-Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
-
-:::
-
-::: {#micro-ejecucion-notas .notes}
-Mostrar que R efectivamente ejecutó el código y devolvió 21.8. Es una interpretación errónea preparada, no un fallo atribuido a un agente. Si las respuestas válidas van de 1 a 4, el resultado exige revisar el diccionario.
-:::
-
-## La ruta del taller {#tres-preguntas bento-variant="visual"}
-
-::: {#tres-preguntas-kicker bento-slot="kicker"}
-
-APERTURA · ORIENTARSE
-
-:::
-
-::: {#tres-preguntas-visual bento-slot="visual"}
-
-![](assets/visuals/ruta.svg)
-
-:::
-
-::: {#tres-preguntas-takeaway bento-slot="takeaway"}
-
-Un método transferible; un caso psicométrico para aprenderlo.
-
-:::
-
-::: {#tres-preguntas-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#tres-preguntas-notas .notes}
-Enlazar el error con tres preguntas: comprender, dirigir y verificar. Presentar el mismo microejemplo como hilo que regresará en contexto, auditoría y reproducción. El caso factorial amplía esas decisiones sin inventar resultados.
+::: {#encuadre-notas .notes}
+Explicar el alcance antes de entrar en herramientas. Aprenderemos a comprender, encuadrar y supervisar un agente; usaremos R y un ejemplo psicométrico. No sustituye formación en programación o metodología, ni promete investigación autónoma. La sesión no intenta enseñar todos los modelos estadísticos ni todos los agentes.
 :::
 
 ## Punto de partida {#sondeo-inicial bento-variant="question"}
 
 ::: {#sondeo-inicial-kicker bento-slot="kicker"}
 
-APERTURA · PARTICIPAR
+01 / PRESENTACIÓN
 
 :::
 
@@ -146,26 +86,56 @@ En el chat: 1 = conversación; 2 = código sugerido; 3 = herramientas; 4 = anál
 :::
 
 ::: {#sondeo-inicial-notas .notes}
-Sondeo de 90 segundos. No confundir experiencia con IA con formación estadística. Usar las respuestas para graduar la explicación, no como evaluación.
+Sondeo breve y opcional sobre experiencia con chat, código sugerido y herramientas locales. No presentar un ejercicio estadístico todavía. Graduar el detalle de las analogías según las respuestas.
 :::
 
-## Generación condicionada por el contexto {#modelo-probabilistico bento-variant="visual"}
+## El recorrido de hoy {#tres-preguntas bento-variant="visual"}
+
+::: {#tres-preguntas-kicker bento-slot="kicker"}
+
+01 / PRESENTACIÓN
+
+:::
+
+::: {#tres-preguntas-visual bento-slot="visual"}
+
+![](assets/visuals/ruta-investigacion.svg)
+
+:::
+
+::: {#tres-preguntas-takeaway bento-slot="takeaway"}
+
+Primero entender la necesidad; después elegir y configurar la herramienta.
+
+:::
+
+::: {#tres-preguntas-citation bento-slot="citation"}
+
+Esquema didáctico · no son resultados observados.
+
+:::
+
+::: {#tres-preguntas-notas .notes}
+Anticipar el recorrido: fundamentos; trabajo analítico; fricciones del chat; agentes y código revisable; contexto e instrucciones; Positron y práctica. No es un temario de tecnologías desconectadas.
+:::
+
+## Un redactor que trabaja con contexto {#modelo-probabilistico bento-variant="visual"}
 
 ::: {#modelo-probabilistico-kicker bento-slot="kicker"}
 
-01 / COMPRENDER
+02 / FUNDAMENTOS
 
 :::
 
 ::: {#modelo-probabilistico-visual bento-slot="visual"}
 
-![](assets/visuals/generacion.svg)
+![](assets/visuals/llm-lenguaje.svg)
 
 :::
 
 ::: {#modelo-probabilistico-takeaway bento-slot="takeaway"}
 
-El modelo es probabilístico; una respuesta plausible no prueba que sea correcta.
+LLM: modelo de lenguaje. Genera propuestas; no certifica su verdad.
 
 :::
 
@@ -176,14 +146,74 @@ Esquema didáctico · no son resultados observados.
 :::
 
 ::: {#modelo-probabilistico-notas .notes}
-Explicar primero con un encargo familiar: describir respuestas. Las continuaciones son ilustrativas y no probabilidades medidas. Un LLM modela distribuciones; la decodificación puede reducir variabilidad. Probabilístico no significa que todo resultado cambie siempre. Una propuesta plausible no es una decisión estadística validada.
+Usar la analogía de un redactor que completa un encargo atendiendo al contexto. El modelo representa distribuciones de continuaciones; las alternativas dibujadas no son probabilidades medidas. No reducir todas sus capacidades a completar una palabra: la analogía solo introduce generación condicionada. La decodificación puede hacer más consistentes las respuestas; probabilístico no exige que cada ejecución sea distinta.
 :::
 
-## Proponer, ejecutar y verificar {#generar-ejecutar bento-variant="visual"}
+## Algunos nombres conocidos {#familias-llm bento-variant="visual"}
+
+::: {#familias-llm-kicker bento-slot="kicker"}
+
+02 / FUNDAMENTOS
+
+:::
+
+::: {#familias-llm-visual bento-slot="visual"}
+
+![](assets/visuals/marcas-llm.svg)
+
+:::
+
+::: {#familias-llm-takeaway bento-slot="takeaway"}
+
+Reconocer una marca no basta para saber qué herramientas tiene disponibles.
+
+:::
+
+::: {#familias-llm-citation bento-slot="citation"}
+
+Iconos obtenidos de sitios oficiales de OpenAI, Anthropic y Google; atribución en assets/brands/.
+
+:::
+
+::: {#familias-llm-notas .notes}
+Mostrar tres marcas reconocibles, sin ranking ni versiones efímeras. GPT es una familia de modelos y ChatGPT es un producto que los utiliza. Claude y Gemini nombran familias y productos. Los iconos identifican marcas; no representan una comparación de rendimiento ni patrocinio.
+:::
+
+## Conversar o actuar sobre el proyecto {#chat-agente-breve bento-variant="visual"}
+
+::: {#chat-agente-breve-kicker bento-slot="kicker"}
+
+02 / FUNDAMENTOS
+
+:::
+
+::: {#chat-agente-breve-visual bento-slot="visual"}
+
+![](assets/visuals/chat-agente-directo.svg)
+
+:::
+
+::: {#chat-agente-breve-takeaway bento-slot="takeaway"}
+
+Archivos + terminal + ejecución e iteración, dentro de un alcance autorizado.
+
+:::
+
+::: {#chat-agente-breve-citation bento-slot="citation"}
+
+Documentación de Codex CLI, Claude Code y Gemini CLI; síntesis funcional, no ranking.
+
+:::
+
+::: {#chat-agente-breve-notas .notes}
+Dar la distinción operativa en una sola lámina: un chat sin herramientas locales propone texto y código; un agente de codificación puede leer y modificar archivos, usar la terminal y encadenar acciones observando resultados. Siempre según permisos y límites. Algunas interfaces de chat también incorporan herramientas: la frontera está en las capacidades disponibles, no en el aspecto de la ventana.
+:::
+
+## Lenguaje, cálculo y criterio {#generar-ejecutar bento-variant="visual"}
 
 ::: {#generar-ejecutar-kicker bento-slot="kicker"}
 
-01 / COMPRENDER
+02 / FUNDAMENTOS
 
 :::
 
@@ -195,7 +225,7 @@ Explicar primero con un encargo familiar: describir respuestas. Las continuacion
 
 ::: {#generar-ejecutar-takeaway bento-slot="takeaway"}
 
-No pedir números al modelo cuando podemos obtenerlos de una ejecución.
+El modelo propone; R ejecuta; el investigador evalúa el significado.
 
 :::
 
@@ -206,228 +236,938 @@ Esquema didáctico · no son resultados observados.
 :::
 
 ::: {#generar-ejecutar-notas .notes}
-Separar tres operaciones que suelen mezclarse. El modelo propone código, R produce salidas y la persona revisa pertinencia y conclusiones. El retorno representa la corrección iterativa, no autonomía irrestricta.
+Contrastar generación probabilística y ejecución de instrucciones. R no verifica por sí mismo la pertinencia del análisis y puede incluir aleatoriedad: reproducibilidad exige datos, código, versiones y semillas cuando corresponda. No introducir sintaxis aún. Este reparto de funciones permite hablar del uso de LLM en análisis de datos.
 :::
 
-## Dos recorridos para una misma tarea {#chatbot-agente bento-variant="visual"}
+## Más capacidad, el mismo criterio {#analisis-asistido bento-variant="visual"}
 
-::: {#chatbot-agente-kicker bento-slot="kicker"}
+::: {#analisis-asistido-kicker bento-slot="kicker"}
 
-01 / COMPRENDER
-
-:::
-
-::: {#chatbot-agente-visual bento-slot="visual"}
-
-![](assets/visuals/chatbot-vs-agente.svg)
+03 / DEL CHAT AL AGENTE
 
 :::
 
-::: {#chatbot-agente-takeaway bento-slot="takeaway"}
+::: {#analisis-asistido-visual bento-slot="visual"}
 
-Automatizar intercambios no transfiere la responsabilidad.
+![](assets/visuals/analista-aumentado.svg)
 
 :::
 
-::: {#chatbot-agente-citation bento-slot="citation"}
+::: {#analisis-asistido-takeaway bento-slot="takeaway"}
+
+Aprovechar la ejecución asistida sin renunciar a comprender el análisis.
+
+:::
+
+::: {#analisis-asistido-citation bento-slot="citation"}
+
+Esquema didáctico; no resultado de una investigación.
+
+:::
+
+::: {#analisis-asistido-notas .notes}
+Presentar el potencial: acelerar tareas mecánicas, bosquejar código, explorar documentación y revisar errores. Puede aumentar la productividad al aprender a dirigirlo, pero el beneficio depende de tarea, experiencia y supervisión; no afirmar una ganancia garantizada. No reemplaza aprender a programar ni a juzgar el método. No generalizar que el desarrollo de software prescinde de revisión; la investigación exige una revisión metodológica explícita.
+:::
+
+## Un código del que podamos hacernos cargo {#codigo-propio bento-variant="visual"}
+
+::: {#codigo-propio-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#codigo-propio-visual bento-slot="visual"}
+
+![](assets/visuals/codigo-apropiable.svg)
+
+:::
+
+::: {#codigo-propio-takeaway bento-slot="takeaway"}
+
+No queremos un análisis que solo el LLM pueda mantener.
+
+:::
+
+::: {#codigo-propio-citation bento-slot="citation"}
+
+Esquema didáctico; no resultado de una investigación.
+
+:::
+
+::: {#codigo-propio-notas .notes}
+Fijar el contrato de aprendizaje: leer, revisar, ejecutar, modificar y depurar, incluso sin el agente. Poder continuar no significa memorizar toda la sintaxis; implica localizar decisiones, entender objetos y seguir diagnósticos. Este objetivo distingue nuestro estilo de análisis. La revisión humana no puede ser nominal si el código es opaco.
+:::
+
+## Una petición de análisis en el chat {#chat-necesidad bento-variant="visual"}
+
+::: {#chat-necesidad-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#chat-necesidad-visual bento-slot="visual"}
+
+![](assets/visuals/chat-necesidad.svg)
+
+:::
+
+::: {#chat-necesidad-citation bento-slot="citation"}
+
+Recreación esquemática y ficticia; no es una captura ni una ejecución real.
+
+:::
+
+::: {#chat-necesidad-notas .notes}
+Mostrar una recreación explícitamente ficticia de ChatGPT web. El usuario pide contrastar dos factores en doce ítems ordinales. La respuesta propone revisar el diccionario y aporta un fragmento de código. No es una captura real ni una respuesta evaluada de un modelo; sirve para seguir el recorrido de trabajo.
+:::
+
+## Del bloque de código a RStudio {#chat-traslado bento-variant="visual"}
+
+::: {#chat-traslado-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#chat-traslado-visual bento-slot="visual"}
+
+![](assets/visuals/chat-traslado.svg)
+
+:::
+
+::: {#chat-traslado-citation bento-slot="citation"}
+
+Recreación esquemática y ficticia; no es una captura ni una ejecución real.
+
+:::
+
+::: {#chat-traslado-notas .notes}
+Mantener fija la petición y el mismo fragmento de código. La persona copia el bloque del chat y lo pega en un script de RStudio. Mostrar que entre ambas ventanas hay un paso manual. El fragmento está abreviado y no se distribuye como receta de AFC; el método requiere especificación previa. No afirmar que todo copiado produce errores.
+:::
+
+## Del error de vuelta al chat {#chat-depuracion bento-variant="visual"}
+
+::: {#chat-depuracion-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#chat-depuracion-visual bento-slot="visual"}
+
+![](assets/visuals/chat-error.svg)
+
+:::
+
+::: {#chat-depuracion-takeaway bento-slot="takeaway"}
+
+El usuario transporta código, resultados y contexto de una ventana a otra.
+
+:::
+
+::: {#chat-depuracion-citation bento-slot="citation"}
+
+Recreación esquemática y ficticia; no es una captura ni una ejecución real.
+
+:::
+
+::: {#chat-depuracion-notas .notes}
+En el mismo escenario ficticio, falta cargar una función y aparece un error ilustrativo de R. La persona debe copiar el mensaje, explicar el estado de la sesión y probar otra propuesta. No se atribuye este fallo a un producto concreto ni se representa como ejecución observada. Identificar fricciones posibles: omisiones, bloques desactualizados, objetos de sesión y diagnóstico de rutas o paquetes.
+:::
+
+## Una posibilidad distinta {#puente-agente bento-variant="question"}
+
+::: {#puente-agente-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#puente-agente-question bento-slot="question"}
+
+¿Y si el LLM pudiera ejecutar el código y observar qué ocurrió?
+
+:::
+
+::: {#puente-agente-prompt bento-slot="prompt"}
+
+Sin que tú tengas que copiar cada resultado de vuelta.
+
+:::
+
+::: {#puente-agente-notas .notes}
+Usar esta pregunta como transición, no como actividad larga. La definición breve de agente ya se vio; ahora aparece la razón práctica para usarlo. Mantener visible que poder ejecutar no implica elegir correctamente el método.
+:::
+
+## El agente dentro del proyecto {#agente-operando bento-variant="visual"}
+
+::: {#agente-operando-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#agente-operando-visual bento-slot="visual"}
+
+![](assets/visuals/agente-operando.svg)
+
+:::
+
+::: {#agente-operando-takeaway bento-slot="takeaway"}
+
+Se reduce el intercambio manual; no desaparece la supervisión.
+
+:::
+
+::: {#agente-operando-citation bento-slot="citation"}
+
+Esquema didáctico; no resultado de una investigación.
+
+:::
+
+::: {#agente-operando-notas .notes}
+Mostrar el ciclo archivos, ejecución, observación y corrección. El agente puede inspeccionar el directorio, ejecutar R, leer el mensaje, modificar el script y volver a probar, según permisos. Puede mantener una tarea durante varias iteraciones, no de forma ilimitada ni infalible. La persona decide alcance, metodología y qué cambios requieren aprobación.
+:::
+
+## Human Gates: puntos de revisión {#caso-ejecucion bento-variant="visual"}
+
+::: {#caso-ejecucion-kicker bento-slot="kicker"}
+
+03 / DEL CHAT AL AGENTE
+
+:::
+
+::: {#caso-ejecucion-visual bento-slot="visual"}
+
+![](assets/visuals/controles-humanos.svg)
+
+:::
+
+::: {#caso-ejecucion-takeaway bento-slot="takeaway"}
+
+Antes del método, ante cambios sustantivos y antes de interpretar.
+
+:::
+
+::: {#caso-ejecucion-citation bento-slot="citation"}
 
 Esquema didáctico · no son resultados observados.
 
 :::
 
-::: {#chatbot-agente-notas .notes}
-Contraste controlado: misma pregunta y mismo R. A la izquierda la persona hace el intercambio manual; a la derecha el agente opera herramientas. Preguntar qué cambia y qué permanece. La responsabilidad científica permanece.
+::: {#caso-ejecucion-notas .notes}
+Definir Human Gates como puntos de decisión y revisión humana. Antes: confirmar pregunta, datos, hipótesis y procedimiento. Durante: detenerse ante recodificación ambigua, cambio de modelo o supuesto. Después: revisar código, diagnósticos e interpretación. No pedir autorización para cada comando inocuo; definir autonomía proporcional. Una línea ejecutada correctamente no resuelve una decisión científica.
 :::
 
-## La anatomía de un agente {#anatomia-agente bento-variant="visual"}
+## El problema que sigue abierto {#legibilidad-pendiente bento-variant="question"}
 
-::: {#anatomia-agente-kicker bento-slot="kicker"}
+::: {#legibilidad-pendiente-kicker bento-slot="kicker"}
 
-01 / COMPRENDER
-
-:::
-
-::: {#anatomia-agente-visual bento-slot="visual"}
-
-![](assets/visuals/anatomia.svg)
+04 / CÓDIGO PARA INVESTIGAR
 
 :::
 
-::: {#anatomia-agente-takeaway bento-slot="takeaway"}
+::: {#legibilidad-pendiente-question bento-slot="question"}
 
-Modelo + herramientas + contexto + controles.
-
-:::
-
-::: {#anatomia-agente-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
+El agente ya lo ejecutó. ¿Puedes modificar el análisis tú?
 
 :::
 
-::: {#anatomia-agente-notas .notes}
-Definir herramienta por su función: leer archivos, ejecutar R o inspeccionar una figura. Contexto, permisos y objetivo limitan el proceso. No presentar un agente como un modelo más inteligente por definición.
-:::
+::: {#legibilidad-pendiente-prompt bento-slot="prompt"}
 
-## Aleatoriedad bajo control {#r-reproducible bento-variant="comparison"}
-
-::: {#r-reproducible-kicker bento-slot="kicker"}
-
-01 / COMPRENDER
+Piensa en cambiar un solo modelo, una recodificación o un gráfico.
 
 :::
 
-::: {#r-reproducible-left-label bento-slot="left-label"}
+::: {#legibilidad-pendiente-notas .notes}
+La ganancia operativa no garantiza legibilidad. Dar paso al problema de código orientado a un entorno distinto del nuestro. Evitar afirmar que todos los LLM están entrenados para priorizar pipelines; lo que se discute es un patrón de salida posible que queremos encauzar.
+:::
 
-Mismo punto de partida
+## Un cambio pequeño, demasiados lugares {#safe-cfa-mapa bento-variant="visual"}
+
+::: {#safe-cfa-mapa-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
 
 :::
 
-::: {#r-reproducible-left bento-slot="left" .bento-code}
+::: {#safe-cfa-mapa-visual bento-slot="visual"}
 
-```{#r-reproducible-left-source .r}
-set.seed(2026)
-sample(1:100, size = 5)
+![](assets/visuals/safe-cfa-mapa.svg)
+
+:::
+
+::: {#safe-cfa-mapa-takeaway bento-slot="takeaway"}
+
+La organización debe facilitar la siguiente decisión del investigador.
+
+:::
+
+::: {#safe-cfa-mapa-citation bento-slot="citation"}
+
+Antiejemplo de arquitectura analítica, ficticio; no se ejecutaron estos modelos.
+
+:::
+
+::: {#safe-cfa-mapa-notas .notes}
+Proyecto ficticio con modelos definidos en configuración, función safe_cfa en helpers, un bucle en otro script y clasificación de resultados aparte. Pregunta: dónde cambiar un único AFC y revisar lo que ocurrió. La división en scripts no es por sí misma un defecto; el problema es dispersar decisiones que se modifican juntas y dificultar la inspección del investigador.
+:::
+
+## Qué puede esconder una función auxiliar {#safe-cfa-detalle bento-variant="comparison"}
+
+::: {#safe-cfa-detalle-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
+
+:::
+
+::: {#safe-cfa-detalle-left-label bento-slot="left-label"}
+
+Una envoltura demasiado silenciosa
+
+:::
+
+::: {#safe-cfa-detalle-left bento-slot="left" .bento-code}
+
+```{#safe-cfa-detalle-left-source .r}
+safe_cfa <- function(modelo, datos) {
+  tryCatch(
+    suppressWarnings(
+      lavaan::cfa(modelo, data = datos)
+    ),
+    error = function(e) NULL
+  )
+}
 ```
 
 :::
 
-::: {#r-reproducible-right-label bento-slot="right-label"}
+::: {#safe-cfa-detalle-right-label bento-slot="right-label"}
 
-Qué debemos conservar
-
-:::
-
-::: {#r-reproducible-right bento-slot="right"}
-
-La semilla, el generador, la versión de R, los datos y las decisiones de cálculo.  
-Una semilla no resuelve todos los problemas de reproducibilidad.
+Comparación mecánica de modelos
 
 :::
 
-::: {#r-reproducible-takeaway bento-slot="takeaway"}
+::: {#safe-cfa-detalle-right bento-slot="right" .bento-code}
 
-Ejecución controlada y reproducible, no determinismo absoluto.
+```{#safe-cfa-detalle-right-source .r}
+for (nombre in names(modelos)) {
+  ajustes[[nombre]] <- safe_cfa(
+    modelos[[nombre]], datos
+  )
+}
 
-:::
-
-::: {#r-reproducible-citation bento-slot="citation"}
-
-R Core: documentación de set.seed y RNGversion.
-
-:::
-
-::: {#r-reproducible-notas .notes}
-Ejecutar opcionalmente dos veces la misma llamada tras reiniciar la semilla. No mostrar una lista de números que no haya sido calculada. La lección es que R puede contener aleatoriedad controlada y que reproducibilidad no equivale a determinismo absoluto.
-:::
-
-## Tres preguntas de verificación {#niveles-de-verificacion bento-variant="visual"}
-
-::: {#niveles-de-verificacion-kicker bento-slot="kicker"}
-
-01 / COMPRENDER
+# ¿Dónde revisas estimador y fallos?
+```
 
 :::
 
-::: {#niveles-de-verificacion-visual bento-slot="visual"}
+::: {#safe-cfa-detalle-takeaway bento-slot="takeaway"}
 
-![](assets/visuals/verificaciones.svg)
-
-:::
-
-::: {#niveles-de-verificacion-takeaway bento-slot="takeaway"}
-
-Superar una comprobación no implica superar las otras.
+Ejecutar muchos modelos no equivale a contrastar hipótesis justificadas.
 
 :::
 
-::: {#niveles-de-verificacion-citation bento-slot="citation"}
+::: {#safe-cfa-detalle-citation bento-slot="citation"}
+
+Antiejemplo ficticio y no ejecutado. El problema no es usar funciones: es ocultar decisiones.
+
+:::
+
+::: {#safe-cfa-detalle-notas .notes}
+safe_cfa es un nombre ficticio, no una función de lavaan. En este antiejemplo, warnings y fallos dejan de ser visibles. La envoltura también puede ocultar argumentos y decisiones. Ni for ni las funciones auxiliares son incorrectos en general: se cuestiona que escondan las decisiones del estudio. No recomendar este código ni atribuirlo al entrenamiento universal de los LLM.
+:::
+
+## Un AFC que podamos revisar y modificar {#modelo-editable bento-variant="wide"}
+
+::: {#modelo-editable-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
+
+:::
+
+::: {#modelo-editable-visual bento-slot="visual" .bento-code}
+
+```{#modelo-editable-visual-source .r}
+modelo <- '
+  planificacion =~ i01 + i02 + i03 + i04 + i05 + i06
+  persistencia  =~ i07 + i08 + i09 + i10 + i11 + i12
+'
+
+ajuste <- lavaan::cfa(
+  modelo, data = datos, ordered = items, estimator = "WLSMV"
+)
+summary(ajuste, fit.measures = TRUE, standardized = TRUE)
+```
+
+:::
+
+::: {#modelo-editable-takeaway bento-slot="takeaway"}
+
+Especificación, estimación e inspección juntas; las decisiones siguen siendo tuyas.
+
+:::
+
+::: {#modelo-editable-citation bento-slot="citation"}
+
+Fuente: r-analytic-core / r-analytic-coding-principles; convención de trabajo del taller.
+
+:::
+
+::: {#modelo-editable-notas .notes}
+El objeto es la organización del código, no enseñar AFC desde cero. Mostrar especificación, estimación y diagnóstico cerca. datos e items son entradas del estudio aún por definir: este fragmento es ilustrativo y no se ha ejecutado. WLSMV está escrito como decisión visible del ejemplo, no impuesto como regla general. Alterar una estructura factorial necesita justificación sustantiva, no solo editar una línea.
+:::
+
+## La preparación de datos también debe verse {#datos-visibles bento-variant="comparison"}
+
+::: {#datos-visibles-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
+
+:::
+
+::: {#datos-visibles-left-label bento-slot="left-label"}
+
+Transformaciones escondidas
+
+:::
+
+::: {#datos-visibles-left bento-slot="left" .bento-code}
+
+```{#datos-visibles-left-source .r}
+source("R/preparacion.R")
+datos <- clean_data(ruta)
+
+# ¿Qué códigos cambió?
+# ¿Qué ítems invirtió?
+# ¿Qué casos excluyó?
+```
+
+:::
+
+::: {#datos-visibles-right-label bento-slot="right-label"}
+
+Reglas explícitas en el análisis
+
+:::
+
+::: {#datos-visibles-right bento-slot="right" .bento-code}
+
+```{#datos-visibles-right-source .r}
+datos <- readr::read_csv(
+  "data/escala.csv", na = "NS"
+)
+datos <- datos |>
+  dplyr::mutate(i03 = 5 - i03)
+```
+
+:::
+
+::: {#datos-visibles-takeaway bento-slot="takeaway"}
+
+Lo que cambia el significado de los datos debe poder localizarse.
+
+:::
+
+::: {#datos-visibles-citation bento-slot="citation"}
+
+Ilustración de organización; requiere diccionario y clave. No se ejecutó sobre una base real.
+
+:::
+
+::: {#datos-visibles-notas .notes}
+Ejemplo ficticio: el diccionario define NS como perdido y la clave define i03 como inverso en respuestas de 1 a 4. No inferir estas reglas de las correlaciones. clean_data es una función inventada de contenido no mostrado, no se afirma equivalencia entre fragmentos. La derecha muestra dónde revisar la decisión. Las validaciones sustantivas y el registro de exclusiones se conservan.
+:::
+
+## Un error visible también informa {#errores-visibles bento-variant="comparison"}
+
+::: {#errores-visibles-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
+
+:::
+
+::: {#errores-visibles-left-label bento-slot="left-label"}
+
+Continuar como si nada hubiera pasado
+
+:::
+
+::: {#errores-visibles-left bento-slot="left" .bento-code}
+
+```{#errores-visibles-left-source .r}
+datos <- tryCatch(
+  readr::read_csv(ruta),
+  error = function(e) tibble::tibble()
+)
+# Falla la lectura, pero devuelve
+# una tabla vacía.
+```
+
+:::
+
+::: {#errores-visibles-right-label bento-slot="right-label"}
+
+Diagnosticar el problema concreto
+
+:::
+
+::: {#errores-visibles-right bento-slot="right"}
+
+Leer con una llamada ordinaria.  
+Inspeccionar el error de ruta o paquete.  
+Corregir su causa en el entorno.  
+Conservar las comprobaciones del estudio.
+
+:::
+
+::: {#errores-visibles-takeaway bento-slot="takeaway"}
+
+Controles proporcionados; diagnósticos visibles; sin errores maquillados.
+
+:::
+
+::: {#errores-visibles-citation bento-slot="citation"}
+
+Fuente: r-analytic-core / r-analytic-coding-principles; convención de trabajo del taller.
+
+:::
+
+::: {#errores-visibles-notas .notes}
+No enseñar a retirar todos los controles: distinguir un fallo de lectura real de una rutina genérica que lo silencia. El agente puede inspeccionar archivos y mensajes en vez de añadir manejadores para cada escenario imaginable. Los riesgos silenciosos concretos, por ejemplo una unión muchos-a-muchos inesperada, sí pueden requerir controles persistentes.
+:::
+
+## El estilo depende del trabajo {#estilos-de-trabajo bento-variant="visual"}
+
+::: {#estilos-de-trabajo-kicker bento-slot="kicker"}
+
+04 / CÓDIGO PARA INVESTIGAR
+
+:::
+
+::: {#estilos-de-trabajo-visual bento-slot="visual"}
+
+![](assets/visuals/dos-estilos.svg)
+
+:::
+
+::: {#estilos-de-trabajo-takeaway bento-slot="takeaway"}
+
+Automatizar mecánica estable; mantener editables las decisiones que evolucionan.
+
+:::
+
+::: {#estilos-de-trabajo-citation bento-slot="citation"}
+
+Fuente: r-analytic-core / r-analytic-coding-principles; convención de trabajo del taller.
+
+:::
+
+::: {#estilos-de-trabajo-notas .notes}
+Contrastar una tarea estable y repetitiva con una investigación iterativa en la que se revisa cada modelo. Funciones, bucles y pipelines pueden ser apropiados en simulaciones o procesos acordados; el taller no contrapone reproducibilidad y legibilidad. Un modelo generalista puede proponer un estilo que no coincide con nuestras prioridades. Presentarlo como riesgo observable, no como afirmación no comprobada sobre todo su entrenamiento.
+:::
+
+## Lo que rodea al agente {#ecosistema-agente bento-variant="visual"}
+
+::: {#ecosistema-agente-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#ecosistema-agente-visual bento-slot="visual"}
+
+![](assets/visuals/ecosistema-agente.svg)
+
+:::
+
+::: {#ecosistema-agente-citation bento-slot="citation"}
+
+Síntesis didáctica de documentación de agentes, AGENTS.md, Agent Skills y MCP.
+
+:::
+
+::: {#ecosistema-agente-notas .notes}
+Dar un solo mapa. Harness: programa que organiza el ciclo, el contexto, herramientas y permisos. System prompt: reglas iniciales del producto o implementación. AGENTS.md: guía persistente del proyecto en agentes compatibles. Skills: procedimientos y recursos reutilizables. Plugins: una vía de empaquetarlos junto con herramientas. MCP: conexión con herramientas. No son sinónimos ni todos se configuran del mismo modo.
+:::
+
+## Nuestro foco: contexto y forma de trabajar {#ecosistema-foco bento-variant="visual"}
+
+::: {#ecosistema-foco-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#ecosistema-foco-visual bento-slot="visual"}
+
+![](assets/visuals/ecosistema-foco.svg)
+
+:::
+
+::: {#ecosistema-foco-takeaway bento-slot="takeaway"}
+
+El proyecto explica qué investigamos; las instrucciones orientan cómo trabajamos.
+
+:::
+
+::: {#ecosistema-foco-citation bento-slot="citation"}
+
+Esquema didáctico; no resultado de una investigación.
+
+:::
+
+::: {#ecosistema-foco-notas .notes}
+Repetir el mismo mapa, destacando únicamente AGENTS.md y skills. No redibujar todo ni sumar definiciones. Ambas responden a lo que acabamos de observar: el agente necesita contexto del estudio y un procedimiento de trabajo orientado a investigación. MCP y el harness se utilizarán después al montar Positron.
+:::
+
+## Como un analista que llega al equipo {#onboarding bento-variant="visual"}
+
+::: {#onboarding-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#onboarding-visual bento-slot="visual"}
+
+![](assets/visuals/onboarding.svg)
+
+:::
+
+::: {#onboarding-takeaway bento-slot="takeaway"}
+
+Conocer estadística no equivale a conocer tu estudio.
+
+:::
+
+::: {#onboarding-citation bento-slot="citation"}
 
 Esquema didáctico · no son resultados observados.
 
 :::
 
-::: {#niveles-de-verificacion-notas .notes}
-Volver al 21.8: pasó la ejecución, no la lectura metodológica de los datos. Que un script reproduzca un error no lo hace correcto. Hacer explícito qué evidencia responde cada pregunta.
+::: {#onboarding-notas .notes}
+Conectar la analogía con el mapa anterior, sin iniciar otro bloque de definiciones. El analista necesita objetivos, diseño, datos y normas. El LLM puede tener conocimiento general, pero no sabe qué se acordó en este estudio ni cómo queremos revisar los modelos.
 :::
 
-## Cuatro capas diferentes {#ecosistema-capas bento-variant="visual"}
+## Proyecto, guía y procedimientos {#documentos bento-variant="visual"}
 
-::: {#ecosistema-capas-kicker bento-slot="kicker"}
+::: {#documentos-kicker bento-slot="kicker"}
 
-02 / HERRAMIENTAS
-
-:::
-
-::: {#ecosistema-capas-visual bento-slot="visual"}
-
-![](assets/visuals/capas.svg)
+05 / CONTEXTO E INSTRUCCIONES
 
 :::
 
-::: {#ecosistema-capas-takeaway bento-slot="takeaway"}
+::: {#documentos-visual bento-slot="visual"}
 
-No confundir el modelo con el programa que opera las herramientas.
-
-:::
-
-::: {#ecosistema-capas-citation bento-slot="citation"}
-
-Documentación oficial: Codex, Claude Code, Gemini CLI y Posit. Referencias al final.
+![](assets/visuals/proyecto-skills.svg)
 
 :::
 
-::: {#ecosistema-capas-notas .notes}
-Nombrar modelo, agente, entorno y motor. La selección no es una competición de marcas. Aclarar que las herramientas evolucionan y que no todos los agentes cargan las mismas instrucciones o conectores.
-:::
+::: {#documentos-takeaway bento-slot="takeaway"}
 
-## Agentes: elegir una vía de trabajo {#opciones-agentes bento-variant="summary"}
-
-::: {#opciones-agentes-kicker bento-slot="kicker"}
-
-02 / HERRAMIENTAS
+Una fuente para cada decisión; las demás instrucciones la enlazan.
 
 :::
 
-::: {#opciones-agentes-first bento-slot="first"}
+::: {#documentos-citation bento-slot="citation"}
 
-Codex · Claude Code · Gemini CLI
-
-:::
-
-::: {#opciones-agentes-second bento-slot="second"}
-
-Agentes externos que trabajan sobre archivos y herramientas.
+Convención AGENTS.md + plantilla docente en materiales/plantilla-proyecto/.
 
 :::
 
-::: {#opciones-agentes-third bento-slot="third"}
+::: {#documentos-notas .notes}
+Explicar en conjunto: protocolo y especificación para objetivos, diseño e hipótesis; diccionario para variables; AGENTS.md para rutas, restricciones y expectativas persistentes; skills para estilo y procedimientos reutilizables. AGENTS.md puede contener normas cortas de estilo si basta; una skill resulta útil si el contenido es largo, especializado o se reutiliza. No exigir fragmentación artificial ni duplicar todo en ambos.
+:::
 
-Posit Assistant: una vía integrada en Positron o RStudio.
+## AGENTS.md y la skill trabajando juntos {#agents-md bento-variant="comparison"}
+
+::: {#agents-md-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
 
 :::
 
-::: {#opciones-agentes-fourth bento-slot="fourth"}
+::: {#agents-md-left-label bento-slot="left-label"}
 
-Para la sesión: un agente preparado, no cuatro instalaciones.
-
-:::
-
-::: {#opciones-agentes-citation bento-slot="citation"}
-
-Fuentes oficiales de OpenAI, Anthropic, Google y Posit; consultadas el 29-10-2026.
+Guía del proyecto
 
 :::
 
-::: {#opciones-agentes-notas .notes}
-Explicar las tres familias externas y la opción integrada. Mencionar otras alternativas solo si surge en preguntas. No prometer equivalencia de permisos, skills, plataformas o MCP. No convertir esta diapositiva en tabla de precios.
+::: {#agents-md-left bento-slot="left" .bento-code}
+
+```{#agents-md-left-source .markdown}
+# Antes de analizar
+- Lee docs/protocolo.md.
+- Consulta docs/diccionario.csv.
+- Conserva los datos originales.
+- Usa la skill de estilo R disponible.
+- Consulta cambios metodológicos.
+```
+
+:::
+
+::: {#agents-md-right-label bento-slot="right-label"}
+
+Procedimiento reutilizable
+
+:::
+
+::: {#agents-md-right bento-slot="right"}
+
+La skill desarrolla el estilo de código,  
+las comprobaciones y sus límites.  
+El protocolo decide el método del estudio.  
+AGENTS.md no sustituye ese protocolo.
+
+:::
+
+::: {#agents-md-takeaway bento-slot="takeaway"}
+
+No duplicar la guía entera de R en cada proyecto.
+
+:::
+
+::: {#agents-md-citation bento-slot="citation"}
+
+Ejemplo docente · AGENTS.md no es un protocolo científico ni un mecanismo de seguridad.
+
+:::
+
+::: {#agents-md-notas .notes}
+Este archivo es un ejemplo de coordinación, no una invocación garantizada. r-analytic-coding-principles debe estar instalado y visible; su carga depende del agente. Otros productos pueden utilizar CLAUDE.md o GEMINI.md: el concepto es transferible, el nombre y prioridad se verifican. AGENTS.md no es sinónimo de system prompt ni un control de seguridad de ejecución.
+:::
+
+## La skill de codificación que utilizaremos {#skill-real bento-variant="wide"}
+
+::: {#skill-real-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#skill-real-visual bento-slot="visual"}
+
+![](assets/screenshots/skill-real.png)
+
+:::
+
+::: {#skill-real-takeaway bento-slot="takeaway"}
+
+Lee la finalidad, el alcance y los límites antes de utilizarla.
+
+:::
+
+::: {#skill-real-citation bento-slot="citation"}
+
+Captura propia · r-analytic-core / r-analytic-coding-principles · consulta local 29-10-2026
+
+:::
+
+::: {#skill-real-notas .notes}
+Captura propia del archivo r-analytic-core/r-analytic-coding-principles. Leer solo la finalidad: código que el investigador pueda inspeccionar, editar y retomar. Vincularlo con safe_cfa, lectura de datos y diagnósticos, no con una lista abstracta de buenas prácticas. No afirmar que ver el archivo prueba que un agente lo haya cargado.
+:::
+
+## Qué contiene y cuándo ayuda una skill {#skill-anatomia bento-variant="comparison"}
+
+::: {#skill-anatomia-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#skill-anatomia-left-label bento-slot="left-label"}
+
+Cuándo usarla
+
+:::
+
+::: {#skill-anatomia-left bento-slot="left"}
+
+**Nombre y descripción:** activación y alcance.  
+**Instrucciones:** cómo desarrollar la tarea.  
+**Límites:** qué no debe decidir por nosotros.
+
+:::
+
+::: {#skill-anatomia-right-label bento-slot="right-label"}
+
+Qué puede acompañarla
+
+:::
+
+::: {#skill-anatomia-right bento-slot="right"}
+
+Referencias que se consultan al necesitarlas.  
+Ejemplos y recursos de apoyo.  
+Scripts opcionales que hay que revisar.  
+No reentrena el modelo ni valida el resultado.
+
+:::
+
+::: {#skill-anatomia-takeaway bento-slot="takeaway"}
+
+Reutilizar un procedimiento sin convertirlo en una regla ciega.
+
+:::
+
+::: {#skill-anatomia-citation bento-slot="citation"}
+
+Agent Skills: formato SKILL.md; ejemplo real en r-workflow-plugins.
+
+:::
+
+::: {#skill-anatomia-notas .notes}
+Mantener la explicación junto con AGENTS.md. La estructura puede incluir SKILL.md, referencias, scripts y assets. No toda skill trae código ejecutable. Las descripciones pueden facilitar descubrimiento; no garantizar activación automática ni portabilidad idéntica.
+:::
+
+## Las skills del taller {#skills-catalogo bento-variant="visual"}
+
+::: {#skills-catalogo-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#skills-catalogo-visual bento-slot="visual"}
+
+![](assets/visuals/skills-catalogo.svg)
+
+:::
+
+::: {#skills-catalogo-takeaway bento-slot="takeaway"}
+
+La misma fuente de skills; una versión comprobada para la demostración.
+
+:::
+
+::: {#skills-catalogo-citation bento-slot="citation"}
+
+r-workflow-plugins: r-analytic-core disponible; módulos de datos y psicometría en desarrollo.
+
+:::
+
+::: {#skills-catalogo-notas .notes}
+Mostrar r-analytic-core como base actualmente inspeccionable. Reservar dos espacios de alcance para datos y análisis psicométrico que se integrarán desde el EPIC; no inventar nombres definitivos ni versión publicada. No se crea una copia paralela de las skills en el taller. Al cerrar el EPIC, fijar versión, alcance y prueba con el caso.
+:::
+
+## ¿Dónde guardarías cada información? {#clasificar-actividad bento-variant="question"}
+
+::: {#clasificar-actividad-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#clasificar-actividad-question bento-slot="question"}
+
+«Dos factores propuestos»  
+«Código R editable modelo por modelo»
+
+:::
+
+::: {#clasificar-actividad-prompt bento-slot="prompt"}
+
+¿Qué pertenece al estudio y qué se puede reutilizar en otros proyectos?
+
+:::
+
+::: {#clasificar-actividad-notas .notes}
+Actividad breve: hipótesis de estructura al protocolo o especificación; estilo R a una skill o guía reutilizable. La regla local puede enlazarla desde AGENTS.md. Aceptar soluciones de organización equivalentes siempre que no mezclen autoridad científica y procedimiento genérico.
+:::
+
+## La planificación proporcional {#plan-proporcional bento-variant="visual"}
+
+::: {#plan-proporcional-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#plan-proporcional-visual bento-slot="visual"}
+
+![](assets/visuals/plan.svg)
+
+:::
+
+::: {#plan-proporcional-takeaway bento-slot="takeaway"}
+
+Planificar es explicitar decisiones; no producir archivos por reflejo.
+
+:::
+
+::: {#plan-proporcional-citation bento-slot="citation"}
+
+Esquema didáctico · no son resultados observados.
+
+:::
+
+::: {#plan-proporcional-notas .notes}
+Recordar la proporcionalidad: un encargo pequeño no necesita plan.md; sí objetivos, datos y criterios suficientes. Un estudio con varias fases puede necesitar planificación escrita. El nombre del archivo no sustituye pensar el diseño. Esta regla evita que la solución a la opacidad sea más burocracia.
+:::
+
+## Antes de adoptar una skill {#skills-confianza bento-variant="visual"}
+
+::: {#skills-confianza-kicker bento-slot="kicker"}
+
+05 / CONTEXTO E INSTRUCCIONES
+
+:::
+
+::: {#skills-confianza-visual bento-slot="visual"}
+
+![](assets/visuals/skill-confianza.svg)
+
+:::
+
+::: {#skills-confianza-takeaway bento-slot="takeaway"}
+
+Revisar también lo que la skill puede ejecutar.
+
+:::
+
+::: {#skills-confianza-citation bento-slot="citation"}
+
+Esquema didáctico · no son resultados observados.
+
+:::
+
+::: {#skills-confianza-notas .notes}
+Revisar procedencia, contenido, permisos y un caso de prueba. Una skill externa puede contener instrucciones equivocadas o scripts peligrosos. Mostrar que la guía de estilo no elimina diagnóstico ni aprobación humana. No instalar recursos desconocidos durante el taller.
+:::
+
+## Pausa {#descanso bento-variant="section"}
+
+::: {#descanso-kicker bento-slot="kicker"}
+
+DESCANSO · MINUTOS
+
+:::
+
+::: {#descanso-number bento-slot="number"}
+
+10
+
+:::
+
+::: {#descanso-subtitle bento-slot="subtitle"}
+
+Al volver: preparar el entorno y recorrer el caso en R.
+
+:::
+
+::: {#descanso-notas .notes}
+Pausa prevista de diez minutos tras los fundamentos y las instrucciones. Es un punto de ajuste del ritmo, no un nuevo módulo.
 :::
 
 ## Positron por dentro {#positron-entorno bento-variant="screenshot"}
 
 ::: {#positron-entorno-kicker bento-slot="kicker"}
 
-02 / HERRAMIENTAS · CAPTURA PROPIA
+06 / ENTORNO DE TRABAJO
 
 :::
 
@@ -468,14 +1208,56 @@ Captura propia · Positron 2026.10.2 · R 4.6.1 · microejemplo sintético.
 :::
 
 ::: {#positron-entorno-notas .notes}
-Mostrar la ventana real en perfil aislado, sin cuentas ni credenciales. No se utilizó un agente para producir esta captura: se ejecutó el script docente en R. El fin es localizar las superficies, no leer todo el código a esta escala.
+Ahora que sabemos qué exigimos al código y al contexto, presentar Positron como entorno de trabajo. Localizar script, consola y salida en una captura propia. La captura usa un ejemplo sintético, no un agente: no fingir conexión. El archivo sigue siendo el entregable, aunque exploremos en una sesión persistente.
+:::
+
+## Una herramienta para practicar {#opciones-agentes bento-variant="summary"}
+
+::: {#opciones-agentes-kicker bento-slot="kicker"}
+
+06 / ENTORNO DE TRABAJO
+
+:::
+
+::: {#opciones-agentes-first bento-slot="first"}
+
+Agente externo: Codex, Claude Code o Gemini CLI.
+
+:::
+
+::: {#opciones-agentes-second bento-slot="second"}
+
+Positron + MCP conecta al agente con la sesión de R.
+
+:::
+
+::: {#opciones-agentes-third bento-slot="third"}
+
+Alternativa integrada: Posit Assistant en Positron o RStudio.
+
+:::
+
+::: {#opciones-agentes-fourth bento-slot="fourth"}
+
+Elegimos una vía y verificamos permisos, contexto y resultados.
+
+:::
+
+::: {#opciones-agentes-citation bento-slot="citation"}
+
+Fuentes oficiales de OpenAI, Anthropic, Google y Posit; consultadas el 29-10-2026.
+
+:::
+
+::: {#opciones-agentes-notas .notes}
+Mostrar las opciones después del método. No exigir cuatro instalaciones ni comparar precios. Una misma familia de modelos puede participar en varias interfaces. Verificar compatibilidad real de skills, instrucciones y MCP en el agente elegido.
 :::
 
 ## MCP: el puente hacia R {#positron-mcp bento-variant="visual"}
 
 ::: {#positron-mcp-kicker bento-slot="kicker"}
 
-02 / HERRAMIENTAS
+06 / ENTORNO DE TRABAJO
 
 :::
 
@@ -498,14 +1280,119 @@ Posit: October Release Highlights, 13-10-2026. Funcionalidad experimental.
 :::
 
 ::: {#positron-mcp-notas .notes}
-Definir Model Context Protocol una sola vez. Es un mecanismo para conectar herramientas. Positron 2026.10 incorporó un servidor MCP experimental; verificar agente y versión. El puente puede acceder a la sesión persistente, no sustituye los scripts.
+Definir MCP como protocolo de conexión, no como un modelo ni una skill. La integración experimental de Positron 2026.10 permite listar sesiones, ejecutar código e inspeccionar resultados. El proceso de configuración se muestra inmediatamente después. No prometer compatibilidad universal.
+:::
+
+## Conectar el agente a Positron {#positron-configurar bento-variant="comparison"}
+
+::: {#positron-configurar-kicker bento-slot="kicker"}
+
+06 / ENTORNO DE TRABAJO
+
+:::
+
+::: {#positron-configurar-left-label bento-slot="left-label"}
+
+1 · Activar el servidor
+
+:::
+
+::: {#positron-configurar-left bento-slot="left"}
+
+![](assets/screenshots/mcp-ajuste.png)
+
+:::
+
+::: {#positron-configurar-right-label bento-slot="right-label"}
+
+2 · Añadir el cliente
+
+:::
+
+::: {#positron-configurar-right bento-slot="right"}
+
+![](assets/screenshots/mcp-comando.png)
+
+:::
+
+::: {#positron-configurar-takeaway bento-slot="takeaway"}
+
+Configuración local y permisos acotados; nunca proyectar credenciales.
+
+:::
+
+::: {#positron-configurar-citation bento-slot="citation"}
+
+Posit, notas 2026.10; capturas propias de interfaz. Función experimental.
+
+:::
+
+::: {#positron-configurar-notas .notes}
+Abrir proyecto e iniciar una sesión R. En Settings buscar ai.mcp.enabled y activarlo. Después usar Positron MCP: Add to Coding Agent para Codex o Gemini CLI; la nota oficial describe configuración automática para Claude Code. Otros clientes requieren Copy Connection Details. No proyectar URL con token, claves API ni archivos de credenciales. Las capturas muestran el ajuste y el comando, no una conexión completada. Consultar la guía de herramientas para pasos y alcance.
+:::
+
+## Comprobar la conexión, no solo activarla {#mcp-prueba bento-variant="comparison"}
+
+::: {#mcp-prueba-kicker bento-slot="kicker"}
+
+06 / ENTORNO DE TRABAJO
+
+:::
+
+::: {#mcp-prueba-left-label bento-slot="left-label"}
+
+Pedido de comprobación
+
+:::
+
+::: {#mcp-prueba-left bento-slot="left" .bento-code}
+
+```{#mcp-prueba-left-source .text}
+Lista las sesiones disponibles.
+Identifica la sesión R del taller.
+Ejecuta sum(1:4) en esa sesión.
+Muestra la salida y no modifiques
+archivos ni configuraciones.
+```
+
+:::
+
+::: {#mcp-prueba-right-label bento-slot="right-label"}
+
+Qué debemos observar
+
+:::
+
+::: {#mcp-prueba-right bento-slot="right"}
+
+La sesión correcta.  
+La llamada a la herramienta.  
+El código y el nombre del agente.  
+La salida 10 en la consola R.
+
+:::
+
+::: {#mcp-prueba-takeaway bento-slot="takeaway"}
+
+Una respuesta correcta no basta: importa dónde y cómo se obtuvo.
+
+:::
+
+::: {#mcp-prueba-citation bento-slot="citation"}
+
+Prueba propuesta de conexión; no es evidencia de una conexión ya realizada.
+
+:::
+
+::: {#mcp-prueba-notas .notes}
+Prueba a realizar con el cliente definitivo; no afirmar que ya se ejecutó vía MCP. sum(1:4) vale 10, pero obtener 10 en un chat no prueba acceso a esa sesión: debe observarse la llamada y su procedencia en Positron. Inspeccionar alcance de archivos y directorio de trabajo antes del caso. El kit incluye una lista de comprobación.
 :::
 
 ## Una llamada visible a una herramienta {#mcp-captura bento-variant="screenshot"}
 
 ::: {#mcp-captura-kicker bento-slot="kicker"}
 
-02 / HERRAMIENTAS · CAPTURA OFICIAL
+06 / ENTORNO DE TRABAJO
 
 :::
 
@@ -546,62 +1433,14 @@ Posit (13-10-2026) · captura oficial de producto · fuente y original en assets
 :::
 
 ::: {#mcp-captura-notas .notes}
-Se trata de una captura publicada por Posit, con otro conjunto de datos. No presentarla como una ejecución del taller. Señalar las tres regiones; la siguiente lámina amplía dos detalles para que se puedan leer.
-:::
-
-## Del pedido a la consola {#mcp-detalle bento-variant="comparison"}
-
-::: {#mcp-detalle-kicker bento-slot="kicker"}
-
-02 / HERRAMIENTAS · AMPLIACIÓN
-
-:::
-
-::: {#mcp-detalle-left-label bento-slot="left-label"}
-
-Detalle 1 · llamada de herramienta
-
-:::
-
-::: {#mcp-detalle-left bento-slot="left"}
-
-![](assets/screenshots/mcp-ejecutar.png)
-
-:::
-
-::: {#mcp-detalle-right-label bento-slot="right-label"}
-
-Detalle 2 · código en la sesión R
-
-:::
-
-::: {#mcp-detalle-right bento-slot="right"}
-
-![](assets/screenshots/mcp-consola.png)
-
-:::
-
-::: {#mcp-detalle-takeaway bento-slot="takeaway"}
-
-La conexión debe probarse con el agente y la versión elegidos.
-
-:::
-
-::: {#mcp-detalle-citation bento-slot="citation"}
-
-Posit (2026) · recortes de claude-code-in-positron.png; original conservado.
-
-:::
-
-::: {#mcp-detalle-notas .notes}
-Mantener los píxeles de la captura original y ampliar dos regiones. Preguntar dónde buscaríamos un error de ejecución. No leer nombres de modelos de la interfaz como requisito para el curso.
+Mostrar la captura oficial como referencia de lo que se busca comprobar: llamada a herramienta, consola identificada y salida. Proviene de otro proyecto publicado por Posit. No es ejecución de este taller. Si el equipo dispone de una captura propia del agente definitivo, sustituirla manteniendo las tres regiones anotadas.
 :::
 
 ## Posit Assistant: otra forma de entrar {#posit-assistant bento-variant="screenshot"}
 
 ::: {#posit-assistant-kicker bento-slot="kicker"}
 
-02 / HERRAMIENTAS · CAPTURA OFICIAL
+06 / ENTORNO DE TRABAJO
 
 :::
 
@@ -642,633 +1481,38 @@ Posit (13-10-2026) · captura oficial de producto · fuente y original en assets
 :::
 
 ::: {#posit-assistant-notas .notes}
-Captura oficial con un archivo de ejemplo ajeno al taller. Mostrar la secuencia skill, referencia, comando y resultado. Indicar disponibilidad en Positron y RStudio; el acceso requiere un proveedor configurado. No suponer que una suscripción de chat equivale a cualquier acceso API.
-:::
-
-## Un nuevo analista en el equipo {#analista-equipo bento-variant="section"}
-
-::: {#analista-equipo-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#analista-equipo-number bento-slot="number"}
-
-03
-
-:::
-
-::: {#analista-equipo-subtitle bento-slot="subtitle"}
-
-Antes de pedir código: explicar el estudio, los datos y la forma de trabajar.
-
-:::
-
-::: {#analista-equipo-notas .notes}
-Usar la analogía propuesta por Brian. Preguntar qué información necesitaría una persona competente recién incorporada. No empezar por ingeniería de prompts.
-:::
-
-## El contexto que falta {#onboarding bento-variant="visual"}
-
-::: {#onboarding-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#onboarding-visual bento-slot="visual"}
-
-![](assets/visuals/onboarding.svg)
-
-:::
-
-::: {#onboarding-takeaway bento-slot="takeaway"}
-
-Saber estadística no equivale a conocer este proyecto.
-
-:::
-
-::: {#onboarding-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#onboarding-notas .notes}
-Diferenciar conocimiento general de investigación de contexto específico del estudio. Un analista experimentado tampoco sabe por defecto qué significa 99 o cuál es la hipótesis factorial.
-:::
-
-## Un mapa, no un documento gigante {#documentos bento-variant="visual"}
-
-::: {#documentos-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#documentos-visual bento-slot="visual"}
-
-![](assets/visuals/documentos.svg)
-
-:::
-
-::: {#documentos-takeaway bento-slot="takeaway"}
-
-Una fuente por decisión; referencias claras entre documentos.
-
-:::
-
-::: {#documentos-citation bento-slot="citation"}
-
-Convención AGENTS.md + plantilla docente en materiales/plantilla-proyecto/.
-
-:::
-
-::: {#documentos-notas .notes}
-Recorrer las tres fuentes: protocolo, diccionario y README. AGENTS.md contiene reglas persistentes y rutas; no absorbe todos los documentos. La metodología pertenece al estudio y debe ser legible también sin un agente.
-:::
-
-## ¿Dónde guardarías cada información? {#clasificar-actividad bento-variant="question"}
-
-::: {#clasificar-actividad-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR · ANTICIPAR
-
-:::
-
-::: {#clasificar-actividad-question bento-slot="question"}
-
-«99 = perdido»  
-«No sobrescribir originales»
-
-:::
-
-::: {#clasificar-actividad-prompt bento-slot="prompt"}
-
-¿Van en el mismo archivo? Responde y justifica antes de avanzar.
-
-:::
-
-::: {#clasificar-actividad-notas .notes}
-Pausa de dos minutos. Buscar la diferencia entre significado de los datos y regla de trabajo. No convertir la organización documental en ritual.
-:::
-
-## Información y lugar apropiado {#clasificar-respuesta bento-variant="visual"}
-
-::: {#clasificar-respuesta-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR · RESOLVER
-
-:::
-
-::: {#clasificar-respuesta-visual bento-slot="visual"}
-
-![](assets/visuals/clasificar.svg)
-
-:::
-
-::: {#clasificar-respuesta-takeaway bento-slot="takeaway"}
-
-La semántica de los datos no debería esconderse en un prompt.
-
-:::
-
-::: {#clasificar-respuesta-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#clasificar-respuesta-notas .notes}
-Resolver la actividad y añadir hipótesis del estudio y procedimiento reutilizable. No presentar estas ubicaciones como un estándar único; son una organización proporcionada para el proyecto del taller.
-:::
-
-## AGENTS.md en una tarea real {#agents-md bento-variant="comparison"}
-
-::: {#agents-md-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#agents-md-left-label bento-slot="left-label"}
-
-Instrucciones persistentes
-
-:::
-
-::: {#agents-md-left bento-slot="left" .bento-code}
-
-```{#agents-md-left-source .markdown}
-# Reglas de trabajo
-- Lee docs/protocolo.md.
-- Consulta el diccionario.
-- No cambies datos originales.
-- Conserva scripts legibles.
-- Consulta cambios del método.
-```
-
-:::
-
-::: {#agents-md-right-label bento-slot="right-label"}
-
-Lo que esta guía NO decide
-
-:::
-
-::: {#agents-md-right bento-slot="right"}
-
-No elige el constructo, la dimensionalidad ni el estimador.  
-Te ayuda a encontrar y respetar las decisiones del equipo.
-
-:::
-
-::: {#agents-md-takeaway bento-slot="takeaway"}
-
-Instrucciones estables; metodología documentada en su fuente.
-
-:::
-
-::: {#agents-md-citation bento-slot="citation"}
-
-Ejemplo docente · AGENTS.md no es un protocolo científico ni un mecanismo de seguridad.
-
-:::
-
-::: {#agents-md-notas .notes}
-Mostrar el ejemplo mínimo y después abrir la plantilla entregada si el tiempo lo permite. La carga de AGENTS.md depende del producto; explicar que la convención no equivale a un permiso efectivo de seguridad.
-:::
-
-## Qué dejar fuera de AGENTS.md {#no-agents bento-variant="visual"}
-
-::: {#no-agents-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#no-agents-visual bento-slot="visual"}
-
-![](assets/visuals/agents-limites.svg)
-
-:::
-
-::: {#no-agents-takeaway bento-slot="takeaway"}
-
-Menos duplicación; más contexto pertinente y verificable.
-
-:::
-
-::: {#no-agents-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#no-agents-notas .notes}
-Contrastar pares con el mismo propósito: ayudar a trabajar. Mostrar por qué secretos, protocolos duplicados y recetas universales empeoran el diseño. No incluir un token real ni siquiera como captura.
-:::
-
-## La planificación proporcional {#plan-proporcional bento-variant="visual"}
-
-::: {#plan-proporcional-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR
-
-:::
-
-::: {#plan-proporcional-visual bento-slot="visual"}
-
-![](assets/visuals/plan.svg)
-
-:::
-
-::: {#plan-proporcional-takeaway bento-slot="takeaway"}
-
-Planificar es explicitar decisiones; no producir archivos por reflejo.
-
-:::
-
-::: {#plan-proporcional-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#plan-proporcional-notas .notes}
-No exigir un plan.md para cada operación. La explicación de objetivos, método y entregables sí es necesaria. Un plan escrito adquiere valor con dependencias, riesgo, coste o decisiones que requieren revisión.
-:::
-
-## De un pedido vago a un encargo {#actividad-pedido bento-variant="visual"}
-
-::: {#actividad-pedido-kicker bento-slot="kicker"}
-
-03 / CONTEXTUALIZAR · PRACTICAR
-
-:::
-
-::: {#actividad-pedido-visual bento-slot="visual"}
-
-![](assets/visuals/pedido.svg)
-
-:::
-
-::: {#actividad-pedido-takeaway bento-slot="takeaway"}
-
-Pregunta + contexto + límites + evidencia de entrega.
-
-:::
-
-::: {#actividad-pedido-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#actividad-pedido-notas .notes}
-Dar tres minutos para reformular el pedido. Valorar información relevante y control de decisiones, no longitud del prompt. Usar el caso del instrumento, no introducir otro estudio.
-:::
-
-## De conocimiento general a procedimiento {#skills-intro bento-variant="section"}
-
-::: {#skills-intro-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#skills-intro-number bento-slot="number"}
-
-04
-
-:::
-
-::: {#skills-intro-subtitle bento-slot="subtitle"}
-
-Un modelo puede conocer una técnica sin conocer cómo queremos trabajar.
-
-:::
-
-::: {#skills-intro-notas .notes}
-Introducir el papel de instrucciones reutilizables. Las skills no reentrenan el modelo ni eliminan la evaluación metodológica. El taller consumirá el monorepo en desarrollo.
-:::
-
-## Cómo se utiliza una skill {#skills-carga bento-variant="visual"}
-
-::: {#skills-carga-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#skills-carga-visual bento-slot="visual"}
-
-![](assets/visuals/skill-carga.svg)
-
-:::
-
-::: {#skills-carga-takeaway bento-slot="takeaway"}
-
-Procedimiento reutilizable, no garantía de especialización.
-
-:::
-
-::: {#skills-carga-citation bento-slot="citation"}
-
-Agent Skills: especificación oficial, agentskills.io/specification, consultada 29-10-2026.
-
-:::
-
-::: {#skills-carga-notas .notes}
-Explicar la selección por nombre/descripción y la carga del procedimiento, con referencias cuando corresponde. La activación exacta depende del agente. No afirmar que un modelo sigue perfectamente las instrucciones.
-:::
-
-## Una skill real de nuestro repositorio {#skill-real bento-variant="wide"}
-
-::: {#skill-real-kicker bento-slot="kicker"}
-
-04 / SKILLS · CAPTURA PROPIA
-
-:::
-
-::: {#skill-real-visual bento-slot="visual"}
-
-![](assets/screenshots/skill-real.png)
-
-:::
-
-::: {#skill-real-takeaway bento-slot="takeaway"}
-
-Lee la finalidad, el alcance y los límites antes de utilizarla.
-
-:::
-
-::: {#skill-real-citation bento-slot="citation"}
-
-Captura propia · r-analytic-core / r-analytic-coding-principles · consulta local 29-10-2026
-
-:::
-
-::: {#skill-real-notas .notes}
-Mostrar el archivo existente sin modificar el monorepo. El encabezado identifica cuándo se usa; la introducción explica la prioridad de editabilidad y transparencia. La captura es del archivo real, no de una skill psicométrica imaginada. No se afirma que un agente la haya cargado.
-:::
-
-## Qué mirar dentro de SKILL.md {#skill-anatomia bento-variant="comparison"}
-
-::: {#skill-anatomia-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#skill-anatomia-left-label bento-slot="left-label"}
-
-Tres preguntas sobre la cabecera
-
-:::
-
-::: {#skill-anatomia-left bento-slot="left"}
-
-**name:** ¿cómo se identifica?  
-**description:** ¿cuándo se activa?  
-**Cuerpo:** ¿qué procedimiento propone?
-
-:::
-
-::: {#skill-anatomia-right-label bento-slot="right-label"}
-
-Más allá del archivo principal
-
-:::
-
-::: {#skill-anatomia-right bento-slot="right"}
-
-Referencias para profundizar.  
-Scripts que debemos inspeccionar.  
-Alcance, límites y ejemplos comprobables.
-
-:::
-
-::: {#skill-anatomia-takeaway bento-slot="takeaway"}
-
-Una skill breve puede enlazar detalles sin cargarlos todos al principio.
-
-:::
-
-::: {#skill-anatomia-citation bento-slot="citation"}
-
-Agent Skills: formato SKILL.md; ejemplo real en r-workflow-plugins.
-
-:::
-
-::: {#skill-anatomia-notas .notes}
-Usar la captura anterior como objeto de referencia. Descripción no es publicidad: debe orientar la selección de tareas. Una buena skill distingue reglas de código de decisiones científicas del proyecto.
-:::
-
-## Mismo cálculo, distinta legibilidad {#codigo-legible bento-variant="comparison"}
-
-::: {#codigo-legible-kicker bento-slot="kicker"}
-
-04 / SKILLS · CONTRASTE CONTROLADO
-
-:::
-
-::: {#codigo-legible-left-label bento-slot="left-label"}
-
-Compacto, difícil de revisar
-
-:::
-
-::: {#codigo-legible-left bento-slot="left" .bento-code}
-
-```{#codigo-legible-left-source .r}
-x <- c(1, 2, 3, 4, 99)
-mean(replace(x, x == 99, NA),
-     na.rm = TRUE)
-```
-
-:::
-
-::: {#codigo-legible-right-label bento-slot="right-label"}
-
-Decisiones a la vista
-
-:::
-
-::: {#codigo-legible-right bento-slot="right" .bento-code}
-
-```{#codigo-legible-right-source .r}
-respuestas_limpias <- replace(
-  respuestas,
-  respuestas == 99,
-  NA
-)
-mean(respuestas_limpias,
-     na.rm = TRUE)
-```
-
-:::
-
-::: {#codigo-legible-takeaway bento-slot="takeaway"}
-
-La brevedad del código no es el objetivo principal del análisis.
-
-:::
-
-::: {#codigo-legible-citation bento-slot="citation"}
-
-Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
-
-:::
-
-::: {#codigo-legible-notas .notes}
-Comparación elaborada por el docente, no un ensayo de rendimiento de agentes ni una prueba causal del efecto de la skill. Ambas expresiones calculan 2.5 con la misma entrada. Señalar los nombres, la transformación y la decisión sobre perdidos. La versión derecha presupone respuestas definido en el script canónico.
-:::
-
-## Una instrucción no es una herramienta {#dos-skills bento-variant="visual"}
-
-::: {#dos-skills-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#dos-skills-visual bento-slot="visual"}
-
-![](assets/visuals/skill-herramienta.svg)
-
-:::
-
-::: {#dos-skills-takeaway bento-slot="takeaway"}
-
-La skill encamina el trabajo; el investigador juzga su pertinencia.
-
-:::
-
-::: {#dos-skills-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#dos-skills-notas .notes}
-Distinguir qué procedimiento utilizar de qué operación está disponible. Una skill puede orientar auditoría y legibilidad; MCP puede facilitar acceso a R. El criterio metodológico sigue fuera de esa automatización.
-:::
-
-## Antes de adoptar una skill {#skills-confianza bento-variant="visual"}
-
-::: {#skills-confianza-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#skills-confianza-visual bento-slot="visual"}
-
-![](assets/visuals/skill-confianza.svg)
-
-:::
-
-::: {#skills-confianza-takeaway bento-slot="takeaway"}
-
-Revisar también lo que la skill puede ejecutar.
-
-:::
-
-::: {#skills-confianza-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#skills-confianza-notas .notes}
-Dar un ejemplo de recomendación metodológica rígida y otro de script externo no revisado. Inspeccionar procedencia, contenido, permisos y pruebas. No ejecutar recursos de terceros durante la explicación.
-:::
-
-## Nuestro repositorio como fuente {#skills-proyecto bento-variant="visual"}
-
-::: {#skills-proyecto-kicker bento-slot="kicker"}
-
-04 / SKILLS
-
-:::
-
-::: {#skills-proyecto-visual bento-slot="visual"}
-
-![](assets/visuals/repo.svg)
-
-:::
-
-::: {#skills-proyecto-takeaway bento-slot="takeaway"}
-
-Una versión comprobada para la sesión, no una promesa de disponibilidad.
-
-:::
-
-::: {#skills-proyecto-citation bento-slot="citation"}
-
-Instantánea local de r-workflow-plugins consultada 29-10-2026; sin modificar el monorepo.
-
-:::
-
-::: {#skills-proyecto-notas .notes}
-Distinguir la skill ya presente r-analytic-coding-principles del EPIC de datos y psicometría. El taller no crea otra implementación paralela. Fijar versión y probarla antes de la demostración final.
-:::
-
-## Pausa {#descanso bento-variant="section"}
-
-::: {#descanso-kicker bento-slot="kicker"}
-
-DESCANSO · MINUTOS
-
-:::
-
-::: {#descanso-number bento-slot="number"}
-
-10
-
-:::
-
-::: {#descanso-subtitle bento-slot="subtitle"}
-
-Al volver: aplicar el método a un caso psicométrico y revisar sus decisiones.
-
-:::
-
-::: {#descanso-notas .notes}
-Descanso de diez minutos incluido en las tres horas. Mantener la sesión y los materiales de demostración preparados; no usar este tiempo para instalaciones improvisadas.
+Alternativa integrada a un agente externo. Mostrar petición, acceso a herramientas y revisión en la captura oficial. Requiere un proveedor compatible configurado; el acceso y las credenciales se resuelven fuera de la proyección. Evitar duplicar una instalación si ya se eligió la vía externa.
 :::
 
 ## Del diccionario al modelo {#caso-portada bento-variant="section"}
 
 ::: {#caso-portada-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
 ::: {#caso-portada-number bento-slot="number"}
 
-05
+07
 
 :::
 
 ::: {#caso-portada-subtitle bento-slot="subtitle"}
 
-Una escala sintética: documentar, inspeccionar, decidir y comprobar.
+Dirigir un análisis, revisar sus decisiones y poder continuarlo sin IA.
 
 :::
 
 ::: {#caso-portada-notas .notes}
-Iniciar la demostración integrada. La preparación de 500 casos, 12 ítems y dos dimensiones continúa pendiente; no mostrar índices inventados. El microejemplo de cinco respuestas ya tiene código y salidas de referencia.
+Inicio de la práctica. Abrir el proyecto, leer contexto y mostrar el script que se construye. El caso factorial completo sigue pendiente de datos y validación; las láminas diferencian hipótesis, microejemplo comprobado y futuros resultados. No presentar números ajustados inexistentes.
 :::
 
 ## Respuestas ordinales {#caso-diseno bento-variant="visual"}
 
 ::: {#caso-diseno-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
@@ -1291,299 +1535,14 @@ Ilustración ficticia · el caso completo previsto es de 500 casos, 12 ítems y 
 :::
 
 ::: {#caso-diseno-notas .notes}
-Matriz ilustrativa ficticia, no resultados de la escala final. Pedir que identifiquen qué cosas inspeccionarían antes de un análisis. El código 99 obliga a consultar el diccionario; ninguna recodificación se decide solo por su magnitud.
-:::
-
-## La pregunta de investigación {#caso-pregunta bento-variant="question"}
-
-::: {#caso-pregunta-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#caso-pregunta-question bento-slot="question"}
-
-¿Qué evidencia respalda la estructura interna propuesta?
-
-:::
-
-::: {#caso-pregunta-prompt bento-slot="prompt"}
-
-Después: ¿qué fiabilidad tienen las puntuaciones de cada dimensión?
-
-:::
-
-::: {#caso-pregunta-notas .notes}
-Separar objetivos. Las preguntas proceden del diseño del caso ya acordado. Ni el agente ni el ajuste de un modelo deben redefinirlas silenciosamente.
-:::
-
-## El diccionario antes de recodificar {#caso-auditoria bento-variant="comparison"}
-
-::: {#caso-auditoria-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#caso-auditoria-left-label bento-slot="left-label"}
-
-Dato observado en el microejemplo
-
-:::
-
-::: {#caso-auditoria-left bento-slot="left" .bento-code}
-
-```{#caso-auditoria-left-source .r}
-respuestas <- c(1, 2, 3, 4, 99)
-mean(respuestas)
-# [1] 21.8
-```
-
-:::
-
-::: {#caso-auditoria-right-label bento-slot="right-label"}
-
-Documentación que decide el sentido
-
-:::
-
-::: {#caso-auditoria-right bento-slot="right"}
-
-**Categorías válidas:** 1, 2, 3 y 4.  
-**Código 99:** respuesta perdida.  
-No es una quinta categoría ni un valor extremo interpretable.
-
-:::
-
-::: {#caso-auditoria-takeaway bento-slot="takeaway"}
-
-El agente puede detectar una anomalía; el diccionario explica su significado.
-
-:::
-
-::: {#caso-auditoria-citation bento-slot="citation"}
-
-Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
-
-:::
-
-::: {#caso-auditoria-notas .notes}
-Usar diccionario.csv del microejemplo. Los resultados del código están verificados. El texto de la derecha es la fuente que autoriza recodificar, no una conjetura de la IA.
-:::
-
-## La corrección documentada {#caso-correccion bento-variant="visual"}
-
-::: {#caso-correccion-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO · RESOLVER
-
-:::
-
-::: {#caso-correccion-visual bento-slot="visual"}
-
-![](assets/visuals/micro-correccion.svg)
-
-:::
-
-::: {#caso-correccion-takeaway bento-slot="takeaway"}
-
-La corrección debe quedar en código y conservar el original.
-
-:::
-
-::: {#caso-correccion-citation bento-slot="citation"}
-
-Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
-
-:::
-
-::: {#caso-correccion-notas .notes}
-Regresar al mismo vector del inicio y cambiar solo el tratamiento documentado de 99. R devuelve 2.5 y cuatro respuestas válidas. Esta media ilustra una decisión de limpieza; no es un análisis de fiabilidad ni una validación de la escala.
-:::
-
-## La salida real de R {#r-salida-real bento-variant="wide"}
-
-::: {#r-salida-real-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO · CAPTURA PROPIA
-
-:::
-
-::: {#r-salida-real-visual bento-slot="visual"}
-
-![](assets/screenshots/r-consola.png)
-
-:::
-
-::: {#r-salida-real-takeaway bento-slot="takeaway"}
-
-Los números del relato deben coincidir con la evidencia de ejecución.
-
-:::
-
-::: {#r-salida-real-citation bento-slot="citation"}
-
-Captura propia de consola · salida comprobada también con Rscript --vanilla.
-
-:::
-
-::: {#r-salida-real-notas .notes}
-Mostrar la ampliación para poder leer el resultado. Esta consola procede de una sesión R real en un perfil aislado de Positron; no es una captura simulada ni una conversación inventada con un agente. Contrastar con el archivo salida_referencia.txt.
-:::
-
-## Ítems invertidos: la clave importa {#item-inverso bento-variant="visual"}
-
-::: {#item-inverso-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#item-inverso-visual bento-slot="visual"}
-
-![](assets/visuals/invertir.svg)
-
-:::
-
-::: {#item-inverso-takeaway bento-slot="takeaway"}
-
-No automatizar una decisión sustantiva a partir de un signo.
-
-:::
-
-::: {#item-inverso-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#item-inverso-notas .notes}
-Esquema de recodificación de una escala de 1 a 4. La fórmula 5 menos respuesta es correcta solo si las categorías y la clave lo justifican. No invertir un ítem por una correlación negativa sin revisar contenido y documentación.
-:::
-
-## La estructura que vamos a contrastar {#modelo-propuesto bento-variant="visual"}
-
-::: {#modelo-propuesto-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#modelo-propuesto-visual bento-slot="visual"}
-
-![](assets/visuals/modelo-factorial.svg)
-
-:::
-
-::: {#modelo-propuesto-takeaway bento-slot="takeaway"}
-
-El modelo expresa una hipótesis; no es un dibujo que el agente deba adivinar.
-
-:::
-
-::: {#modelo-propuesto-citation bento-slot="citation"}
-
-Esquema del modelo propuesto · sin parámetros estimados ni evidencia empírica.
-
-:::
-
-::: {#modelo-propuesto-notas .notes}
-Dos factores correlacionados y doce indicadores; los nombres de dimensiones son didácticos y corresponden a autorregulación académica. No hay cargas ni índices ajustados en el dibujo. Antes de ejecutar, revisar teoría, identificación y tratamiento de respuestas ordinales.
-:::
-
-## Decisiones antes del AFC {#caso-decision bento-variant="comparison"}
-
-::: {#caso-decision-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#caso-decision-left-label bento-slot="left-label"}
-
-Sintaxis ilustrativa, no ejecutada
-
-:::
-
-::: {#caso-decision-left bento-slot="left" .bento-code}
-
-```{#caso-decision-left-source .r}
-ajuste <- lavaan::cfa(
-  modelo,
-  data = datos,
-  ordered = items,
-  estimator = "WLSMV"
-)
-```
-
-:::
-
-::: {#caso-decision-right-label bento-slot="right-label"}
-
-Preguntas que no resuelve la sintaxis
-
-:::
-
-::: {#caso-decision-right bento-slot="right"}
-
-¿Qué categorías y patrones hay?  
-¿Cómo se tratan los perdidos?  
-¿El modelo y el estimador son pertinentes?
-
-:::
-
-::: {#caso-decision-takeaway bento-slot="takeaway"}
-
-Los argumentos de una función también contienen decisiones metodológicas.
-
-:::
-
-::: {#caso-decision-citation bento-slot="citation"}
-
-lavaan: tutorial de datos categóricos. Caso completo pendiente de ejecución.
-
-:::
-
-::: {#caso-decision-notas .notes}
-Esta es una ilustración docente, no código para ejecutar con el microejemplo de un ítem. WLSMV es candidato para el caso ordinal, no regla universal. Un argumento bien escrito no demuestra la pertinencia estadística.
-:::
-
-## Autonomía con puntos de revisión {#caso-ejecucion bento-variant="visual"}
-
-::: {#caso-ejecucion-kicker bento-slot="kicker"}
-
-05 / CASO PSICOMÉTRICO
-
-:::
-
-::: {#caso-ejecucion-visual bento-slot="visual"}
-
-![](assets/visuals/controles-humanos.svg)
-
-:::
-
-::: {#caso-ejecucion-takeaway bento-slot="takeaway"}
-
-Permisos proporcionales; decisiones científicas explícitas.
-
-:::
-
-::: {#caso-ejecucion-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#caso-ejecucion-notas .notes}
-Recorrer los carriles. Aprobar decisiones sustantivas no significa autorizar cada comando. Las operaciones rutinarias de lectura pueden estar preautorizadas, mientras que cambiar el modelo o la codificación requiere revisión.
+Presentar la matriz didáctica, el diseño previsto de 500 casos y 12 ítems, y las dos dimensiones. La matriz dibujada es ficticia y no es un extracto de un archivo analizado. Se revisará el diccionario antes de modelar. Mostrar después la hipótesis factorial.
 :::
 
 ## El encargo para la demostración {#caso-prompt bento-variant="comparison"}
 
 ::: {#caso-prompt-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
@@ -1634,38 +1593,164 @@ Texto docente · versión extendida en materiales/prompts-demostracion.md.
 :::
 
 ::: {#caso-prompt-notas .notes}
-No es un prompt mágico. Acompañarlo del contexto real y las skills probadas. Durante el bloque principal se trabaja en el IDE, no se leen todas las instrucciones desde la diapositiva.
+Aplicar las instrucciones del proyecto y la skill disponible antes de ejecutar. El encargo pide inspección, preguntas pendientes, código legible y evidencias. No exigir un plan.md. El investigador revisa los cambios de método; el agente puede realizar operaciones rutinarias autorizadas.
 :::
 
-## Tu turno: localizar el fallo {#caso-error bento-variant="question"}
+## Antes de aceptar un cálculo {#promesa bento-variant="visual"}
 
-::: {#caso-error-kicker bento-slot="kicker"}
+::: {#promesa-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO · AUDITAR
-
-:::
-
-::: {#caso-error-question bento-slot="question"}
-
-El script corre. El 99 quedó como respuesta válida.
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
-::: {#caso-error-prompt bento-slot="prompt"}
+::: {#promesa-visual bento-slot="visual"}
 
-¿Qué revisarías, qué corregirías y qué análisis volverías a ejecutar?
+![](assets/visuals/micro-pregunta.svg)
 
 :::
 
-::: {#caso-error-notas .notes}
-Error deliberado. No atribuirlo a un agente concreto. Pedir que conecten decisiones de preparación con resultados posteriores y documenten la corrección antes de recalcular.
+::: {#promesa-takeaway bento-slot="takeaway"}
+
+¿Qué falta saber antes de aceptar el resultado?
+
+:::
+
+::: {#promesa-citation bento-slot="citation"}
+
+Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
+
+:::
+
+::: {#promesa-notas .notes}
+Ahora, dentro de la práctica, mostrar las cinco respuestas ficticias. Pedir qué significa 99 y qué documento lo decide. No se usa esta pregunta para abrir el taller, sino para ejercitar la revisión ya aprendida.
+:::
+
+## Una ejecución sin errores {#micro-ejecucion bento-variant="visual"}
+
+::: {#micro-ejecucion-kicker bento-slot="kicker"}
+
+07 / PRÁCTICA PSICOMÉTRICA
+
+:::
+
+::: {#micro-ejecucion-visual bento-slot="visual"}
+
+![](assets/visuals/micro-ejecucion.svg)
+
+:::
+
+::: {#micro-ejecucion-takeaway bento-slot="takeaway"}
+
+El código funciona; el análisis puede seguir estando mal.
+
+:::
+
+::: {#micro-ejecucion-citation bento-slot="citation"}
+
+Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
+
+:::
+
+::: {#micro-ejecucion-notas .notes}
+Salida real de R para el microejemplo: mean de 1,2,3,4,99 es 21.8. El error didáctico es semántico, no computacional. No atribuirlo a un agente concreto. Buscar el diccionario antes de corregir.
+:::
+
+## La corrección documentada {#caso-correccion bento-variant="visual"}
+
+::: {#caso-correccion-kicker bento-slot="kicker"}
+
+07 / PRÁCTICA PSICOMÉTRICA
+
+:::
+
+::: {#caso-correccion-visual bento-slot="visual"}
+
+![](assets/visuals/micro-correccion.svg)
+
+:::
+
+::: {#caso-correccion-takeaway bento-slot="takeaway"}
+
+La corrección debe quedar en código y conservar el original.
+
+:::
+
+::: {#caso-correccion-citation bento-slot="citation"}
+
+Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
+
+:::
+
+::: {#caso-correccion-notas .notes}
+El diccionario del microejemplo define 99 como perdido. La recodificación explícita produce media 2.5 con cuatro observaciones válidas. Mostrar código y denominador, conservar los originales y vincular la corrección con el criterio humano. No confundir este ejemplo con un análisis de fiabilidad.
+:::
+
+## La salida real de R {#r-salida-real bento-variant="wide"}
+
+::: {#r-salida-real-kicker bento-slot="kicker"}
+
+07 / PRÁCTICA PSICOMÉTRICA
+
+:::
+
+::: {#r-salida-real-visual bento-slot="visual"}
+
+![](assets/screenshots/r-consola.png)
+
+:::
+
+::: {#r-salida-real-takeaway bento-slot="takeaway"}
+
+Los números del relato deben coincidir con la evidencia de ejecución.
+
+:::
+
+::: {#r-salida-real-citation bento-slot="citation"}
+
+Captura propia de consola · salida comprobada también con Rscript --vanilla.
+
+:::
+
+::: {#r-salida-real-notas .notes}
+Captura propia de la consola del microejemplo, también reproducida desde una sesión limpia de R. Verificar que aparecen 21.8, 2.5 y 4. La captura no prueba ejecución por un agente ni un ajuste factorial completo.
+:::
+
+## La estructura que vamos a contrastar {#modelo-propuesto bento-variant="visual"}
+
+::: {#modelo-propuesto-kicker bento-slot="kicker"}
+
+07 / PRÁCTICA PSICOMÉTRICA
+
+:::
+
+::: {#modelo-propuesto-visual bento-slot="visual"}
+
+![](assets/visuals/modelo-factorial.svg)
+
+:::
+
+::: {#modelo-propuesto-takeaway bento-slot="takeaway"}
+
+El modelo expresa una hipótesis; no es un dibujo que el agente deba adivinar.
+
+:::
+
+::: {#modelo-propuesto-citation bento-slot="citation"}
+
+Esquema del modelo propuesto · sin parámetros estimados ni evidencia empírica.
+
+:::
+
+::: {#modelo-propuesto-notas .notes}
+Hipótesis de dos factores y doce indicadores. Residuos omitidos solo en el esquema. Contrastar con el código explícito mostrado antes: cambiar un ítem afecta una decisión sustantiva. Los coeficientes y diagnósticos del caso completo se incorporarán cuando se hayan ejecutado y verificado.
 :::
 
 ## Después de la convergencia {#caso-diagnostico bento-variant="visual"}
 
 ::: {#caso-diagnostico-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
@@ -1688,14 +1773,14 @@ Esquema didáctico · no son resultados observados.
 :::
 
 ::: {#caso-diagnostico-notas .notes}
-Introducir el significado de converger: el procedimiento alcanzó un criterio de parada. Luego inspeccionar solución, ajuste y sentido sustantivo. El diagrama es guía de revisión, no el reporte de un modelo corrido ni un criterio universal de aprobación.
+Después de ejecutar un AFC no basta el mensaje de convergencia. Revisar admisibilidad, parámetros, ajuste local/global y coherencia sustantiva. No se muestran índices de ajuste fabricados. Identificar qué procedimiento realizará el agente y qué evaluación corresponde al investigador.
 :::
 
 ## Volver a empezar desde los archivos {#caso-repro bento-variant="visual"}
 
 ::: {#caso-repro-kicker bento-slot="kicker"}
 
-05 / CASO PSICOMÉTRICO
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
@@ -1718,14 +1803,14 @@ Microejemplo ficticio · R 4.6.1 · materiales/microcaso/01_microcaso.R
 :::
 
 ::: {#caso-repro-notas .notes}
-Mostrar sesión persistente frente a ejecución limpia. Usar el microejemplo para comprobarlo ahora y repetir en el caso completo cuando esté preparado. La reproducción exige código, entradas y condiciones; no la memoria del agente.
+Volver a ejecutar el script desde archivos en una sesión limpia. La sesión persistente ayuda a explorar, pero no debe crear dependencia de objetos invisibles. La reproducibilidad conserva también los errores, así que revisar significado y decisiones sigue siendo necesario.
 :::
 
 ## Del resultado a la conclusión {#actividad-auditoria bento-variant="visual"}
 
 ::: {#actividad-auditoria-kicker bento-slot="kicker"}
 
-06 / AUDITORÍA Y TRANSFERENCIA
+07 / PRÁCTICA PSICOMÉTRICA
 
 :::
 
@@ -1748,70 +1833,10 @@ Esquema didáctico · no son resultados observados.
 :::
 
 ::: {#actividad-auditoria-notas .notes}
-Actividad final. La frase es deliberadamente excesiva, no resultado del caso. Pedir fuentes de evidencia y límites. Un ajuste favorable de estructura interna no establece por sí solo todos los usos de las puntuaciones.
+Auditar la frase que infiere validez global solo del ajuste factorial. Es una afirmación ficticia para discutir, no un resultado del taller. Pedir datos, código, diagnósticos y delimitación de la inferencia. Recuperar los Human Gates antes de redactar conclusiones.
 :::
 
-## Cuatro controles del trabajo {#riesgos bento-variant="visual"}
-
-::: {#riesgos-kicker bento-slot="kicker"}
-
-06 / AUDITORÍA Y TRANSFERENCIA
-
-:::
-
-::: {#riesgos-visual bento-slot="visual"}
-
-![](assets/visuals/seguridad.svg)
-
-:::
-
-::: {#riesgos-takeaway bento-slot="takeaway"}
-
-Un análisis supervisado deja evidencia, no solo una respuesta convincente.
-
-:::
-
-::: {#riesgos-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#riesgos-notas .notes}
-Sintetizar datos, código, método y skills. Reforzar que ninguna regla textual reemplaza permisos reales o políticas de privacidad. Mantener la distinción entre control computacional y evaluación metodológica.
-:::
-
-## El mismo método, otros análisis {#transferencia bento-variant="visual"}
-
-::: {#transferencia-kicker bento-slot="kicker"}
-
-06 / AUDITORÍA Y TRANSFERENCIA
-
-:::
-
-::: {#transferencia-visual bento-slot="visual"}
-
-![](assets/visuals/transferencia.svg)
-
-:::
-
-::: {#transferencia-takeaway bento-slot="takeaway"}
-
-La competencia transferible es dirigir y auditar el proceso.
-
-:::
-
-::: {#transferencia-citation bento-slot="citation"}
-
-Esquema didáctico · no son resultados observados.
-
-:::
-
-::: {#transferencia-notas .notes}
-Mostrar que se conserva el método, pero cambian el diseño, las variables, los supuestos, el modelo y las skills pertinentes. Ejemplificar regresión sin iniciar otro análisis completo.
-:::
-
-## Cuatro distinciones esenciales {#cuatro-ideas bento-variant="summary"}
+## Lo que conservamos al delegar {#cuatro-ideas bento-variant="summary"}
 
 ::: {#cuatro-ideas-kicker bento-slot="kicker"}
 
@@ -1821,61 +1846,37 @@ CIERRE
 
 ::: {#cuatro-ideas-first bento-slot="first"}
 
-**Generar** no equivale a **calcular**.
+**La pregunta** y las decisiones metodológicas.
 
 :::
 
 ::: {#cuatro-ideas-second bento-slot="second"}
 
-**Contextualizar** no equivale a **acumular instrucciones**.
+**El código**, legible y modificable por nosotros.
 
 :::
 
 ::: {#cuatro-ideas-third bento-slot="third"}
 
-**Especializar** no equivale a **garantizar la corrección**.
+**La revisión**, en los puntos donde importa decidir.
 
 :::
 
 ::: {#cuatro-ideas-fourth bento-slot="fourth"}
 
-**Delegar ejecución** no equivale a **delegar responsabilidad**.
+**La evidencia**, ejecutada y reproducible.
 
 :::
 
 ::: {#cuatro-ideas-notas .notes}
-Recuperar el 99 inicial y pedir que asocien cada contraste con una evidencia vista durante la sesión. Cierre sin nuevos conceptos técnicos.
-:::
-
-## Antes de tu próximo análisis {#ticket-salida bento-variant="question"}
-
-::: {#ticket-salida-kicker bento-slot="kicker"}
-
-CIERRE · TRANSFERIR
-
-:::
-
-::: {#ticket-salida-question bento-slot="question"}
-
-¿Qué le entregarías hoy a un agente que ayer no le habrías dado?
-
-:::
-
-::: {#ticket-salida-prompt bento-slot="prompt"}
-
-Responde con un documento, una restricción y una comprobación concreta.
-
-:::
-
-::: {#ticket-salida-notas .notes}
-Ticket de salida de dos minutos. Buscar respuestas sobre contexto, permisos y evidencia, no nombres de modelos.
+Cerrar sin novedades. Contrastar el inicio con el recorrido: ya no solo se recibe código, se dirige un proceso que podemos revisar y continuar. No prometer productividad automática; la mejora depende del uso competente y del contexto.
 :::
 
 ## Un proyecto para seguir practicando {#recursos bento-variant="comparison"}
 
 ::: {#recursos-kicker bento-slot="kicker"}
 
-CIERRE · MATERIALES
+CIERRE
 
 :::
 
@@ -1925,37 +1926,7 @@ Proyecto local del taller · fuentes, notas y scripts separados.
 :::
 
 ::: {#recursos-notas .notes}
-Separar material ya ejecutable de la integración futura del caso factorial y skills. No vender una validación completada. El microejemplo puede reproducirse sin cuenta de IA. Los handouts conservan detalle que no cabe en la proyección.
-:::
-
-## Configurar un proveedor {#apendice-proveedor bento-variant="wide"}
-
-::: {#apendice-proveedor-kicker bento-slot="kicker"}
-
-APOYO · FUERA DEL RECORRIDO PRINCIPAL
-
-:::
-
-::: {#apendice-proveedor-visual bento-slot="visual"}
-
-![](assets/screenshots/proveedor.png)
-
-:::
-
-::: {#apendice-proveedor-takeaway bento-slot="takeaway"}
-
-La configuración concreta depende del producto y de su versión.
-
-:::
-
-::: {#apendice-proveedor-citation bento-slot="citation"}
-
-Posit: guía de inicio de Posit AI. Captura oficial; proveedores sujetos a disponibilidad.
-
-:::
-
-::: {#apendice-proveedor-notas .notes}
-Apoyo para preguntas, no instalación durante la sesión. La captura oficial muestra un proveedor específico; no obliga a elegirlo. Consultar documentación vigente, términos y acceso antes de usar credenciales. No mostrar claves reales.
+Materiales reales disponibles: microcaso, plantilla de contexto, ejemplos de estilo y guía de herramientas. Identificar claramente el caso factorial y skills en desarrollo. No abrir otra unidad al cierre. Recordar ruta del proyecto y fuente QMD única.
 :::
 
 ## Fuentes de herramientas y formatos {#referencias-herramientas bento-variant="references"}
@@ -1995,7 +1966,7 @@ Documentación oficial consultada el 29-10-2026.
 :::
 
 ::: {#referencias-herramientas-notas .notes}
-Referencias completas con enlaces y fechas en docs/fuentes.md. No mostrar enlaces extensos en la proyección. Las capturas originales y sus derivados tienen registro de procedencia.
+Fuentes oficiales y enlaces completos en docs/fuentes.md. Esta lámina es apoyo, no tiempo de exposición obligatorio. Se añadieron fuentes sobre harness y configuración de MCP; no usar citas de producto como prueba de productividad universal.
 :::
 
 ## Fuentes y límites del material {#referencias-materiales bento-variant="references"}
@@ -2035,5 +2006,5 @@ Consultar docs/fuentes.md y assets/screenshots/provenance.json.
 :::
 
 ::: {#referencias-materiales-notas .notes}
-Distinguir fuente, ejemplo conceptual y evidencia computacional. La referencia metodológica definitiva del caso se completará con la integración y evaluación de las skills. Esta distinción no resta valor al microejemplo ya comprobado.
+Distinguir ejemplos de código ficticio, esquemas, capturas reales propias/oficiales y microejemplo ejecutado. La skill del repositorio fundamenta nuestras convenciones, no demuestra que todos los agentes produzcan el mismo estilo de código.
 :::

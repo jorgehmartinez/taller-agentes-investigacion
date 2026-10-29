@@ -1,0 +1,38 @@
+[
+  {
+    "file": "presentacion/assets/brands/chatgpt.png",
+    "url": "https://learn.chatgpt.com/favicon.png",
+    "source_page": "https://learn.chatgpt.com/docs/codex/cli",
+    "accessed": "2026-10-29",
+    "sha256": "8d5575ee667ff715cd3e3074d5296edc68d5aadd89720d203e13131b68b22a04",
+    "use": "Identificación pedagógica; marca de su titular, no patrocinio",
+    "size": [
+      48,
+      48
+    ]
+  },
+  {
+    "file": "presentacion/assets/brands/claude.png",
+    "url": "https://www.claude.com/icon.png",
+    "source_page": "https://www.claude.com/",
+    "accessed": "2026-10-29",
+    "sha256": "733f24f4c52acb15eb0fbded1cf40eb42b4ba8e62b882acac70b6234b50919a8",
+    "use": "Identificación pedagógica; marca de su titular, no patrocinio",
+    "size": [
+      192,
+      192
+    ]
+  },
+  {
+    "file": "presentacion/assets/brands/gemini.png",
+    "url": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
+    "source_page": "https://gemini.google.com/",
+    "accessed": "2026-10-29",
+    "sha256": "5e7cfecaa53f4f65a313fe89b0f389548126544a78fad8489510c70ae641a4a1",
+    "use": "Identificación pedagógica; marca de su titular, no patrocinio",
+    "size": [
+      512,
+      512
+    ]
+  }
+]

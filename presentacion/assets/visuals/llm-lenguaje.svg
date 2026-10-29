@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="430" viewBox="0 0 1120 430" role="img"><title>Un redactor con contexto</title><desc>Analogía de continuaciones posibles, sin probabilidades ni frecuencias medidas.</desc>
+<rect x="22" y="111" width="400" height="182" rx="14" fill="#15333D" stroke="none" stroke-width="2"/>
+<text x="47" y="151" font-family="Fira Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#9EDADE" text-anchor="start">
+<tspan x="47" dy="0">ENCARGO + CONTEXTO</tspan>
+</text>
+<text x="47" y="205" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="400" fill="#FFFFFF" text-anchor="start">
+<tspan x="47" dy="0">«Para interpretar una escala,</tspan>
+</text>
+<text x="47" y="248" font-family="Fira Sans, Arial, sans-serif" font-size="29" font-weight="400" fill="#FFFFFF" text-anchor="start">
+<tspan x="47" dy="0">primero necesitamos…»</tspan>
+</text>
+<line x1="435" y1="205" x2="580" y2="73" stroke="#087F8C" stroke-width="2"/>
+<polygon points="580.0,73.0 576.7,82.5 570.3,75.4" fill="#087F8C"/>
+<rect x="596" y="33" width="490" height="91" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="624" y="88" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="624" dy="0">conocer el constructo</tspan>
+</text>
+<line x1="435" y1="205" x2="580" y2="194" stroke="#BF2568" stroke-width="2"/>
+<polygon points="580.0,194.0 571.6,199.4 570.9,189.9" fill="#BF2568"/>
+<rect x="596" y="154" width="490" height="91" rx="10" fill="#F9EAF0" stroke="none" stroke-width="2"/>
+<text x="624" y="209" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="624" dy="0">revisar cómo se respondió</tspan>
+</text>
+<line x1="435" y1="205" x2="580" y2="315" stroke="#087F8C" stroke-width="2"/>
+<polygon points="580.0,315.0 570.1,313.5 575.9,305.9" fill="#087F8C"/>
+<rect x="596" y="275" width="490" height="91" rx="10" fill="#E9F4F3" stroke="none" stroke-width="2"/>
+<text x="624" y="330" font-family="Fira Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#15333D" text-anchor="start">
+<tspan x="624" dy="0">entender el uso previsto</tspan>
+</text>
+<text x="27" y="390" font-family="Fira Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#52666E" text-anchor="start">
+<tspan x="27" dy="0">Generación probabilística: propone continuaciones a partir del contexto.</tspan>
+</text>
+</svg>
